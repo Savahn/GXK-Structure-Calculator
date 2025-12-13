@@ -586,18 +586,11 @@
             return null;
         }
 
-        function calculateResourcesRecursive(structure, level, visited = new Set()) {
-            // Prevent infinite loops
-            const key = `${structure}-${level}`;
-            if (visited.has(key)) {
-                return {
-                    individualCosts: {},
-                    dependencyCosts: {},
-                    totalCosts: {},
-                    dependencies: []
-                };
+        function calculateResourcesRecursive(structure, targetLevel, currentLevel = null, visited = new Set()) {
+            // Use the actual current level if not specified
+            if (currentLevel === null) {
+                currentLevel = currentLevels[structure] || 1;
             }
-            visited.add(key);
 
             const result = {
                 individualCosts: {},
@@ -606,50 +599,170 @@
                 dependencies: []
             };
 
-            // Check if structure and level exist
-            if (!structuresData[structure] || !structuresData[structure].levels[level]) {
+            // Check if structure exists
+            if (!structuresData[structure]) {
                 return result;
             }
 
-            const levelData = structuresData[structure].levels[level];
-
-            // Add this structure's individual costs
-            if (levelData.costs) {
-                for (let [resource, amount] of Object.entries(levelData.costs)) {
-                    result.individualCosts[resource] = (result.individualCosts[resource] || 0) + amount;
-                    result.totalCosts[resource] = (result.totalCosts[resource] || 0) + amount;
-                }
+            // If target is not higher than current, no upgrade needed
+            if (targetLevel <= currentLevel) {
+                return result;
             }
 
-            // Process requirements recursively
-            if (levelData.requirements) {
-                for (let requirement of levelData.requirements) {
-                    const parsed = parseRequirement(requirement);
-                    if (parsed) {
-                        const currentLevel = currentLevels[parsed.structure] || 1;
+            // Calculate cumulative cost for all levels from (currentLevel + 1) to targetLevel
+            for (let lvl = currentLevel + 1; lvl <= targetLevel; lvl++) {
+                if (!structuresData[structure].levels[lvl]) {
+                    continue;
+                }
 
-                        // If we need a higher level than current, calculate the difference
-                        if (parsed.level > currentLevel) {
-                            const depResult = calculateResourcesRecursive(parsed.structure, parsed.level, visited);
+                const levelData = structuresData[structure].levels[lvl];
 
-                            // Add dependency resources to dependency costs and total
-                            for (let [resource, amount] of Object.entries(depResult.totalCosts)) {
-                                result.dependencyCosts[resource] = (result.dependencyCosts[resource] || 0) + amount;
-                                result.totalCosts[resource] = (result.totalCosts[resource] || 0) + amount;
+                // Add this level's individual costs
+                if (levelData.costs) {
+                    for (let [resource, amount] of Object.entries(levelData.costs)) {
+                        result.individualCosts[resource] = (result.individualCosts[resource] || 0) + amount;
+                        result.totalCosts[resource] = (result.totalCosts[resource] || 0) + amount;
+                    }
+                }
+
+                // Process requirements recursively for this level
+                if (levelData.requirements) {
+                    for (let requirement of levelData.requirements) {
+                        const parsed = parseRequirement(requirement);
+                        if (parsed) {
+                            const depCurrentLevel = currentLevels[parsed.structure] || 1;
+
+                            // If we need a higher level than current, calculate the difference
+                            if (parsed.level > depCurrentLevel) {
+                                const depResult = calculateResourcesRecursive(
+                                    parsed.structure,
+                                    parsed.level,
+                                    depCurrentLevel,
+                                    new Set(visited)
+                                );
+
+                                // Add dependency resources
+                                for (let [resource, amount] of Object.entries(depResult.totalCosts)) {
+                                    result.dependencyCosts[resource] = (result.dependencyCosts[resource] || 0) + amount;
+                                    result.totalCosts[resource] = (result.totalCosts[resource] || 0) + amount;
+                                }
+
+                                // Add to dependency list with level info
+                                result.dependencies.push({
+                                    name: parsed.structure,
+                                    level: parsed.level,
+                                    resources: depResult.totalCosts
+                                });
                             }
-
-                            // Add to dependency list
-                            result.dependencies.push({
-                                name: parsed.structure,
-                                level: parsed.level,
-                                resources: depResult.totalCosts
-                            });
                         }
                     }
                 }
             }
 
             return result;
+        }
+
+        function buildDependencyTree(structure, targetLevel, currentLevel = null, visited = new Set()) {
+            if (currentLevel === null) {
+                currentLevel = currentLevels[structure] || 1;
+            }
+
+            const tree = {
+                structure: structure,
+                currentLevel: currentLevel,
+                targetLevel: targetLevel,
+                costs: {},
+                children: []
+            };
+
+            // If no upgrade needed, return empty tree
+            if (targetLevel <= currentLevel) {
+                return tree;
+            }
+
+            // Calculate costs for this structure's upgrade
+            for (let lvl = currentLevel + 1; lvl <= targetLevel; lvl++) {
+                if (structuresData[structure] && structuresData[structure].levels[lvl]) {
+                    const levelData = structuresData[structure].levels[lvl];
+                    if (levelData.costs) {
+                        for (let [resource, amount] of Object.entries(levelData.costs)) {
+                            tree.costs[resource] = (tree.costs[resource] || 0) + amount;
+                        }
+                    }
+
+                    // Process dependencies for this level
+                    if (levelData.requirements) {
+                        for (let requirement of levelData.requirements) {
+                            const parsed = parseRequirement(requirement);
+                            if (parsed) {
+                                const depCurrentLevel = currentLevels[parsed.structure] || 1;
+
+                                // Only add to tree if upgrade is needed
+                                if (parsed.level > depCurrentLevel) {
+                                    const depKey = `${parsed.structure}-${parsed.level}`;
+
+                                    // Check if we haven't already added this exact dependency
+                                    const alreadyExists = tree.children.some(child =>
+                                        child.structure === parsed.structure && child.targetLevel === parsed.level
+                                    );
+
+                                    if (!alreadyExists) {
+                                        const childTree = buildDependencyTree(
+                                            parsed.structure,
+                                            parsed.level,
+                                            depCurrentLevel,
+                                            new Set(visited)
+                                        );
+                                        tree.children.push(childTree);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            return tree;
+        }
+
+        function renderDependencyTree(tree, resourceOrder, depth = 0) {
+            let html = '';
+            const indent = depth * 20;
+
+            if (tree.targetLevel <= tree.currentLevel) {
+                return html;
+            }
+
+            html += `<div style="margin-left: ${indent}px; margin-bottom: 15px; padding: 15px; background: #f8f9fa; border-radius: 5px; border-left: 4px solid #667eea;">`;
+            html += `<div class="dependency-name" style="margin-bottom: 10px;">${tree.structure} Level ${tree.currentLevel} → ${tree.targetLevel}</div>`;
+
+            // Show costs for this upgrade
+            html += '<div class="dependency-resources" style="margin-bottom: 10px;">';
+            let hasCosts = false;
+            for (let resource of resourceOrder) {
+                const amount = tree.costs[resource] || 0;
+                if (amount > 0) {
+                    hasCosts = true;
+                    html += `<div class="dependency-resource"><strong>${resource}:</strong> ${amount.toLocaleString()}</div>`;
+                }
+            }
+            if (!hasCosts) {
+                html += '<div class="dependency-resource" style="color: #999;">No additional costs</div>';
+            }
+            html += '</div>';
+
+            // Show nested dependencies
+            if (tree.children && tree.children.length > 0) {
+                html += '<div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #ddd;">';
+                html += '<div style="font-size: 12px; font-weight: 600; color: #666; margin-bottom: 10px;">Required dependencies:</div>';
+                for (let child of tree.children) {
+                    html += renderDependencyTree(child, resourceOrder, depth + 1);
+                }
+                html += '</div>';
+            }
+
+            html += '</div>';
+            return html;
         } function calculateResources() {
             const targetStructure = document.getElementById('targetStructure').value;
             const targetLevel = parseInt(document.getElementById('targetLevel').value);
@@ -670,11 +783,12 @@
                 return;
             }
 
-            const result = calculateResourcesRecursive(targetStructure, targetLevel);
-            displayResults(result, targetStructure, targetLevel);
+            const currentLevel = currentLevels[targetStructure] || 1;
+            const result = calculateResourcesRecursive(targetStructure, targetLevel, currentLevel);
+            displayResults(result, targetStructure, targetLevel, currentLevel);
         }
 
-        function displayResults(result, targetStructure, targetLevel) {
+        function displayResults(result, targetStructure, targetLevel, currentLevel) {
             const container = document.getElementById('resultsContainer');
             const content = document.getElementById('resultsContent');
 
@@ -682,9 +796,14 @@
 
             let html = '';
 
+            // Display upgrade range
+            html += '<div style="margin-bottom: 20px; padding: 15px; background: #e3f2fd; border-radius: 5px; border-left: 4px solid #667eea;">';
+            html += `<p style="color: #333; font-weight: 600; margin: 0;">Upgrade Path: ${targetStructure} Level ${currentLevel} → Level ${targetLevel}</p>`;
+            html += '</div>';
+
             // Display individual structure cost
             html += '<div style="margin-bottom: 30px;">';
-            html += `<h3 style="color: #333; margin-bottom: 15px; font-size: 16px;">Cost to Build ${targetStructure} Level ${targetLevel}</h3>`;
+            html += `<h3 style="color: #333; margin-bottom: 15px; font-size: 16px;">Cost to Upgrade ${targetStructure} (Levels ${currentLevel + 1} - ${targetLevel})</h3>`;
             html += '<div class="resource-display">';
             for (let resource of resourceOrder) {
                 const amount = result.individualCosts[resource] || 0;
@@ -732,24 +851,41 @@
             }
             html += '</div></div>';
 
-            // Display detailed dependencies breakdown
+            // Display detailed dependencies breakdown with full tree
             if (result.dependencies && result.dependencies.length > 0) {
                 html += '<div class="dependencies-section">';
-                html += '<h3>Dependency Details</h3>';
+                html += '<h3>Upgrade Path Details</h3>';
+                html += '<p style="color: #666; font-size: 14px; margin-bottom: 15px;">Complete dependency chain required for the upgrade:</p>';
 
-                for (let dep of result.dependencies) {
-                    html += '<div class="dependency-item">';
-                    html += `<div class="dependency-name">${dep.name} Level ${dep.level}</div>`;
-                    html += '<div class="dependency-resources">';
+                // Build and render the dependency tree
+                const currentLevel = currentLevels[targetStructure] || 1;
+                const tree = buildDependencyTree(targetStructure, targetLevel, currentLevel);
 
-                    for (let resource of resourceOrder) {
-                        const amount = dep.resources[resource] || 0;
-                        if (amount > 0) {
-                            html += `<div class="dependency-resource"><strong>${resource}:</strong> ${amount.toLocaleString()}</div>`;
-                        }
+                // Show main structure upgrade
+                html += '<div style="margin-bottom: 20px; padding: 15px; background: #e8f5e9; border-radius: 5px; border-left: 4px solid #43e97b;">';
+                html += `<div class="dependency-name" style="margin-bottom: 10px;">${targetStructure} Level ${currentLevel} → ${targetLevel}</div>`;
+                html += '<div class="dependency-resources">';
+                let hasMainCosts = false;
+                for (let resource of resourceOrder) {
+                    const amount = result.individualCosts[resource] || 0;
+                    if (amount > 0) {
+                        hasMainCosts = true;
+                        html += `<div class="dependency-resource"><strong>${resource}:</strong> ${amount.toLocaleString()}</div>`;
                     }
+                }
+                if (!hasMainCosts) {
+                    html += '<div class="dependency-resource" style="color: #999;">No costs</div>';
+                }
+                html += '</div></div>';
 
-                    html += '</div></div>';
+                // Show dependency tree
+                if (tree.children && tree.children.length > 0) {
+                    html += '<div style="margin-top: 20px; padding: 15px; background: #fff3e0; border-radius: 5px; border-left: 4px solid #fa709a;">';
+                    html += '<div style="font-weight: 600; color: #333; margin-bottom: 15px;">Required Dependencies:</div>';
+                    for (let child of tree.children) {
+                        html += renderDependencyTree(child, resourceOrder, 0);
+                    }
+                    html += '</div>';
                 }
 
                 html += '</div>';
