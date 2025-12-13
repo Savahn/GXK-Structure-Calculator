@@ -1,0 +1,8165 @@
+{
+  "Alliance Hall": {
+    "name": "Alliance Hall",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 500,
+          "metal": 500,
+          "wood": 500,
+          "energy": 500
+        }
+      },
+      "2": {
+        "costs": {
+          "food": 800,
+          "metal": 800,
+          "wood": 800,
+          "energy": 800
+        },
+        "requirements": [
+          "Level 2 Lumberyard"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 1250,
+          "metal": 1250,
+          "wood": 1250,
+          "energy": 1250
+        },
+        "requirements": [
+          "Level 3 Lumberyard"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 2000,
+          "metal": 2000,
+          "wood": 2000,
+          "energy": 2000
+        },
+        "requirements": [
+          "Level 4 Lumberyard"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 4000,
+          "metal": 4000,
+          "wood": 4000,
+          "energy": 4000,
+          "tech": 1500
+        },
+        "requirements": [
+          "Level 5 Lumberyard"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 7500,
+          "metal": 7500,
+          "wood": 7500,
+          "energy": 7500,
+          "tech": 5000
+        },
+        "requirements": [
+          "Level 6 Lumberyard"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 15000,
+          "metal": 15000,
+          "wood": 15000,
+          "energy": 15000,
+          "tech": 10000
+        },
+        "requirements": [
+          "Level 7 Lumberyard"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 30000,
+          "metal": 30000,
+          "wood": 30000,
+          "energy": 30000,
+          "tech": 17500
+        },
+        "requirements": [
+          "Level 8 Lumberyard"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 60000,
+          "metal": 60000,
+          "wood": 60000,
+          "energy": 60000,
+          "tech": 35000
+        },
+        "requirements": [
+          "Level 9 Lumberyard"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 100000,
+          "metal": 100000,
+          "wood": 100000,
+          "energy": 100000,
+          "tech": 60000
+        },
+        "requirements": [
+          "Level 10 Lumberyard"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 150000,
+          "metal": 150000,
+          "wood": 150000,
+          "energy": 150000,
+          "tech": 90000
+        },
+        "requirements": [
+          "Level 11 Lumberyard"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 225000,
+          "metal": 225000,
+          "wood": 225000,
+          "energy": 225000,
+          "tech": 150000
+        },
+        "requirements": [
+          "Level 12 Lumberyard"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 400000,
+          "metal": 400000,
+          "wood": 400000,
+          "energy": 400000,
+          "tech": 200000
+        },
+        "requirements": [
+          "Level 13 Lumberyard"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 600000,
+          "metal": 600000,
+          "wood": 600000,
+          "energy": 600000,
+          "tech": 300000
+        },
+        "requirements": [
+          "Level 14 Lumberyard"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 800000,
+          "metal": 800000,
+          "wood": 800000,
+          "energy": 800000,
+          "tech": 400000
+        },
+        "requirements": [
+          "Level 15 Lumberyard"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 1000000,
+          "metal": 1000000,
+          "wood": 1000000,
+          "energy": 1000000,
+          "tech": 500000
+        },
+        "requirements": [
+          "Level 16 Lumberyard"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 1250000,
+          "metal": 1250000,
+          "wood": 1250000,
+          "energy": 1250000,
+          "tech": 600000
+        },
+        "requirements": [
+          "Level 17 Lumberyard"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 1750000,
+          "metal": 1750000,
+          "wood": 1750000,
+          "energy": 1750000,
+          "tech": 750000
+        },
+        "requirements": [
+          "Level 18 Lumberyard"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 2500000,
+          "metal": 2500000,
+          "wood": 2500000,
+          "energy": 2500000,
+          "tech": 1000000
+        },
+        "requirements": [
+          "Level 19 Lumberyard"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 3000000,
+          "metal": 3000000,
+          "wood": 3000000,
+          "energy": 3000000,
+          "tech": 1250000
+        },
+        "requirements": [
+          "Level 20 Lumberyard"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 3500000,
+          "metal": 3500000,
+          "wood": 3500000,
+          "energy": 3500000,
+          "tech": 1500000
+        },
+        "requirements": [
+          "Level 21 Lumberyard"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 4000000,
+          "metal": 4000000,
+          "wood": 4000000,
+          "energy": 4000000,
+          "tech": 1750000
+        },
+        "requirements": [
+          "Level 22 Lumberyard"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 4500000,
+          "metal": 4500000,
+          "wood": 4500000,
+          "energy": 4500000,
+          "tech": 2000000
+        },
+        "requirements": [
+          "Level 23 Lumberyard"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 5000000,
+          "metal": 5000000,
+          "wood": 5000000,
+          "energy": 5000000,
+          "tech": 2500000
+        },
+        "requirements": [
+          "Level 24 Lumberyard"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 6000000,
+          "metal": 6000000,
+          "wood": 6000000,
+          "energy": 6000000,
+          "tech": 3000000
+        },
+        "requirements": [
+          "Level 25 Lumberyard"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 7000000,
+          "metal": 7000000,
+          "wood": 7000000,
+          "energy": 7000000,
+          "tech": 3500000
+        },
+        "requirements": [
+          "Level 26 Lumberyard"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 8000000,
+          "metal": 8000000,
+          "wood": 8000000,
+          "energy": 8000000,
+          "tech": 4000000
+        },
+        "requirements": [
+          "Level 27 Lumberyard"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 10000000,
+          "metal": 10000000,
+          "wood": 10000000,
+          "energy": 10000000,
+          "tech": 5000000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Lumberyard"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 12500000,
+          "metal": 12500000,
+          "wood": 12500000,
+          "energy": 12500000,
+          "tech": 6000000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Lumberyard"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 15000000,
+          "metal": 15000000,
+          "wood": 15000000,
+          "energy": 15000000,
+          "tech": 8750000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Lumberyard"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 20000000,
+          "metal": 20000000,
+          "wood": 20000000,
+          "energy": 20000000,
+          "tech": 12000000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Lumberyard"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 25000000,
+          "metal": 25000000,
+          "wood": 25000000,
+          "energy": 25000000,
+          "tech": 20000000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Lumberyard"
+        ]
+      }
+    }
+  },
+  "Barracks": {
+    "name": "Barracks",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 400,
+          "metal": 250,
+          "wood": 250,
+          "energy": 250
+        },
+        "requirements": [
+          "Level 1 Farm"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 600,
+          "metal": 350,
+          "wood": 350,
+          "energy": 350
+        },
+        "requirements": [
+          "Level 2 Farm"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 1000,
+          "metal": 600,
+          "wood": 600,
+          "energy": 600
+        },
+        "requirements": [
+          "Level 3 Farm"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 2000,
+          "metal": 1000,
+          "wood": 1000,
+          "energy": 1000
+        },
+        "requirements": [
+          "Level 4 Farm"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 3000,
+          "metal": 1750,
+          "wood": 1750,
+          "energy": 1750
+        },
+        "requirements": [
+          "Level 5 Farm"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 6000,
+          "metal": 3500,
+          "wood": 3500,
+          "energy": 3500,
+          "tech": 2000
+        },
+        "requirements": [
+          "Level 6 Farm"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 12500,
+          "metal": 7500,
+          "wood": 7500,
+          "energy": 7500,
+          "tech": 5000
+        },
+        "requirements": [
+          "Level 7 Farm"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 25000,
+          "metal": 15000,
+          "wood": 15000,
+          "energy": 15000,
+          "tech": 10000
+        },
+        "requirements": [
+          "Level 8 Farm"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 45000,
+          "metal": 25000,
+          "wood": 25000,
+          "energy": 25000,
+          "tech": 20000
+        },
+        "requirements": [
+          "Level 9 Farm"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 80000,
+          "metal": 45000,
+          "wood": 45000,
+          "energy": 45000,
+          "tech": 35000
+        },
+        "requirements": [
+          "Level 10 Farm"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 120000,
+          "metal": 75000,
+          "wood": 75000,
+          "energy": 75000,
+          "tech": 60000
+        },
+        "requirements": [
+          "Level 11 Farm"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 165000,
+          "metal": 115000,
+          "wood": 115000,
+          "energy": 115000,
+          "tech": 90000
+        },
+        "requirements": [
+          "Level 12 Farm"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 225000,
+          "metal": 150000,
+          "wood": 150000,
+          "energy": 150000,
+          "tech": 120000,
+          "experimental": 30
+        },
+        "requirements": [
+          "Level 13 Farm"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 350000,
+          "metal": 200000,
+          "wood": 200000,
+          "energy": 200000,
+          "tech": 150000
+        },
+        "requirements": [
+          "Level 14 Farm"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 500000,
+          "metal": 300000,
+          "wood": 300000,
+          "energy": 300000,
+          "tech": 200000
+        },
+        "requirements": [
+          "Level 15 Farm"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 750000,
+          "metal": 400000,
+          "wood": 400000,
+          "energy": 400000,
+          "tech": 300000
+        },
+        "requirements": [
+          "Level 16 Farm"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 1000000,
+          "metal": 500000,
+          "wood": 500000,
+          "energy": 500000,
+          "tech": 400000
+        },
+        "requirements": [
+          "Level 17 Farm"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 1500000,
+          "metal": 750000,
+          "wood": 750000,
+          "energy": 750000,
+          "tech": 500000
+        },
+        "requirements": [
+          "Level 18 Farm"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 2250000,
+          "metal": 1250000,
+          "wood": 1250000,
+          "energy": 1250000,
+          "tech": 1000000,
+          "experimental": 450
+        },
+        "requirements": [
+          "Level 19 Farm"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 3000000,
+          "metal": 1750000,
+          "wood": 1750000,
+          "energy": 1750000,
+          "tech": 1500000
+        },
+        "requirements": [
+          "Level 20 Farm"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 3750000,
+          "metal": 2250000,
+          "wood": 2250000,
+          "energy": 2250000,
+          "tech": 2000000
+        },
+        "requirements": [
+          "Level 21 Farm"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 4500000,
+          "metal": 2750000,
+          "wood": 2750000,
+          "energy": 2750000,
+          "tech": 2500000
+        },
+        "requirements": [
+          "Level 22 Farm"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 5500000,
+          "metal": 3500000,
+          "wood": 3500000,
+          "energy": 3500000,
+          "tech": 3000000
+        },
+        "requirements": [
+          "Level 23 Farm"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 6500000,
+          "metal": 4250000,
+          "wood": 4250000,
+          "energy": 4250000,
+          "tech": 3500000
+        },
+        "requirements": [
+          "Level 24 Farm"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 7500000,
+          "metal": 5000000,
+          "wood": 5000000,
+          "energy": 5000000,
+          "tech": 4000000,
+          "experimental": 3000
+        },
+        "requirements": [
+          "Level 25 Farm"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 8500000,
+          "metal": 6000000,
+          "wood": 6000000,
+          "energy": 6000000,
+          "tech": 5000000
+        },
+        "requirements": [
+          "Level 26 Farm"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 10000000,
+          "metal": 7000000,
+          "wood": 7000000,
+          "energy": 7000000,
+          "tech": 6000000
+        },
+        "requirements": [
+          "Level 27 Farm"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 15000000,
+          "metal": 10625000,
+          "wood": 10625000,
+          "energy": 10625000,
+          "tech": 8750000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Farm"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 21000000,
+          "metal": 15000000,
+          "wood": 15000000,
+          "energy": 15000000,
+          "tech": 12000000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Farm"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 32000000,
+          "metal": 22000000,
+          "wood": 22000000,
+          "energy": 22000000,
+          "tech": 20000000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Farm"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 45000000,
+          "metal": 30000000,
+          "wood": 30000000,
+          "energy": 30000000,
+          "tech": 30000000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Farm"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 60000000,
+          "metal": 40000000,
+          "wood": 40000000,
+          "energy": 40000000,
+          "tech": 40000000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Farm"
+        ]
+      }
+    }
+  },
+  "Bunker": {
+    "name": "Bunker",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 400,
+          "metal": 250,
+          "wood": 150,
+          "energy": 80
+        },
+        "requirements": [
+          "Level 3 Steel Works",
+          "Level 5 Headquarters"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 600,
+          "metal": 400,
+          "wood": 325,
+          "energy": 160
+        },
+        "requirements": [
+          "Level 5 Steel Works"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 1200,
+          "metal": 650,
+          "wood": 600,
+          "energy": 240
+        },
+        "requirements": [
+          "Level 6 Steel Works"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 2000,
+          "metal": 1000,
+          "wood": 800,
+          "energy": 400
+        },
+        "requirements": [
+          "Level 7 Steel Works"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 3000,
+          "metal": 1750,
+          "wood": 1500,
+          "energy": 750,
+          "tech": 500
+        },
+        "requirements": [
+          "Level 8 Steel Works"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 6000,
+          "metal": 3500,
+          "wood": 3000,
+          "energy": 1250,
+          "tech": 1250
+        },
+        "requirements": [
+          "Level 8 Steel Works"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 12000,
+          "metal": 7500,
+          "wood": 6000,
+          "energy": 2500,
+          "tech": 3000
+        },
+        "requirements": [
+          "Level 9 Steel Works"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 24000,
+          "metal": 15000,
+          "wood": 12000,
+          "energy": 5000,
+          "tech": 5000
+        },
+        "requirements": [
+          "Level 9 Steel Works"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 48000,
+          "metal": 30000,
+          "wood": 25000,
+          "energy": 12000,
+          "tech": 10000
+        },
+        "requirements": [
+          "Level 10 Steel Works"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 95000,
+          "metal": 50000,
+          "wood": 32000,
+          "energy": 20000,
+          "tech": 15000
+        },
+        "requirements": [
+          "Level 10 Steel Works"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 130000,
+          "metal": 75000,
+          "wood": 50000,
+          "energy": 25000,
+          "tech": 20000
+        },
+        "requirements": [
+          "Level 11 Steel Works"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 180000,
+          "metal": 120000,
+          "wood": 75000,
+          "energy": 40000,
+          "tech": 35000
+        },
+        "requirements": [
+          "Level 12 Steel Works"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 275000,
+          "metal": 175000,
+          "wood": 125000,
+          "energy": 60000,
+          "tech": 50000
+        },
+        "requirements": [
+          "Level 13 Steel Works"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 375000,
+          "metal": 250000,
+          "wood": 175000,
+          "energy": 80000,
+          "tech": 65000
+        },
+        "requirements": [
+          "Level 14 Steel Works"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 500000,
+          "metal": 350000,
+          "wood": 250000,
+          "energy": 120000,
+          "tech": 80000,
+          "experimental": 50
+        },
+        "requirements": [
+          "Level 15 Steel Works"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 750000,
+          "metal": 500000,
+          "wood": 325000,
+          "energy": 180000,
+          "tech": 120000,
+          "experimental": 75
+        },
+        "requirements": [
+          "Level 16 Steel Works"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 1250000,
+          "metal": 650000,
+          "wood": 400000,
+          "energy": 250000,
+          "tech": 180000,
+          "experimental": 100
+        },
+        "requirements": [
+          "Level 17 Steel Works"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 1750000,
+          "metal": 900000,
+          "wood": 600000,
+          "energy": 350000,
+          "tech": 250000,
+          "experimental": 125
+        },
+        "requirements": [
+          "Level 18 Steel Works"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 2250000,
+          "metal": 1250000,
+          "wood": 800000,
+          "energy": 500000,
+          "tech": 350000,
+          "experimental": 150
+        },
+        "requirements": [
+          "Level 19 Steel Works"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 2750000,
+          "metal": 1600000,
+          "wood": 1000000,
+          "energy": 650000,
+          "tech": 500000,
+          "experimental": 200
+        },
+        "requirements": [
+          "Level 20 Steel Works"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 3250000,
+          "metal": 2000000,
+          "wood": 1250000,
+          "energy": 800000,
+          "tech": 650000,
+          "experimental": 250
+        },
+        "requirements": [
+          "Level 21 Steel Works"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 4000000,
+          "metal": 2400000,
+          "wood": 1500000,
+          "energy": 1000000,
+          "tech": 800000,
+          "experimental": 300
+        },
+        "requirements": [
+          "Level 22 Steel Works"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 5000000,
+          "metal": 2800000,
+          "wood": 1750000,
+          "energy": 1250000,
+          "tech": 1000000,
+          "experimental": 350
+        },
+        "requirements": [
+          "Level 23 Steel Works"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 6000000,
+          "metal": 3200000,
+          "wood": 2000000,
+          "energy": 1500000,
+          "tech": 1250000,
+          "experimental": 400
+        },
+        "requirements": [
+          "Level 24 Steel Works"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 7000000,
+          "metal": 3600000,
+          "wood": 2250000,
+          "energy": 1750000,
+          "tech": 1500000,
+          "experimental": 450
+        },
+        "requirements": [
+          "Level 25 Steel Works"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 8000000,
+          "metal": 4000000,
+          "wood": 2500000,
+          "energy": 2000000,
+          "tech": 1750000,
+          "experimental": 500
+        },
+        "requirements": [
+          "Level 26 Steel Works"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 9000000,
+          "metal": 5000000,
+          "wood": 3000000,
+          "energy": 2500000,
+          "tech": 2000000,
+          "experimental": 625
+        },
+        "requirements": [
+          "Level 27 Steel Works"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 12500000,
+          "metal": 7500000,
+          "wood": 5000000,
+          "energy": 3750000,
+          "tech": 3125000,
+          "experimental": 750,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Steel Works"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 18750000,
+          "metal": 12000000,
+          "wood": 7500000,
+          "energy": 6000000,
+          "tech": 4500000,
+          "experimental": 1000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Steel Works"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 30000000,
+          "metal": 20000000,
+          "wood": 12000000,
+          "energy": 10000000,
+          "tech": 8000000,
+          "experimental": 1250,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Steel Works"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 45000000,
+          "metal": 30000000,
+          "wood": 20000000,
+          "energy": 17500000,
+          "tech": 12500000,
+          "experimental": 2500,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Steel Works"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 65000000,
+          "metal": 45000000,
+          "wood": 30000000,
+          "energy": 27500000,
+          "tech": 22500000,
+          "experimental": 5000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Steel Works"
+        ]
+      }
+    }
+  },
+  "Chasers Quarters": {
+    "name": "Chasers Quarters",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 200,
+          "metal": 800,
+          "wood": 400,
+          "energy": 400
+        }
+      },
+      "2": {
+        "costs": {
+          "food": 450,
+          "metal": 1000,
+          "wood": 600,
+          "energy": 600
+        },
+        "requirements": [
+          "Level 2 Headquarters"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 800,
+          "metal": 2000,
+          "wood": 1000,
+          "energy": 1000
+        },
+        "requirements": [
+          "Level 3 Headquarters"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 1500,
+          "metal": 3500,
+          "wood": 2000,
+          "energy": 2000
+        },
+        "requirements": [
+          "Level 4 Headquarters"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 2750,
+          "metal": 6000,
+          "wood": 3000,
+          "energy": 3000,
+          "tech": 1000
+        },
+        "requirements": [
+          "Level 5 Headquarters",
+          "Level 3 Recovery Center"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 7000,
+          "metal": 10000,
+          "wood": 8000,
+          "energy": 8000,
+          "tech": 2000
+        },
+        "requirements": [
+          "Level 6 Recovery Center"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 14000,
+          "metal": 20000,
+          "wood": 16000,
+          "energy": 16000,
+          "tech": 5000
+        },
+        "requirements": [
+          "Level 7 Recovery Center"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 25000,
+          "metal": 40000,
+          "wood": 32000,
+          "energy": 32000,
+          "tech": 10000
+        },
+        "requirements": [
+          "Level 8 Recovery Center"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 45000,
+          "metal": 60000,
+          "wood": 50000,
+          "energy": 50000,
+          "tech": 15000
+        },
+        "requirements": [
+          "Level 9 Recovery Center"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 60000,
+          "metal": 100000,
+          "wood": 75000,
+          "energy": 75000,
+          "tech": 25000
+        },
+        "requirements": [
+          "Level 10 Recovery Center"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 85000,
+          "metal": 150000,
+          "wood": 125000,
+          "energy": 125000,
+          "tech": 50000
+        },
+        "requirements": [
+          "Level 11 Recovery Center"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 125000,
+          "metal": 250000,
+          "wood": 175000,
+          "energy": 175000,
+          "tech": 75000
+        },
+        "requirements": [
+          "Level 12 Recovery Center"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 175000,
+          "metal": 400000,
+          "wood": 250000,
+          "energy": 250000,
+          "tech": 125000
+        },
+        "requirements": [
+          "Level 13 Recovery Center"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 250000,
+          "metal": 550000,
+          "wood": 400000,
+          "energy": 400000,
+          "tech": 175000
+        },
+        "requirements": [
+          "Level 14 Recovery Center"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 400000,
+          "metal": 750000,
+          "wood": 550000,
+          "energy": 550000,
+          "tech": 250000,
+          "experimental": 50
+        },
+        "requirements": [
+          "Level 15 Recovery Center"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 600000,
+          "metal": 1000000,
+          "wood": 750000,
+          "energy": 750000,
+          "tech": 350000,
+          "experimental": 75
+        },
+        "requirements": [
+          "Level 16 Recovery Center"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 800000,
+          "metal": 1250000,
+          "wood": 1000000,
+          "energy": 1000000,
+          "tech": 500000,
+          "experimental": 100
+        },
+        "requirements": [
+          "Level 17 Recovery Center"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 1000000,
+          "metal": 1500000,
+          "wood": 1250000,
+          "energy": 1250000,
+          "tech": 750000,
+          "experimental": 125
+        },
+        "requirements": [
+          "Level 18 Recovery Center"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 1250000,
+          "metal": 1750000,
+          "wood": 1500000,
+          "energy": 1500000,
+          "tech": 1000000,
+          "experimental": 150
+        },
+        "requirements": [
+          "Level 19 Recovery Center"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 1500000,
+          "metal": 2000000,
+          "wood": 1750000,
+          "energy": 1750000,
+          "tech": 1250000,
+          "experimental": 200
+        },
+        "requirements": [
+          "Level 20 Recovery Center"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 1750000,
+          "metal": 2500000,
+          "wood": 2000000,
+          "energy": 2000000,
+          "tech": 1500000,
+          "experimental": 250
+        },
+        "requirements": [
+          "Level 21 Recovery Center"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 2000000,
+          "metal": 3000000,
+          "wood": 2250000,
+          "energy": 2250000,
+          "tech": 1750000,
+          "experimental": 300
+        },
+        "requirements": [
+          "Level 22 Recovery Center"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 2250000,
+          "metal": 4000000,
+          "wood": 2500000,
+          "energy": 2500000,
+          "tech": 2000000,
+          "experimental": 350
+        },
+        "requirements": [
+          "Level 23 Recovery Center"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 2500000,
+          "metal": 5000000,
+          "wood": 3000000,
+          "energy": 3000000,
+          "tech": 2250000,
+          "experimental": 400
+        },
+        "requirements": [
+          "Level 24 Recovery Center"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 3000000,
+          "metal": 7500000,
+          "wood": 5000000,
+          "energy": 5000000,
+          "tech": 2500000,
+          "experimental": 450
+        },
+        "requirements": [
+          "Level 25 Recovery Center"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 4000000,
+          "metal": 10000000,
+          "wood": 6000000,
+          "energy": 6000000,
+          "tech": 3000000,
+          "experimental": 500
+        },
+        "requirements": [
+          "Level 26 Recovery Center"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 5500000,
+          "metal": 12500000,
+          "wood": 7000000,
+          "energy": 7000000,
+          "tech": 4000000,
+          "experimental": 625
+        },
+        "requirements": [
+          "Level 27 Recovery Center"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 8750000,
+          "metal": 18750000,
+          "wood": 10625000,
+          "energy": 10625000,
+          "tech": 6500000,
+          "experimental": 750,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Recovery Center"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 12750000,
+          "metal": 27500000,
+          "wood": 18000000,
+          "energy": 18000000,
+          "tech": 9000000,
+          "experimental": 1000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Recovery Center"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 20000000,
+          "metal": 40000000,
+          "wood": 30000000,
+          "energy": 30000000,
+          "tech": 15000000,
+          "experimental": 1250,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Recovery Center"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 30000000,
+          "metal": 65000000,
+          "wood": 42500000,
+          "energy": 42500000,
+          "tech": 22500000,
+          "experimental": 2500,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Recovery Center"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 42500000,
+          "metal": 95000000,
+          "wood": 57500000,
+          "energy": 57500000,
+          "tech": 32500000,
+          "experimental": 5000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 32 Recovery Center"
+        ]
+      }
+    }
+  },
+  "Debris": {
+    "name": "Debris",
+    "levels": {}
+  },
+  "Factory": {
+    "name": "Factory",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 200,
+          "metal": 200,
+          "wood": 200,
+          "energy": 200
+        },
+        "requirements": [
+          "Level 1 Headquarters"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 400,
+          "metal": 400,
+          "wood": 400,
+          "energy": 400,
+          "tech": 150
+        },
+        "requirements": [
+          "Level 2 Headquarters"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 650,
+          "metal": 650,
+          "wood": 650,
+          "energy": 650,
+          "tech": 250
+        },
+        "requirements": [
+          "Level 3 Headquarters"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 1000,
+          "metal": 1000,
+          "wood": 1000,
+          "energy": 1000,
+          "tech": 400
+        },
+        "requirements": [
+          "Level 4 Headquarters"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 1500,
+          "metal": 1500,
+          "wood": 1500,
+          "energy": 1500,
+          "tech": 600
+        },
+        "requirements": [
+          "Level 5 Headquarters"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 2500,
+          "metal": 2500,
+          "wood": 2500,
+          "energy": 2500,
+          "tech": 1000
+        },
+        "requirements": [
+          "Level 6 Headquarters"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 5000,
+          "metal": 5000,
+          "wood": 5000,
+          "energy": 5000,
+          "tech": 2000
+        },
+        "requirements": [
+          "Level 7 Headquarters"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 10000,
+          "metal": 10000,
+          "wood": 10000,
+          "energy": 10000,
+          "tech": 4000
+        },
+        "requirements": [
+          "Level 8 Headquarters"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 25000,
+          "metal": 25000,
+          "wood": 25000,
+          "energy": 25000,
+          "tech": 10000
+        },
+        "requirements": [
+          "Level 9 Headquarters"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 37500,
+          "metal": 37500,
+          "wood": 37500,
+          "energy": 37500,
+          "tech": 15000
+        },
+        "requirements": [
+          "Level 10 Headquarters"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 62500,
+          "metal": 62500,
+          "wood": 62500,
+          "energy": 62500,
+          "tech": 25000
+        },
+        "requirements": [
+          "Level 11 Headquarters"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 87500,
+          "metal": 87500,
+          "wood": 87500,
+          "energy": 87500,
+          "tech": 35000
+        },
+        "requirements": [
+          "Level 12 Headquarters"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 125000,
+          "metal": 125000,
+          "wood": 125000,
+          "energy": 125000,
+          "tech": 50000
+        },
+        "requirements": [
+          "Level 13 Headquarters"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 175000,
+          "metal": 175000,
+          "wood": 175000,
+          "energy": 175000,
+          "tech": 70000
+        },
+        "requirements": [
+          "Level 14 Headquarters"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 225000,
+          "metal": 225000,
+          "wood": 225000,
+          "energy": 225000,
+          "tech": 90000
+        },
+        "requirements": [
+          "Level 15 Headquarters"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 325000,
+          "metal": 325000,
+          "wood": 325000,
+          "energy": 325000,
+          "tech": 125000
+        },
+        "requirements": [
+          "Level 16 Headquarters"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 450000,
+          "metal": 450000,
+          "wood": 450000,
+          "energy": 450000,
+          "tech": 175000
+        },
+        "requirements": [
+          "Level 17 Headquarters"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 625000,
+          "metal": 625000,
+          "wood": 625000,
+          "energy": 625000,
+          "tech": 250000
+        },
+        "requirements": [
+          "Level 18 Headquarters"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 875000,
+          "metal": 875000,
+          "wood": 875000,
+          "energy": 875000,
+          "tech": 350000
+        },
+        "requirements": [
+          "Level 19 Headquarters"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 1125000,
+          "metal": 1125000,
+          "wood": 1125000,
+          "energy": 1125000,
+          "tech": 450000
+        },
+        "requirements": [
+          "Level 20 Headquarters"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 1375000,
+          "metal": 1375000,
+          "wood": 1375000,
+          "energy": 1375000,
+          "tech": 550000
+        },
+        "requirements": [
+          "Level 21 Headquarters"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 1625000,
+          "metal": 1625000,
+          "wood": 1625000,
+          "energy": 1625000,
+          "tech": 650000
+        },
+        "requirements": [
+          "Level 22 Headquarters"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 1875000,
+          "metal": 1875000,
+          "wood": 1875000,
+          "energy": 1875000,
+          "tech": 750000
+        },
+        "requirements": [
+          "Level 23 Headquarters"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 2500000,
+          "metal": 2500000,
+          "wood": 2500000,
+          "energy": 2500000,
+          "tech": 1000000
+        },
+        "requirements": [
+          "Level 24 Headquarters"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 3250000,
+          "metal": 3250000,
+          "wood": 3250000,
+          "energy": 3250000,
+          "tech": 1250000
+        },
+        "requirements": [
+          "Level 25 Headquarters"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 3750000,
+          "metal": 3750000,
+          "wood": 3750000,
+          "energy": 3750000,
+          "tech": 1500000
+        },
+        "requirements": [
+          "Level 26 Headquarters"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 4500000,
+          "metal": 4500000,
+          "wood": 4500000,
+          "energy": 4500000,
+          "tech": 1750000
+        },
+        "requirements": [
+          "Level 27 Headquarters"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 6250000,
+          "metal": 6250000,
+          "wood": 6250000,
+          "energy": 6250000,
+          "tech": 2500000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Headquarters"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 10000000,
+          "metal": 10000000,
+          "wood": 10000000,
+          "energy": 10000000,
+          "tech": 4250000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Headquarters"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 15000000,
+          "metal": 15000000,
+          "wood": 15000000,
+          "energy": 15000000,
+          "tech": 6000000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Headquarters"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 22500000,
+          "metal": 22500000,
+          "wood": 22500000,
+          "energy": 22500000,
+          "tech": 8500000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Headquarters"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 30000000,
+          "metal": 30000000,
+          "wood": 30000000,
+          "energy": 30000000,
+          "tech": 12000000,
+          "pure": 20
+        },
+        "requirements": [
+          "Level 32 Headquarters"
+        ]
+      }
+    }
+  },
+  "Farm": {
+    "name": "Farm",
+    "levels": {
+      "1": {
+        "costs": {
+          "metal": 75,
+          "wood": 75,
+          "energy": 75
+        },
+        "requirements": [
+          "Level 1 Headquarters"
+        ]
+      },
+      "2": {
+        "costs": {
+          "metal": 150,
+          "wood": 150,
+          "energy": 150
+        },
+        "requirements": [
+          "Level 2 Headquarters"
+        ]
+      },
+      "3": {
+        "costs": {
+          "metal": 250,
+          "wood": 250,
+          "energy": 250
+        },
+        "requirements": [
+          "Level 3 Headquarters"
+        ]
+      },
+      "4": {
+        "costs": {
+          "metal": 400,
+          "wood": 400,
+          "energy": 400
+        },
+        "requirements": [
+          "Level 4 Headquarters"
+        ]
+      },
+      "5": {
+        "costs": {
+          "metal": 600,
+          "wood": 600,
+          "energy": 600
+        },
+        "requirements": [
+          "Level 5 Headquarters"
+        ]
+      },
+      "6": {
+        "costs": {
+          "metal": 1000,
+          "wood": 1000,
+          "energy": 1000
+        },
+        "requirements": [
+          "Level 6 Headquarters"
+        ]
+      },
+      "7": {
+        "costs": {
+          "metal": 2000,
+          "wood": 2000,
+          "energy": 2000
+        },
+        "requirements": [
+          "Level 7 Headquarters"
+        ]
+      },
+      "8": {
+        "costs": {
+          "metal": 4000,
+          "wood": 4000,
+          "energy": 4000
+        },
+        "requirements": [
+          "Level 8 Headquarters"
+        ]
+      },
+      "9": {
+        "costs": {
+          "metal": 10000,
+          "wood": 10000,
+          "energy": 10000
+        },
+        "requirements": [
+          "Level 9 Headquarters"
+        ]
+      },
+      "10": {
+        "costs": {
+          "metal": 15000,
+          "wood": 15000,
+          "energy": 15000
+        },
+        "requirements": [
+          "Level 10 Headquarters"
+        ]
+      },
+      "11": {
+        "costs": {
+          "metal": 25000,
+          "wood": 25000,
+          "energy": 25000
+        },
+        "requirements": [
+          "Level 11 Headquarters"
+        ]
+      },
+      "12": {
+        "costs": {
+          "metal": 35000,
+          "wood": 35000,
+          "energy": 35000
+        },
+        "requirements": [
+          "Level 12 Headquarters"
+        ]
+      },
+      "13": {
+        "costs": {
+          "metal": 50000,
+          "wood": 50000,
+          "energy": 50000
+        },
+        "requirements": [
+          "Level 13 Headquarters"
+        ]
+      },
+      "14": {
+        "costs": {
+          "metal": 70000,
+          "wood": 70000,
+          "energy": 70000
+        },
+        "requirements": [
+          "Level 14 Headquarters"
+        ]
+      },
+      "15": {
+        "costs": {
+          "metal": 90000,
+          "wood": 90000,
+          "energy": 90000
+        },
+        "requirements": [
+          "Level 15 Headquarters"
+        ]
+      },
+      "16": {
+        "costs": {
+          "metal": 125000,
+          "wood": 125000,
+          "energy": 125000
+        },
+        "requirements": [
+          "Level 16 Headquarters"
+        ]
+      },
+      "17": {
+        "costs": {
+          "metal": 175000,
+          "wood": 175000,
+          "energy": 175000
+        },
+        "requirements": [
+          "Level 17 Headquarters"
+        ]
+      },
+      "18": {
+        "costs": {
+          "metal": 250000,
+          "wood": 250000,
+          "energy": 250000
+        },
+        "requirements": [
+          "Level 18 Headquarters"
+        ]
+      },
+      "19": {
+        "costs": {
+          "metal": 350000,
+          "wood": 350000,
+          "energy": 350000
+        },
+        "requirements": [
+          "Level 19 Headquarters"
+        ]
+      },
+      "20": {
+        "costs": {
+          "metal": 450000,
+          "wood": 450000,
+          "energy": 450000
+        },
+        "requirements": [
+          "Level 20 Headquarters"
+        ]
+      },
+      "21": {
+        "costs": {
+          "metal": 550000,
+          "wood": 550000,
+          "energy": 550000
+        },
+        "requirements": [
+          "Level 21 Headquarters"
+        ]
+      },
+      "22": {
+        "costs": {
+          "metal": 650000,
+          "wood": 650000,
+          "energy": 650000
+        },
+        "requirements": [
+          "Level 22 Headquarters"
+        ]
+      },
+      "23": {
+        "costs": {
+          "metal": 750000,
+          "wood": 750000,
+          "energy": 750000
+        },
+        "requirements": [
+          "Level 23 Headquarters"
+        ]
+      },
+      "24": {
+        "costs": {
+          "metal": 1000000,
+          "wood": 1000000,
+          "energy": 1000000
+        },
+        "requirements": [
+          "Level 24 Headquarters"
+        ]
+      },
+      "25": {
+        "costs": {
+          "metal": 1250000,
+          "wood": 1250000,
+          "energy": 1250000
+        },
+        "requirements": [
+          "Level 25 Headquarters"
+        ]
+      },
+      "26": {
+        "costs": {
+          "metal": 1500000,
+          "wood": 1500000,
+          "energy": 1500000
+        },
+        "requirements": [
+          "Level 26 Headquarters"
+        ]
+      },
+      "27": {
+        "costs": {
+          "metal": 1750000,
+          "wood": 1750000,
+          "energy": 1750000,
+          "tech": 100000
+        },
+        "requirements": [
+          "Level 27 Headquarters"
+        ]
+      },
+      "28": {
+        "costs": {
+          "metal": 2500000,
+          "wood": 2500000,
+          "energy": 2500000,
+          "tech": 250000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Headquarters"
+        ]
+      },
+      "29": {
+        "costs": {
+          "metal": 4250000,
+          "wood": 4250000,
+          "energy": 4250000,
+          "tech": 500000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Headquarters"
+        ]
+      },
+      "30": {
+        "costs": {
+          "metal": 6000000,
+          "wood": 6000000,
+          "energy": 6000000,
+          "tech": 1000000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Headquarters"
+        ]
+      },
+      "31": {
+        "costs": {
+          "metal": 8500000,
+          "wood": 8500000,
+          "energy": 8500000,
+          "tech": 2000000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Headquarters"
+        ]
+      },
+      "32": {
+        "costs": {
+          "metal": 12000000,
+          "wood": 12000000,
+          "energy": 12000000,
+          "tech": 5000000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Headquarters"
+        ]
+      }
+    }
+  },
+  "Garrison": {
+    "name": "Garrison",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 500,
+          "metal": 400,
+          "wood": 400,
+          "energy": 300
+        },
+        "requirements": [
+          "Level 1 Alliance Hall"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 800,
+          "metal": 600,
+          "wood": 600,
+          "energy": 500
+        },
+        "requirements": [
+          "Level 2 Alliance Hall"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 1500,
+          "metal": 1250,
+          "wood": 1250,
+          "energy": 800
+        },
+        "requirements": [
+          "Level 3 Alliance Hall"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 2500,
+          "metal": 2000,
+          "wood": 2000,
+          "energy": 1500
+        },
+        "requirements": [
+          "Level 4 Alliance Hall"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 4000,
+          "metal": 3000,
+          "wood": 3000,
+          "energy": 2500,
+          "tech": 750
+        },
+        "requirements": [
+          "Level 5 Alliance Hall"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 8000,
+          "metal": 6500,
+          "wood": 6500,
+          "energy": 4500,
+          "tech": 2000
+        },
+        "requirements": [
+          "Level 6 Alliance Hall"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 15000,
+          "metal": 12000,
+          "wood": 12000,
+          "energy": 10000,
+          "tech": 5000
+        },
+        "requirements": [
+          "Level 7 Alliance Hall"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 30000,
+          "metal": 25000,
+          "wood": 25000,
+          "energy": 20000,
+          "tech": 10000
+        },
+        "requirements": [
+          "Level 8 Alliance Hall"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 60000,
+          "metal": 50000,
+          "wood": 50000,
+          "energy": 40000,
+          "tech": 20000
+        },
+        "requirements": [
+          "Level 9 Alliance Hall"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 100000,
+          "metal": 75000,
+          "wood": 75000,
+          "energy": 60000,
+          "tech": 35000
+        },
+        "requirements": [
+          "Level 10 Alliance Hall"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 175000,
+          "metal": 125000,
+          "wood": 125000,
+          "energy": 100000,
+          "tech": 50000
+        },
+        "requirements": [
+          "Level 11 Alliance Hall"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 250000,
+          "metal": 175000,
+          "wood": 175000,
+          "energy": 150000,
+          "tech": 75000
+        },
+        "requirements": [
+          "Level 12 Alliance Hall"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 400000,
+          "metal": 250000,
+          "wood": 250000,
+          "energy": 200000,
+          "tech": 100000
+        },
+        "requirements": [
+          "Level 13 Alliance Hall"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 600000,
+          "metal": 400000,
+          "wood": 400000,
+          "energy": 300000,
+          "tech": 150000
+        },
+        "requirements": [
+          "Level 14 Alliance Hall"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 850000,
+          "metal": 600000,
+          "wood": 600000,
+          "energy": 500000,
+          "tech": 200000,
+          "experimental": 50
+        },
+        "requirements": [
+          "Level 15 Alliance Hall"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 1200000,
+          "metal": 850000,
+          "wood": 850000,
+          "energy": 700000,
+          "tech": 300000,
+          "experimental": 75
+        },
+        "requirements": [
+          "Level 16 Alliance Hall"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 1750000,
+          "metal": 1200000,
+          "wood": 1200000,
+          "energy": 900000,
+          "tech": 400000,
+          "experimental": 100
+        },
+        "requirements": [
+          "Level 17 Alliance Hall"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 2500000,
+          "metal": 1750000,
+          "wood": 1750000,
+          "energy": 1250000,
+          "tech": 600000,
+          "experimental": 125
+        },
+        "requirements": [
+          "Level 18 Alliance Hall"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 3000000,
+          "metal": 2250000,
+          "wood": 2250000,
+          "energy": 1750000,
+          "tech": 800000,
+          "experimental": 150
+        },
+        "requirements": [
+          "Level 19 Alliance Hall"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 3500000,
+          "metal": 2750000,
+          "wood": 2750000,
+          "energy": 2250000,
+          "tech": 1000000,
+          "experimental": 200
+        },
+        "requirements": [
+          "Level 20 Alliance Hall"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 4000000,
+          "metal": 3250000,
+          "wood": 3250000,
+          "energy": 2750000,
+          "tech": 1250000,
+          "experimental": 250
+        },
+        "requirements": [
+          "Level 21 Alliance Hall"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 4500000,
+          "metal": 3750000,
+          "wood": 3750000,
+          "energy": 3250000,
+          "tech": 1500000,
+          "experimental": 300
+        },
+        "requirements": [
+          "Level 22 Alliance Hall"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 5000000,
+          "metal": 4250000,
+          "wood": 4250000,
+          "energy": 3750000,
+          "tech": 1750000,
+          "experimental": 350
+        },
+        "requirements": [
+          "Level 23 Alliance Hall"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 5500000,
+          "metal": 4750000,
+          "wood": 4750000,
+          "energy": 4250000,
+          "tech": 2000000,
+          "experimental": 400
+        },
+        "requirements": [
+          "Level 24 Alliance Hall"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 6000000,
+          "metal": 5250000,
+          "wood": 5250000,
+          "energy": 4750000,
+          "tech": 2250000,
+          "experimental": 450
+        },
+        "requirements": [
+          "Level 25 Alliance Hall"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 6500000,
+          "metal": 5750000,
+          "wood": 5750000,
+          "energy": 5250000,
+          "tech": 2500000,
+          "experimental": 500
+        },
+        "requirements": [
+          "Level 26 Alliance Hall"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 7000000,
+          "metal": 6250000,
+          "wood": 6250000,
+          "energy": 5750000,
+          "tech": 2750000,
+          "experimental": 625
+        },
+        "requirements": [
+          "Level 27 Alliance Hall"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 10000000,
+          "metal": 8500000,
+          "wood": 8500000,
+          "energy": 8000000,
+          "tech": 3750000,
+          "experimental": 750,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Alliance Hall"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 14500000,
+          "metal": 10750000,
+          "wood": 10750000,
+          "energy": 9750000,
+          "tech": 6000000,
+          "experimental": 1000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Alliance Hall"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 20000000,
+          "metal": 16000000,
+          "wood": 16000000,
+          "energy": 15000000,
+          "tech": 10000000,
+          "experimental": 1250,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Alliance Hall"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 30000000,
+          "metal": 25000000,
+          "wood": 25000000,
+          "energy": 22500000,
+          "tech": 15000000,
+          "experimental": 2500,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Alliance Hall"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 42500000,
+          "metal": 37500000,
+          "wood": 37500000,
+          "energy": 35000000,
+          "tech": 22500000,
+          "experimental": 5000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Alliance Hall"
+        ]
+      }
+    }
+  },
+  "Geothermal Plant": {
+    "name": "Geothermal Plant",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 75,
+          "metal": 75,
+          "wood": 75
+        },
+        "requirements": [
+          "Level 1 Headquarters"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 150,
+          "metal": 150,
+          "wood": 150
+        },
+        "requirements": [
+          "Level 2 Headquarters"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 250,
+          "metal": 250,
+          "wood": 250
+        },
+        "requirements": [
+          "Level 3 Headquarters"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 400,
+          "metal": 400,
+          "wood": 400
+        },
+        "requirements": [
+          "Level 4 Headquarters"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 600,
+          "metal": 600,
+          "wood": 600
+        },
+        "requirements": [
+          "Level 5 Headquarters"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 1000,
+          "metal": 1000,
+          "wood": 1000
+        },
+        "requirements": [
+          "Level 6 Headquarters"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 2000,
+          "metal": 2000,
+          "wood": 2000
+        },
+        "requirements": [
+          "Level 7 Headquarters"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 4000,
+          "metal": 4000,
+          "wood": 4000
+        },
+        "requirements": [
+          "Level 8 Headquarters"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 10000,
+          "metal": 10000,
+          "wood": 10000
+        },
+        "requirements": [
+          "Level 9 Headquarters"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 15000,
+          "metal": 15000,
+          "wood": 15000
+        },
+        "requirements": [
+          "Level 10 Headquarters"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 25000,
+          "metal": 25000,
+          "wood": 25000
+        },
+        "requirements": [
+          "Level 11 Headquarters"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 35000,
+          "metal": 35000,
+          "wood": 35000
+        },
+        "requirements": [
+          "Level 12 Headquarters"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 50000,
+          "metal": 50000,
+          "wood": 50000
+        },
+        "requirements": [
+          "Level 13 Headquarters"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 70000,
+          "metal": 70000,
+          "wood": 70000
+        },
+        "requirements": [
+          "Level 14 Headquarters"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 90000,
+          "metal": 90000,
+          "wood": 90000
+        },
+        "requirements": [
+          "Level 15 Headquarters"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 125000,
+          "metal": 125000,
+          "wood": 125000
+        },
+        "requirements": [
+          "Level 16 Headquarters"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 175000,
+          "metal": 175000,
+          "wood": 175000
+        },
+        "requirements": [
+          "Level 17 Headquarters"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 250000,
+          "metal": 250000,
+          "wood": 250000
+        },
+        "requirements": [
+          "Level 18 Headquarters"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 350000,
+          "metal": 350000,
+          "wood": 350000
+        },
+        "requirements": [
+          "Level 19 Headquarters"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 450000,
+          "metal": 450000,
+          "wood": 450000
+        },
+        "requirements": [
+          "Level 20 Headquarters"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 550000,
+          "metal": 550000,
+          "wood": 550000
+        },
+        "requirements": [
+          "Level 21 Headquarters"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 650000,
+          "metal": 650000,
+          "wood": 650000
+        },
+        "requirements": [
+          "Level 22 Headquarters"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 750000,
+          "metal": 750000,
+          "wood": 750000
+        },
+        "requirements": [
+          "Level 23 Headquarters"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 1000000,
+          "metal": 1000000,
+          "wood": 1000000
+        },
+        "requirements": [
+          "Level 24 Headquarters"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 1250000,
+          "metal": 1250000,
+          "wood": 1250000
+        },
+        "requirements": [
+          "Level 25 Headquarters"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 1500000,
+          "metal": 1500000,
+          "wood": 1500000
+        },
+        "requirements": [
+          "Level 26 Headquarters"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 1750000,
+          "metal": 1750000,
+          "wood": 1750000,
+          "tech": 100000
+        },
+        "requirements": [
+          "Level 27 Headquarters"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 2500000,
+          "metal": 2500000,
+          "wood": 2500000,
+          "tech": 250000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Headquarters"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 4250000,
+          "metal": 4250000,
+          "wood": 4250000,
+          "tech": 500000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Headquarters"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 6000000,
+          "metal": 6000000,
+          "wood": 6000000,
+          "tech": 1000000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Headquarters"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 8500000,
+          "metal": 8500000,
+          "wood": 8500000,
+          "tech": 2000000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Headquarters"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 12000000,
+          "metal": 12000000,
+          "wood": 12000000,
+          "tech": 5000000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Headquarters"
+        ]
+      }
+    }
+  },
+  "Guard Post": {
+    "name": "Guard Post",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 500,
+          "metal": 750,
+          "wood": 750,
+          "energy": 750
+        },
+        "requirements": [
+          "Level 6 Headquarters",
+          "Level 1 Factory"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 1000,
+          "metal": 1250,
+          "wood": 1250,
+          "energy": 1250
+        },
+        "requirements": [
+          "Level 2 Factory"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 1500,
+          "metal": 2000,
+          "wood": 2000,
+          "energy": 2000
+        },
+        "requirements": [
+          "Level 3 Factory"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 2000,
+          "metal": 2750,
+          "wood": 2750,
+          "energy": 2750
+        },
+        "requirements": [
+          "Level 4 Factory"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 4000,
+          "metal": 5500,
+          "wood": 5500,
+          "energy": 5500,
+          "tech": 2250
+        },
+        "requirements": [
+          "Level 5 Factory"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 7500,
+          "metal": 10000,
+          "wood": 10000,
+          "energy": 10000,
+          "tech": 3750
+        },
+        "requirements": [
+          "Level 6 Factory"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 15000,
+          "metal": 20000,
+          "wood": 20000,
+          "energy": 20000,
+          "tech": 7500
+        },
+        "requirements": [
+          "Level 7 Factory"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 30000,
+          "metal": 40000,
+          "wood": 40000,
+          "energy": 40000,
+          "tech": 15000
+        },
+        "requirements": [
+          "Level 8 Factory"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 60000,
+          "metal": 80000,
+          "wood": 80000,
+          "energy": 80000,
+          "tech": 35000
+        },
+        "requirements": [
+          "Level 9 Factory"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 100000,
+          "metal": 165000,
+          "wood": 165000,
+          "energy": 165000,
+          "tech": 75000
+        },
+        "requirements": [
+          "Level 10 Factory"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 150000,
+          "metal": 275000,
+          "wood": 275000,
+          "energy": 275000,
+          "tech": 125000
+        },
+        "requirements": [
+          "Level 11 Factory"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 200000,
+          "metal": 400000,
+          "wood": 400000,
+          "energy": 400000,
+          "tech": 175000
+        },
+        "requirements": [
+          "Level 12 Factory"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 300000,
+          "metal": 600000,
+          "wood": 600000,
+          "energy": 600000,
+          "tech": 250000
+        },
+        "requirements": [
+          "Level 13 Factory"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 450000,
+          "metal": 800000,
+          "wood": 800000,
+          "energy": 800000,
+          "tech": 350000
+        },
+        "requirements": [
+          "Level 14 Factory"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 600000,
+          "metal": 1000000,
+          "wood": 1000000,
+          "energy": 1000000,
+          "tech": 450000,
+          "experimental": 50
+        },
+        "requirements": [
+          "Level 15 Factory"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 750000,
+          "metal": 1200000,
+          "wood": 1200000,
+          "energy": 1200000,
+          "tech": 600000,
+          "experimental": 75
+        },
+        "requirements": [
+          "Level 16 Factory"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 900000,
+          "metal": 1400000,
+          "wood": 1400000,
+          "energy": 1400000,
+          "tech": 750000,
+          "experimental": 100
+        },
+        "requirements": [
+          "Level 17 Factory"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 1100000,
+          "metal": 1600000,
+          "wood": 1600000,
+          "energy": 1600000,
+          "tech": 900000,
+          "experimental": 125
+        },
+        "requirements": [
+          "Level 18 Factory"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 1300000,
+          "metal": 1800000,
+          "wood": 1800000,
+          "energy": 1800000,
+          "tech": 1100000,
+          "experimental": 150
+        },
+        "requirements": [
+          "Level 19 Factory"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 1500000,
+          "metal": 2000000,
+          "wood": 2000000,
+          "energy": 2000000,
+          "tech": 1300000,
+          "experimental": 200
+        },
+        "requirements": [
+          "Level 20 Factory"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 1750000,
+          "metal": 2500000,
+          "wood": 2500000,
+          "energy": 2500000,
+          "tech": 1500000,
+          "experimental": 250
+        },
+        "requirements": [
+          "Level 21 Factory"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 2000000,
+          "metal": 3000000,
+          "wood": 3000000,
+          "energy": 3000000,
+          "tech": 1750000,
+          "experimental": 300
+        },
+        "requirements": [
+          "Level 22 Factory"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 2250000,
+          "metal": 3500000,
+          "wood": 3500000,
+          "energy": 3500000,
+          "tech": 2000000,
+          "experimental": 350
+        },
+        "requirements": [
+          "Level 23 Factory"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 2500000,
+          "metal": 4000000,
+          "wood": 4000000,
+          "energy": 4000000,
+          "tech": 2250000,
+          "experimental": 350
+        },
+        "requirements": [
+          "Level 24 Factory"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 2750000,
+          "metal": 4500000,
+          "wood": 4500000,
+          "energy": 4500000,
+          "tech": 2500000,
+          "experimental": 450
+        },
+        "requirements": [
+          "Level 25 Factory"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 3000000,
+          "metal": 5000000,
+          "wood": 5000000,
+          "energy": 5000000,
+          "tech": 2750000,
+          "experimental": 500
+        },
+        "requirements": [
+          "Level 26 Factory"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 4000000,
+          "metal": 6000000,
+          "wood": 6000000,
+          "energy": 6000000,
+          "tech": 3000000,
+          "experimental": 625
+        },
+        "requirements": [
+          "Level 27 Factory"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 5625000,
+          "metal": 8750000,
+          "wood": 8750000,
+          "energy": 8750000,
+          "tech": 5000000,
+          "experimental": 750,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Factory"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 7500000,
+          "metal": 12000000,
+          "wood": 12000000,
+          "energy": 12000000,
+          "tech": 6750000,
+          "experimental": 1000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Factory"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 12000000,
+          "metal": 20000000,
+          "wood": 20000000,
+          "energy": 20000000,
+          "tech": 10000000,
+          "experimental": 1250,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Factory"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 20000000,
+          "metal": 30000000,
+          "wood": 30000000,
+          "energy": 30000000,
+          "tech": 15000000,
+          "experimental": 2500,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Factory"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 30000000,
+          "metal": 42500000,
+          "wood": 42500000,
+          "energy": 42500000,
+          "tech": 25000000,
+          "experimental": 5000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Factory"
+        ]
+      }
+    }
+  },
+  "Headquarters": {
+    "name": "Headquarters",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 200,
+          "metal": 100,
+          "wood": 100,
+          "energy": 200
+        }
+      },
+      "2": {
+        "costs": {
+          "food": 800,
+          "metal": 1500,
+          "wood": 1500,
+          "energy": 800
+        },
+        "requirements": [
+          "Level 1 Walls"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 1200,
+          "metal": 2500,
+          "wood": 2500,
+          "energy": 1200
+        },
+        "requirements": [
+          "Level 2 Walls",
+          "Level 1 Lumberyard",
+          "Level 1 Steel Works"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 2500,
+          "metal": 5000,
+          "wood": 5000,
+          "energy": 2500
+        },
+        "requirements": [
+          "Level 3 Walls",
+          "Level 1 Barracks"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 5000,
+          "metal": 10000,
+          "wood": 10000,
+          "energy": 5000
+        },
+        "requirements": [
+          "Level 4 Walls"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 7500,
+          "metal": 15000,
+          "wood": 15000,
+          "energy": 7500
+        },
+        "requirements": [
+          "Level 5 Walls",
+          "Level 1 Warehouse"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 15000,
+          "metal": 30000,
+          "wood": 30000,
+          "energy": 15000
+        },
+        "requirements": [
+          "Level 6 Walls",
+          "Level 6 Research Lab"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 30000,
+          "metal": 60000,
+          "wood": 60000,
+          "energy": 30000
+        },
+        "requirements": [
+          "Level 7 Walls",
+          "Level 7 Radar Tower"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 60000,
+          "metal": 120000,
+          "wood": 120000,
+          "energy": 60000
+        },
+        "requirements": [
+          "Level 8 Walls",
+          "Level 8 Barracks"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 100000,
+          "metal": 200000,
+          "wood": 200000,
+          "energy": 100000,
+          "tech": 25000
+        },
+        "requirements": [
+          "Level 9 Walls",
+          "Level 9 Chasers Quarters"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 125000,
+          "metal": 250000,
+          "wood": 250000,
+          "energy": 125000,
+          "tech": 75000
+        },
+        "requirements": [
+          "Level 10 Walls",
+          "Level 10 Training Camp"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 225000,
+          "metal": 450000,
+          "wood": 450000,
+          "energy": 225000,
+          "tech": 150000
+        },
+        "requirements": [
+          "Level 11 Walls",
+          "Level 11 Alliance Hall"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 350000,
+          "metal": 700000,
+          "wood": 700000,
+          "energy": 350000,
+          "tech": 225000
+        },
+        "requirements": [
+          "Level 12 Walls",
+          "Level 12 Monster Biodome"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 500000,
+          "metal": 1000000,
+          "wood": 1000000,
+          "energy": 500000,
+          "tech": 300000
+        },
+        "requirements": [
+          "Level 13 Walls",
+          "Level 13 Bunker"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 750000,
+          "metal": 1500000,
+          "wood": 1500000,
+          "energy": 750000,
+          "tech": 400000
+        },
+        "requirements": [
+          "Level 14 Walls",
+          "Level 14 Factory"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 1250000,
+          "metal": 2250000,
+          "wood": 2250000,
+          "energy": 1250000,
+          "tech": 600000
+        },
+        "requirements": [
+          "Level 15 Walls",
+          "Level 15 Warehouse"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 1500000,
+          "metal": 3000000,
+          "wood": 3000000,
+          "energy": 1500000,
+          "tech": 800000
+        },
+        "requirements": [
+          "Level 16 Walls",
+          "Level 16 Garrison"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 2500000,
+          "metal": 4500000,
+          "wood": 4500000,
+          "energy": 2500000,
+          "tech": 1000000
+        },
+        "requirements": [
+          "Level 17 Walls",
+          "Level 17 Guard Post"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 3500000,
+          "metal": 6000000,
+          "wood": 6000000,
+          "energy": 3500000,
+          "tech": 1500000
+        },
+        "requirements": [
+          "Level 18 Walls",
+          "Level 18 Recovery Bay"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 4500000,
+          "metal": 7500000,
+          "wood": 7500000,
+          "energy": 4500000,
+          "tech": 2000000
+        },
+        "requirements": [
+          "Level 19 Walls",
+          "Level 19 Monster Biodome"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 5500000,
+          "metal": 9000000,
+          "wood": 9000000,
+          "energy": 5500000,
+          "tech": 2500000
+        },
+        "requirements": [
+          "Level 20 Walls",
+          "Level 20 Training Camp"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 6500000,
+          "metal": 10500000,
+          "wood": 10500000,
+          "energy": 6500000,
+          "tech": 3000000
+        },
+        "requirements": [
+          "Level 21 Walls",
+          "Level 21 Radar Tower"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 7500000,
+          "metal": 12000000,
+          "wood": 12000000,
+          "energy": 7500000,
+          "tech": 3500000
+        },
+        "requirements": [
+          "Level 22 Walls",
+          "Level 22 Chasers Quarters"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 8500000,
+          "metal": 13500000,
+          "wood": 13500000,
+          "energy": 8500000,
+          "tech": 4000000
+        },
+        "requirements": [
+          "Level 23 Walls",
+          "Level 23 Factory"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 9500000,
+          "metal": 15000000,
+          "wood": 15000000,
+          "energy": 9500000,
+          "tech": 4500000
+        },
+        "requirements": [
+          "Level 24 Walls",
+          "Level 24 Garrison"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 10500000,
+          "metal": 16500000,
+          "wood": 16500000,
+          "energy": 10500000,
+          "tech": 5000000
+        },
+        "requirements": [
+          "Level 25 Walls",
+          "Level 25 Alliance Hall"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 11500000,
+          "metal": 18000000,
+          "wood": 18000000,
+          "energy": 11500000,
+          "tech": 6000000
+        },
+        "requirements": [
+          "Level 26 Walls",
+          "Level 26 Bunker"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 15500000,
+          "metal": 25000000,
+          "wood": 25000000,
+          "energy": 15500000,
+          "tech": 9000000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 27 Walls",
+          "Level 27 Barracks"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 20000000,
+          "metal": 27500000,
+          "wood": 27500000,
+          "energy": 20000000,
+          "tech": 12000000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 28 Walls",
+          "Level 28 Monster Biodome"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 27500000,
+          "metal": 50000000,
+          "wood": 50000000,
+          "energy": 27500000,
+          "tech": 20000000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 29 Walls",
+          "Level 29 Recovery Center"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 42500000,
+          "metal": 75000000,
+          "wood": 75000000,
+          "energy": 42500000,
+          "tech": 32500000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 30 Walls",
+          "Level 30 Chasers Quarters"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 60000000,
+          "metal": 100000000,
+          "wood": 100000000,
+          "energy": 60000000,
+          "tech": 50000000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 31 Walls",
+          "Level 31 Radar Tower"
+        ]
+      }
+    }
+  },
+  "Lumberyard": {
+    "name": "Lumberyard",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 75,
+          "metal": 75,
+          "energy": 75
+        },
+        "requirements": [
+          "Level 1 Headquarters"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 150,
+          "metal": 150,
+          "energy": 150
+        },
+        "requirements": [
+          "Level 2 Headquarters"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 250,
+          "metal": 250,
+          "energy": 250
+        },
+        "requirements": [
+          "Level 3 Headquarters"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 400,
+          "metal": 400,
+          "energy": 400
+        },
+        "requirements": [
+          "Level 4 Headquarters"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 600,
+          "metal": 600,
+          "energy": 600
+        },
+        "requirements": [
+          "Level 5 Headquarters"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 1000,
+          "metal": 1000,
+          "energy": 1000
+        },
+        "requirements": [
+          "Level 6 Headquarters"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 2000,
+          "metal": 2000,
+          "energy": 2000
+        },
+        "requirements": [
+          "Level 7 Headquarters"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 4000,
+          "metal": 4000,
+          "energy": 4000
+        },
+        "requirements": [
+          "Level 8 Headquarters"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 10000,
+          "metal": 10000,
+          "energy": 10000
+        },
+        "requirements": [
+          "Level 9 Headquarters"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 15000,
+          "metal": 15000,
+          "energy": 15000
+        },
+        "requirements": [
+          "Level 10 Headquarters"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 25000,
+          "metal": 25000,
+          "energy": 25000
+        },
+        "requirements": [
+          "Level 11 Headquarters"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 35000,
+          "metal": 35000,
+          "energy": 35000
+        },
+        "requirements": [
+          "Level 12 Headquarters"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 50000,
+          "metal": 50000,
+          "energy": 50000
+        },
+        "requirements": [
+          "Level 13 Headquarters"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 70000,
+          "metal": 70000,
+          "energy": 70000
+        },
+        "requirements": [
+          "Level 14 Headquarters"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 90000,
+          "metal": 90000,
+          "energy": 90000
+        },
+        "requirements": [
+          "Level 15 Headquarters"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 125000,
+          "metal": 125000,
+          "energy": 125000
+        },
+        "requirements": [
+          "Level 16 Headquarters"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 175000,
+          "metal": 175000,
+          "energy": 175000
+        },
+        "requirements": [
+          "Level 17 Headquarters"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 250000,
+          "metal": 250000,
+          "energy": 250000
+        },
+        "requirements": [
+          "Level 18 Headquarters"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 350000,
+          "metal": 350000,
+          "energy": 350000
+        },
+        "requirements": [
+          "Level 19 Headquarters"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 450000,
+          "metal": 450000,
+          "energy": 450000
+        },
+        "requirements": [
+          "Level 20 Headquarters"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 550000,
+          "metal": 550000,
+          "energy": 550000
+        },
+        "requirements": [
+          "Level 21 Headquarters"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 650000,
+          "metal": 650000,
+          "energy": 650000
+        },
+        "requirements": [
+          "Level 22 Headquarters"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 750000,
+          "metal": 750000,
+          "energy": 750000
+        },
+        "requirements": [
+          "Level 23 Headquarters"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 1000000,
+          "metal": 1000000,
+          "energy": 1000000
+        },
+        "requirements": [
+          "Level 24 Headquarters"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 1250000,
+          "metal": 1250000,
+          "energy": 1250000
+        },
+        "requirements": [
+          "Level 25 Headquarters"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 1500000,
+          "metal": 1500000,
+          "energy": 1500000
+        },
+        "requirements": [
+          "Level 26 Headquarters"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 1750000,
+          "metal": 1750000,
+          "energy": 1750000,
+          "tech": 100000
+        },
+        "requirements": [
+          "Level 27 Headquarters"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 2500000,
+          "metal": 2500000,
+          "energy": 2500000,
+          "tech": 250000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Headquarters"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 4250000,
+          "metal": 4250000,
+          "energy": 4250000,
+          "tech": 500000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Headquarters"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 6000000,
+          "metal": 6000000,
+          "energy": 6000000,
+          "tech": 1000000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Headquarters"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 8500000,
+          "metal": 8500000,
+          "energy": 8500000,
+          "tech": 2000000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Headquarters"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 12000000,
+          "metal": 12000000,
+          "energy": 12000000,
+          "tech": 5000000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Headquarters"
+        ]
+      }
+    }
+  },
+  "Monster Biodome": {
+    "name": "Monster Biodome",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 80,
+          "metal": 150,
+          "wood": 250,
+          "energy": 150
+        }
+      },
+      "2": {
+        "costs": {
+          "food": 150,
+          "metal": 300,
+          "wood": 500,
+          "energy": 300
+        },
+        "requirements": [
+          "Level 2 Barracks"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 300,
+          "metal": 600,
+          "wood": 1000,
+          "energy": 600
+        },
+        "requirements": [
+          "Level 3 Barracks"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 500,
+          "metal": 1200,
+          "wood": 1500,
+          "energy": 1200
+        },
+        "requirements": [
+          "Level 4 Barracks"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 800,
+          "metal": 1750,
+          "wood": 2750,
+          "energy": 1750
+        },
+        "requirements": [
+          "Level 5 Barracks"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 1500,
+          "metal": 3000,
+          "wood": 5000,
+          "energy": 3000,
+          "tech": 1000
+        },
+        "requirements": [
+          "Level 6 Barracks"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 3000,
+          "metal": 6000,
+          "wood": 10000,
+          "energy": 6000,
+          "tech": 2500
+        },
+        "requirements": [
+          "Level 7 Barracks"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 6000,
+          "metal": 12000,
+          "wood": 20000,
+          "energy": 12000,
+          "tech": 5000
+        },
+        "requirements": [
+          "Level 8 Barracks"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 10000,
+          "metal": 20000,
+          "wood": 40000,
+          "energy": 20000,
+          "tech": 10000
+        },
+        "requirements": [
+          "Level 9 Barracks"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 15000,
+          "metal": 30000,
+          "wood": 65000,
+          "energy": 30000,
+          "tech": 15000
+        },
+        "requirements": [
+          "Level 10 Barracks"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 25000,
+          "metal": 50000,
+          "wood": 100000,
+          "energy": 50000,
+          "tech": 25000
+        },
+        "requirements": [
+          "Level 11 Barracks"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 40000,
+          "metal": 75000,
+          "wood": 150000,
+          "energy": 75000,
+          "tech": 40000
+        },
+        "requirements": [
+          "Level 12 Barracks"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 60000,
+          "metal": 120000,
+          "wood": 200000,
+          "energy": 120000,
+          "tech": 60000
+        },
+        "requirements": [
+          "Level 13 Barracks"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 80000,
+          "metal": 160000,
+          "wood": 275000,
+          "energy": 160000,
+          "tech": 80000
+        },
+        "requirements": [
+          "Level 14 Barracks"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 120000,
+          "metal": 225000,
+          "wood": 375000,
+          "energy": 225000,
+          "tech": 120000
+        },
+        "requirements": [
+          "Level 15 Barracks"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 175000,
+          "metal": 300000,
+          "wood": 550000,
+          "energy": 300000,
+          "tech": 175000
+        },
+        "requirements": [
+          "Level 16 Barracks"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 275000,
+          "metal": 450000,
+          "wood": 850000,
+          "energy": 450000,
+          "tech": 275000
+        },
+        "requirements": [
+          "Level 17 Barracks"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 400000,
+          "metal": 650000,
+          "wood": 1250000,
+          "energy": 650000,
+          "tech": 400000
+        },
+        "requirements": [
+          "Level 18 Barracks"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 550000,
+          "metal": 850000,
+          "wood": 1750000,
+          "energy": 850000,
+          "tech": 550000
+        },
+        "requirements": [
+          "Level 19 Barracks"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 750000,
+          "metal": 1250000,
+          "wood": 2250000,
+          "energy": 1250000,
+          "tech": 750000
+        },
+        "requirements": [
+          "Level 20 Barracks"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 1000000,
+          "metal": 1750000,
+          "wood": 3000000,
+          "energy": 1750000,
+          "tech": 1000000
+        },
+        "requirements": [
+          "Level 21 Barracks"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 1500000,
+          "metal": 2250000,
+          "wood": 3750000,
+          "energy": 2250000,
+          "tech": 1500000
+        },
+        "requirements": [
+          "Level 22 Barracks"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 2000000,
+          "metal": 3000000,
+          "wood": 4500000,
+          "energy": 3000000,
+          "tech": 2000000
+        },
+        "requirements": [
+          "Level 23 Barracks"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 2500000,
+          "metal": 3750000,
+          "wood": 5000000,
+          "energy": 3750000,
+          "tech": 2500000
+        },
+        "requirements": [
+          "Level 24 Barracks"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 3000000,
+          "metal": 4500000,
+          "wood": 6000000,
+          "energy": 4500000,
+          "tech": 3000000
+        },
+        "requirements": [
+          "Level 25 Barracks"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 3500000,
+          "metal": 5250000,
+          "wood": 7000000,
+          "energy": 5250000,
+          "tech": 3500000
+        },
+        "requirements": [
+          "Level 26 Barracks"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 4000000,
+          "metal": 6000000,
+          "wood": 8000000,
+          "energy": 6000000,
+          "tech": 4000000
+        },
+        "requirements": [
+          "Level 27 Barracks"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 6000000,
+          "metal": 8500000,
+          "wood": 12000000,
+          "energy": 8500000,
+          "tech": 6000000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Barracks"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 8250000,
+          "metal": 10750000,
+          "wood": 15000000,
+          "energy": 10750000,
+          "tech": 8250000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Barracks"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 13000000,
+          "metal": 17000000,
+          "wood": 24000000,
+          "energy": 17000000,
+          "tech": 11000000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Barracks"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 20000000,
+          "metal": 25000000,
+          "wood": 36000000,
+          "energy": 25000000,
+          "tech": 17500000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Barracks"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 30000000,
+          "metal": 35000000,
+          "wood": 50000000,
+          "energy": 35000000,
+          "tech": 27500000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Barracks"
+        ]
+      }
+    }
+  },
+  "Radar Tower": {
+    "name": "Radar Tower",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 250,
+          "metal": 250,
+          "wood": 400,
+          "energy": 400
+        },
+        "requirements": [
+          "Level 1 Walls"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 500,
+          "metal": 500,
+          "wood": 600,
+          "energy": 600
+        },
+        "requirements": [
+          "Level 2 Walls"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 750,
+          "metal": 750,
+          "wood": 1200,
+          "energy": 1200
+        },
+        "requirements": [
+          "Level 3 Walls"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 1500,
+          "metal": 1500,
+          "wood": 2000,
+          "energy": 2000
+        },
+        "requirements": [
+          "Level 4 Walls"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 2750,
+          "metal": 2750,
+          "wood": 3500,
+          "energy": 3500,
+          "tech": 1000
+        },
+        "requirements": [
+          "Level 5 Walls"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 5000,
+          "metal": 5000,
+          "wood": 6500,
+          "energy": 6500,
+          "tech": 3000
+        },
+        "requirements": [
+          "Level 6 Walls"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 10000,
+          "metal": 10000,
+          "wood": 12500,
+          "energy": 12500,
+          "tech": 6000
+        },
+        "requirements": [
+          "Level 7 Walls"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 20000,
+          "metal": 20000,
+          "wood": 25000,
+          "energy": 25000,
+          "tech": 15000
+        },
+        "requirements": [
+          "Level 8 Walls"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 40000,
+          "metal": 40000,
+          "wood": 50000,
+          "energy": 50000,
+          "tech": 40000
+        },
+        "requirements": [
+          "Level 9 Walls"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 70000,
+          "metal": 70000,
+          "wood": 85000,
+          "energy": 85000,
+          "tech": 65000
+        },
+        "requirements": [
+          "Level 10 Walls"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 100000,
+          "metal": 100000,
+          "wood": 125000,
+          "energy": 125000,
+          "tech": 100000
+        },
+        "requirements": [
+          "Level 11 Walls"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 135000,
+          "metal": 135000,
+          "wood": 175000,
+          "energy": 175000,
+          "tech": 150000
+        },
+        "requirements": [
+          "Level 12 Walls"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 175000,
+          "metal": 175000,
+          "wood": 275000,
+          "energy": 275000,
+          "tech": 225000
+        },
+        "requirements": [
+          "Level 13 Walls"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 250000,
+          "metal": 250000,
+          "wood": 400000,
+          "energy": 400000,
+          "tech": 350000
+        },
+        "requirements": [
+          "Level 14 Walls"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 350000,
+          "metal": 350000,
+          "wood": 600000,
+          "energy": 600000,
+          "tech": 500000
+        },
+        "requirements": [
+          "Level 15 Walls"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 550000,
+          "metal": 550000,
+          "wood": 900000,
+          "energy": 900000,
+          "tech": 650000
+        },
+        "requirements": [
+          "Level 16 Walls"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 800000,
+          "metal": 800000,
+          "wood": 1250000,
+          "energy": 1250000,
+          "tech": 900000
+        },
+        "requirements": [
+          "Level 17 Walls"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 1200000,
+          "metal": 1200000,
+          "wood": 1750000,
+          "energy": 1750000,
+          "tech": 1250000
+        },
+        "requirements": [
+          "Level 18 Walls"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 1750000,
+          "metal": 1750000,
+          "wood": 2500000,
+          "energy": 2500000,
+          "tech": 1750000
+        },
+        "requirements": [
+          "Level 19 Walls"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 2500000,
+          "metal": 2500000,
+          "wood": 3250000,
+          "energy": 3250000,
+          "tech": 2500000
+        },
+        "requirements": [
+          "Level 20 Walls"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 3000000,
+          "metal": 3000000,
+          "wood": 4000000,
+          "energy": 4000000,
+          "tech": 3000000
+        },
+        "requirements": [
+          "Level 21 Walls"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 3500000,
+          "metal": 3500000,
+          "wood": 5000000,
+          "energy": 5000000,
+          "tech": 3500000
+        },
+        "requirements": [
+          "Level 22 Walls"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 4000000,
+          "metal": 4000000,
+          "wood": 6000000,
+          "energy": 6000000,
+          "tech": 4000000
+        },
+        "requirements": [
+          "Level 23 Walls"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 4500000,
+          "metal": 4500000,
+          "wood": 7000000,
+          "energy": 7000000,
+          "tech": 4500000
+        },
+        "requirements": [
+          "Level 24 Walls"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 5000000,
+          "metal": 5000000,
+          "wood": 8000000,
+          "energy": 8000000,
+          "tech": 5000000
+        },
+        "requirements": [
+          "Level 25 Walls"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 6000000,
+          "metal": 6000000,
+          "wood": 9000000,
+          "energy": 9000000,
+          "tech": 6000000
+        },
+        "requirements": [
+          "Level 26 Walls"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 7000000,
+          "metal": 7000000,
+          "wood": 10000000,
+          "energy": 10000000,
+          "tech": 8000000
+        },
+        "requirements": [
+          "Level 27 Walls"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 10000000,
+          "metal": 10000000,
+          "wood": 15000000,
+          "energy": 15000000,
+          "tech": 12500000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Walls"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 14500000,
+          "metal": 14500000,
+          "wood": 21000000,
+          "energy": 21000000,
+          "tech": 18000000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Walls"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 20000000,
+          "metal": 20000000,
+          "wood": 32000000,
+          "energy": 32000000,
+          "tech": 28000000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Walls"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 27500000,
+          "metal": 27500000,
+          "wood": 45000000,
+          "energy": 45000000,
+          "tech": 40000000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Walls"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 37500000,
+          "metal": 37500000,
+          "wood": 60000000,
+          "energy": 60000000,
+          "tech": 55000000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Walls"
+        ]
+      }
+    }
+  },
+  "Recovery Bay": {
+    "name": "Recovery Bay",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 240,
+          "metal": 150,
+          "wood": 150,
+          "energy": 150
+        },
+        "requirements": [
+          "Level 1 Recovery Center"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 360,
+          "metal": 250,
+          "wood": 250,
+          "energy": 250
+        },
+        "requirements": [
+          "Level 2 Recovery Center"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 600,
+          "metal": 400,
+          "wood": 400,
+          "energy": 400
+        },
+        "requirements": [
+          "Level 3 Recovery Center"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 1200,
+          "metal": 800,
+          "wood": 800,
+          "energy": 800
+        },
+        "requirements": [
+          "Level 4 Recovery Center"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 1800,
+          "metal": 1200,
+          "wood": 1200,
+          "energy": 1200
+        },
+        "requirements": [
+          "Level 5 Recovery Center"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 3600,
+          "metal": 2400,
+          "wood": 2400,
+          "energy": 2400,
+          "tech": 1920
+        },
+        "requirements": [
+          "Level 6 Recovery Center"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 7500,
+          "metal": 5000,
+          "wood": 5000,
+          "energy": 5000,
+          "tech": 4000
+        },
+        "requirements": [
+          "Level 7 Recovery Center"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 15000,
+          "metal": 10000,
+          "wood": 10000,
+          "energy": 10000,
+          "tech": 8000
+        },
+        "requirements": [
+          "Level 8 Recovery Center"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 27500,
+          "metal": 17500,
+          "wood": 17500,
+          "energy": 17500,
+          "tech": 12500
+        },
+        "requirements": [
+          "Level 9 Recovery Center"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 50000,
+          "metal": 32500,
+          "wood": 32500,
+          "energy": 32500,
+          "tech": 25000
+        },
+        "requirements": [
+          "Level 10 Recovery Center"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 80000,
+          "metal": 52500,
+          "wood": 52500,
+          "energy": 52500,
+          "tech": 42500
+        },
+        "requirements": [
+          "Level 11 Recovery Center"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 115500,
+          "metal": 75000,
+          "wood": 75000,
+          "energy": 75000,
+          "tech": 60000
+        },
+        "requirements": [
+          "Level 12 Recovery Center"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 157500,
+          "metal": 100000,
+          "wood": 100000,
+          "energy": 100000,
+          "tech": 80000
+        },
+        "requirements": [
+          "Level 13 Recovery Center"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 245000,
+          "metal": 150000,
+          "wood": 150000,
+          "energy": 150000,
+          "tech": 120000
+        },
+        "requirements": [
+          "Level 14 Recovery Center"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 350000,
+          "metal": 225000,
+          "wood": 225000,
+          "energy": 225000,
+          "tech": 180000
+        },
+        "requirements": [
+          "Level 15 Recovery Center"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 550000,
+          "metal": 350000,
+          "wood": 350000,
+          "energy": 350000,
+          "tech": 280000
+        },
+        "requirements": [
+          "Level 16 Recovery Center"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 800000,
+          "metal": 500000,
+          "wood": 500000,
+          "energy": 500000,
+          "tech": 400000
+        },
+        "requirements": [
+          "Level 17 Recovery Center"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 1200000,
+          "metal": 800000,
+          "wood": 800000,
+          "energy": 800000,
+          "tech": 650000
+        },
+        "requirements": [
+          "Level 18 Recovery Center"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 1800000,
+          "metal": 1200000,
+          "wood": 1200000,
+          "energy": 1200000,
+          "tech": 950000
+        },
+        "requirements": [
+          "Level 19 Recovery Center"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 2400000,
+          "metal": 1600000,
+          "wood": 1600000,
+          "energy": 1600000,
+          "tech": 1275000
+        },
+        "requirements": [
+          "Level 20 Recovery Center"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 3000000,
+          "metal": 2000000,
+          "wood": 2000000,
+          "energy": 2000000,
+          "tech": 1600000
+        },
+        "requirements": [
+          "Level 21 Recovery Center"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 3600000,
+          "metal": 2375000,
+          "wood": 2375000,
+          "energy": 2375000,
+          "tech": 1900000
+        },
+        "requirements": [
+          "Level 22 Recovery Center"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 4400000,
+          "metal": 3000000,
+          "wood": 3000000,
+          "energy": 3000000,
+          "tech": 2400000
+        },
+        "requirements": [
+          "Level 23 Recovery Center"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 5500000,
+          "metal": 3600000,
+          "wood": 3600000,
+          "energy": 3600000,
+          "tech": 2850000
+        },
+        "requirements": [
+          "Level 24 Recovery Center"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 6375000,
+          "metal": 4200000,
+          "wood": 4200000,
+          "energy": 4200000,
+          "tech": 3250000
+        },
+        "requirements": [
+          "Level 25 Recovery Center"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 7250000,
+          "metal": 4800000,
+          "wood": 4800000,
+          "energy": 4800000,
+          "tech": 3750000
+        },
+        "requirements": [
+          "Level 26 Recovery Center"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 8500000,
+          "metal": 5600000,
+          "wood": 5600000,
+          "energy": 5600000,
+          "tech": 4500000
+        },
+        "requirements": [
+          "Level 27 Recovery Center"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 12750000,
+          "metal": 8250000,
+          "wood": 8250000,
+          "energy": 8250000,
+          "tech": 6500000
+        },
+        "requirements": [
+          "Level 28 Recovery Center"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 17750000,
+          "metal": 11725000,
+          "wood": 11725000,
+          "energy": 11725000,
+          "tech": 9500000
+        },
+        "requirements": [
+          "Level 29 Recovery Center"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 23500000,
+          "metal": 15500000,
+          "wood": 15500000,
+          "energy": 15500000,
+          "tech": 12500000
+        },
+        "requirements": [
+          "Level 30 Recovery Center"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 30000000,
+          "metal": 20000000,
+          "wood": 20000000,
+          "energy": 20000000,
+          "tech": 16000000
+        },
+        "requirements": [
+          "Level 31 Recovery Center"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 40000000,
+          "metal": 27500000,
+          "wood": 27500000,
+          "energy": 27500000,
+          "tech": 22000000
+        },
+        "requirements": [
+          "Level 32 Recovery Center"
+        ]
+      }
+    }
+  },
+  "Recovery Center": {
+    "name": "Recovery Center",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 300,
+          "metal": 450,
+          "wood": 300,
+          "energy": 450
+        },
+        "requirements": [
+          "Level 1 Steel Works"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 600,
+          "metal": 700,
+          "wood": 600,
+          "energy": 700
+        },
+        "requirements": [
+          "Level 2 Steel Works"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 850,
+          "metal": 1200,
+          "wood": 850,
+          "energy": 1200
+        },
+        "requirements": [
+          "Level 3 Steel Works"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 1400,
+          "metal": 1900,
+          "wood": 1400,
+          "energy": 1900
+        },
+        "requirements": [
+          "Level 4 Steel Works"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 2500,
+          "metal": 3500,
+          "wood": 2500,
+          "energy": 3500,
+          "tech": 1000
+        },
+        "requirements": [
+          "Level 5 Steel Works"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 4500,
+          "metal": 7000,
+          "wood": 4500,
+          "energy": 7000,
+          "tech": 2500
+        },
+        "requirements": [
+          "Level 6 Steel Works"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 8000,
+          "metal": 14000,
+          "wood": 8000,
+          "energy": 14000,
+          "tech": 5000
+        },
+        "requirements": [
+          "Level 7 Steel Works"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 17000,
+          "metal": 28000,
+          "wood": 17000,
+          "energy": 28000,
+          "tech": 10000
+        },
+        "requirements": [
+          "Level 8 Steel Works"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 25000,
+          "metal": 50000,
+          "wood": 25000,
+          "energy": 50000,
+          "tech": 17500
+        },
+        "requirements": [
+          "Level 9 Steel Works"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 50000,
+          "metal": 85000,
+          "wood": 50000,
+          "energy": 85000,
+          "tech": 35000
+        },
+        "requirements": [
+          "Level 10 Steel Works"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 80000,
+          "metal": 130000,
+          "wood": 80000,
+          "energy": 130000,
+          "tech": 50000
+        },
+        "requirements": [
+          "Level 11 Steel Works"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 120000,
+          "metal": 200000,
+          "wood": 120000,
+          "energy": 200000,
+          "tech": 75000
+        },
+        "requirements": [
+          "Level 12 Steel Works"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 190000,
+          "metal": 300000,
+          "wood": 190000,
+          "energy": 300000,
+          "tech": 125000
+        },
+        "requirements": [
+          "Level 13 Steel Works"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 270000,
+          "metal": 500000,
+          "wood": 270000,
+          "energy": 500000,
+          "tech": 175000
+        },
+        "requirements": [
+          "Level 14 Steel Works"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 450000,
+          "metal": 700000,
+          "wood": 450000,
+          "energy": 700000,
+          "tech": 250000
+        },
+        "requirements": [
+          "Level 15 Steel Works"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 650000,
+          "metal": 1000000,
+          "wood": 650000,
+          "energy": 1000000,
+          "tech": 500000
+        },
+        "requirements": [
+          "Level 16 Steel Works"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 1200000,
+          "metal": 1600000,
+          "wood": 1200000,
+          "energy": 1600000,
+          "tech": 1000000
+        },
+        "requirements": [
+          "Level 17 Steel Works"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 1700000,
+          "metal": 2400000,
+          "wood": 1700000,
+          "energy": 2400000,
+          "tech": 1500000
+        },
+        "requirements": [
+          "Level 18 Steel Works"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 2200000,
+          "metal": 3000000,
+          "wood": 2200000,
+          "energy": 3000000,
+          "tech": 2000000
+        },
+        "requirements": [
+          "Level 19 Steel Works"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 2800000,
+          "metal": 3600000,
+          "wood": 2800000,
+          "energy": 3600000,
+          "tech": 2750000
+        },
+        "requirements": [
+          "Level 20 Steel Works"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 3400000,
+          "metal": 4500000,
+          "wood": 3400000,
+          "energy": 4500000,
+          "tech": 3500000
+        },
+        "requirements": [
+          "Level 21 Steel Works"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 4000000,
+          "metal": 5500000,
+          "wood": 4000000,
+          "energy": 5500000,
+          "tech": 4000000
+        },
+        "requirements": [
+          "Level 22 Steel Works"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 4600000,
+          "metal": 6500000,
+          "wood": 4600000,
+          "energy": 6500000,
+          "tech": 4500000
+        },
+        "requirements": [
+          "Level 23 Steel Works"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 5500000,
+          "metal": 7500000,
+          "wood": 5500000,
+          "energy": 7500000,
+          "tech": 5000000
+        },
+        "requirements": [
+          "Level 24 Steel Works"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 6500000,
+          "metal": 8500000,
+          "wood": 6500000,
+          "energy": 8500000,
+          "tech": 6000000
+        },
+        "requirements": [
+          "Level 25 Steel Works"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 7500000,
+          "metal": 9500000,
+          "wood": 7500000,
+          "energy": 9500000,
+          "tech": 8000000
+        },
+        "requirements": [
+          "Level 26 Steel Works"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 8500000,
+          "metal": 10500000,
+          "wood": 8500000,
+          "energy": 10500000,
+          "tech": 10000000
+        },
+        "requirements": [
+          "Level 27 Steel Works"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 12000000,
+          "metal": 15000000,
+          "wood": 12000000,
+          "energy": 15000000,
+          "tech": 13500000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Steel Works"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 15750000,
+          "metal": 20000000,
+          "wood": 15750000,
+          "energy": 20000000,
+          "tech": 17500000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Steel Works"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 24000000,
+          "metal": 30000000,
+          "wood": 24000000,
+          "energy": 30000000,
+          "tech": 22500000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Steel Works"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 32500000,
+          "metal": 45000000,
+          "wood": 32500000,
+          "energy": 45000000,
+          "tech": 30000000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Steel Works"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 42500000,
+          "metal": 65000000,
+          "wood": 42500000,
+          "energy": 65000000,
+          "tech": 40000000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Steel Works"
+        ]
+      }
+    }
+  },
+  "Research Lab": {
+    "name": "Research Lab",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 500,
+          "metal": 250,
+          "wood": 500,
+          "energy": 350
+        }
+      },
+      "2": {
+        "costs": {
+          "food": 800,
+          "metal": 400,
+          "wood": 800,
+          "energy": 600
+        },
+        "requirements": [
+          "Level 2 Steel Works"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 1250,
+          "metal": 600,
+          "wood": 1250,
+          "energy": 800
+        },
+        "requirements": [
+          "Level 3 Steel Works"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 2000,
+          "metal": 1000,
+          "wood": 2000,
+          "energy": 1250
+        },
+        "requirements": [
+          "Level 4 Steel Works"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 4000,
+          "metal": 2000,
+          "wood": 4000,
+          "energy": 2500,
+          "tech": 1000
+        },
+        "requirements": [
+          "Level 5 Steel Works"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 7500,
+          "metal": 4000,
+          "wood": 7500,
+          "energy": 5000,
+          "tech": 3500
+        },
+        "requirements": [
+          "Level 6 Steel Works"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 15000,
+          "metal": 8000,
+          "wood": 15000,
+          "energy": 10000,
+          "tech": 10000
+        },
+        "requirements": [
+          "Level 7 Steel Works"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 30000,
+          "metal": 15000,
+          "wood": 30000,
+          "energy": 20000,
+          "tech": 20000
+        },
+        "requirements": [
+          "Level 8 Steel Works"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 60000,
+          "metal": 30000,
+          "wood": 60000,
+          "energy": 40000,
+          "tech": 40000
+        },
+        "requirements": [
+          "Level 9 Steel Works"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 100000,
+          "metal": 50000,
+          "wood": 100000,
+          "energy": 65000,
+          "tech": 65000
+        },
+        "requirements": [
+          "Level 10 Steel Works"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 150000,
+          "metal": 80000,
+          "wood": 150000,
+          "energy": 100000,
+          "tech": 100000
+        },
+        "requirements": [
+          "Level 11 Steel Works"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 225000,
+          "metal": 120000,
+          "wood": 225000,
+          "energy": 150000,
+          "tech": 150000
+        },
+        "requirements": [
+          "Level 12 Steel Works"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 400000,
+          "metal": 175000,
+          "wood": 400000,
+          "energy": 225000,
+          "tech": 225000
+        },
+        "requirements": [
+          "Level 13 Steel Works"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 600000,
+          "metal": 250000,
+          "wood": 600000,
+          "energy": 350000,
+          "tech": 350000
+        },
+        "requirements": [
+          "Level 14 Steel Works"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 800000,
+          "metal": 400000,
+          "wood": 800000,
+          "energy": 500000,
+          "tech": 500000
+        },
+        "requirements": [
+          "Level 15 Steel Works"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 1000000,
+          "metal": 600000,
+          "wood": 1000000,
+          "energy": 650000,
+          "tech": 650000
+        },
+        "requirements": [
+          "Level 16 Steel Works"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 1250000,
+          "metal": 800000,
+          "wood": 1250000,
+          "energy": 900000,
+          "tech": 900000
+        },
+        "requirements": [
+          "Level 17 Steel Works"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 1750000,
+          "metal": 1000000,
+          "wood": 1750000,
+          "energy": 1250000,
+          "tech": 1250000
+        },
+        "requirements": [
+          "Level 18 Steel Works"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 2500000,
+          "metal": 1250000,
+          "wood": 2500000,
+          "energy": 1750000,
+          "tech": 1750000
+        },
+        "requirements": [
+          "Level 19 Steel Works"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 3000000,
+          "metal": 1750000,
+          "wood": 3000000,
+          "energy": 2500000,
+          "tech": 2500000
+        },
+        "requirements": [
+          "Level 20 Steel Works"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 3500000,
+          "metal": 2500000,
+          "wood": 3500000,
+          "energy": 3000000,
+          "tech": 3000000
+        },
+        "requirements": [
+          "Level 21 Steel Works"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 4000000,
+          "metal": 3000000,
+          "wood": 4000000,
+          "energy": 3500000,
+          "tech": 3500000
+        },
+        "requirements": [
+          "Level 22 Steel Works"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 5000000,
+          "metal": 3500000,
+          "wood": 5000000,
+          "energy": 4000000,
+          "tech": 4000000
+        },
+        "requirements": [
+          "Level 23 Steel Works"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 6000000,
+          "metal": 4000000,
+          "wood": 6000000,
+          "energy": 4500000,
+          "tech": 4500000
+        },
+        "requirements": [
+          "Level 24 Steel Works"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 7000000,
+          "metal": 4500000,
+          "wood": 7000000,
+          "energy": 5000000,
+          "tech": 5000000
+        },
+        "requirements": [
+          "Level 25 Steel Works"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 8000000,
+          "metal": 5000000,
+          "wood": 8000000,
+          "energy": 6000000,
+          "tech": 6000000
+        },
+        "requirements": [
+          "Level 26 Steel Works"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 10000000,
+          "metal": 6000000,
+          "wood": 10000000,
+          "energy": 8000000,
+          "tech": 8000000
+        },
+        "requirements": [
+          "Level 27 Steel Works"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 15000000,
+          "metal": 10000000,
+          "wood": 15000000,
+          "energy": 12500000,
+          "tech": 12500000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Steel Works"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 21000000,
+          "metal": 15000000,
+          "wood": 21000000,
+          "energy": 18000000,
+          "tech": 18000000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Steel Works"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 32000000,
+          "metal": 24000000,
+          "wood": 32000000,
+          "energy": 28000000,
+          "tech": 28000000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Steel Works"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 42500000,
+          "metal": 35000000,
+          "wood": 42500000,
+          "energy": 40000000,
+          "tech": 40000000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Steel Works"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 55000000,
+          "metal": 47500000,
+          "wood": 55000000,
+          "energy": 52500000,
+          "tech": 52500000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Steel Works"
+        ]
+      }
+    }
+  },
+  "Salvage Drop": {
+    "name": "Salvage Drop",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 30,
+          "metal": 30,
+          "wood": 30,
+          "energy": 30
+        }
+      },
+      "2": {
+        "costs": {
+          "food": 75,
+          "metal": 75,
+          "wood": 75,
+          "energy": 75
+        },
+        "requirements": [
+          "Level 2 Geothermal Plant"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 150,
+          "metal": 150,
+          "wood": 150,
+          "energy": 150
+        },
+        "requirements": [
+          "Level 3 Geothermal Plant"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 250,
+          "metal": 250,
+          "wood": 250,
+          "energy": 250
+        },
+        "requirements": [
+          "Level 4 Geothermal Plant"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 400,
+          "metal": 400,
+          "wood": 400,
+          "energy": 400,
+          "tech": 30
+        },
+        "requirements": [
+          "Level 5 Geothermal Plant"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 750,
+          "metal": 750,
+          "wood": 750,
+          "energy": 750,
+          "tech": 75
+        },
+        "requirements": [
+          "Level 6 Geothermal Plant"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 1000,
+          "metal": 1000,
+          "wood": 1000,
+          "energy": 1000,
+          "tech": 150
+        },
+        "requirements": [
+          "Level 7 Geothermal Plant"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 2000,
+          "metal": 2000,
+          "wood": 2000,
+          "energy": 2000,
+          "tech": 250
+        },
+        "requirements": [
+          "Level 8 Geothermal Plant"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 4500,
+          "metal": 4500,
+          "wood": 4500,
+          "energy": 4500,
+          "tech": 400
+        },
+        "requirements": [
+          "Level 9 Geothermal Plant"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 7500,
+          "metal": 7500,
+          "wood": 7500,
+          "energy": 7500,
+          "tech": 750
+        },
+        "requirements": [
+          "Level 10 Geothermal Plant"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 12500,
+          "metal": 12500,
+          "wood": 12500,
+          "energy": 12500,
+          "tech": 1000
+        },
+        "requirements": [
+          "Level 11 Geothermal Plant"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 20000,
+          "metal": 20000,
+          "wood": 20000,
+          "energy": 20000,
+          "tech": 2000
+        },
+        "requirements": [
+          "Level 12 Geothermal Plant"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 32500,
+          "metal": 32500,
+          "wood": 32500,
+          "energy": 32500,
+          "tech": 4500
+        },
+        "requirements": [
+          "Level 13 Geothermal Plant"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 47500,
+          "metal": 47500,
+          "wood": 47500,
+          "energy": 47500,
+          "tech": 7500
+        },
+        "requirements": [
+          "Level 14 Geothermal Plant"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 67500,
+          "metal": 67500,
+          "wood": 67500,
+          "energy": 67500,
+          "tech": 12500
+        },
+        "requirements": [
+          "Level 15 Geothermal Plant"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 85000,
+          "metal": 85000,
+          "wood": 85000,
+          "energy": 85000,
+          "tech": 20000
+        },
+        "requirements": [
+          "Level 16 Geothermal Plant"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 115000,
+          "metal": 115000,
+          "wood": 115000,
+          "energy": 115000,
+          "tech": 32500
+        },
+        "requirements": [
+          "Level 17 Geothermal Plant"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 140000,
+          "metal": 140000,
+          "wood": 140000,
+          "energy": 140000,
+          "tech": 47500
+        },
+        "requirements": [
+          "Level 18 Geothermal Plant"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 175000,
+          "metal": 175000,
+          "wood": 175000,
+          "energy": 175000,
+          "tech": 67500
+        },
+        "requirements": [
+          "Level 19 Geothermal Plant"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 200000,
+          "metal": 200000,
+          "wood": 200000,
+          "energy": 200000,
+          "tech": 85000
+        },
+        "requirements": [
+          "Level 20 Geothermal Plant"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 250000,
+          "metal": 250000,
+          "wood": 250000,
+          "energy": 250000,
+          "tech": 115000
+        },
+        "requirements": [
+          "Level 21 Geothermal Plant"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 300000,
+          "metal": 300000,
+          "wood": 300000,
+          "energy": 300000,
+          "tech": 140000
+        },
+        "requirements": [
+          "Level 22 Geothermal Plant"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 350000,
+          "metal": 350000,
+          "wood": 350000,
+          "energy": 350000,
+          "tech": 175000
+        },
+        "requirements": [
+          "Level 23 Geothermal Plant"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 400000,
+          "metal": 400000,
+          "wood": 400000,
+          "energy": 400000,
+          "tech": 200000
+        },
+        "requirements": [
+          "Level 24 Geothermal Plant"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 500000,
+          "metal": 500000,
+          "wood": 500000,
+          "energy": 500000,
+          "tech": 250000
+        },
+        "requirements": [
+          "Level 25 Geothermal Plant"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 600000,
+          "metal": 600000,
+          "wood": 600000,
+          "energy": 600000,
+          "tech": 300000
+        },
+        "requirements": [
+          "Level 26 Geothermal Plant"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 750000,
+          "metal": 750000,
+          "wood": 750000,
+          "energy": 750000,
+          "tech": 350000
+        },
+        "requirements": [
+          "Level 27 Geothermal Plant"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 900000,
+          "metal": 900000,
+          "wood": 900000,
+          "energy": 900000,
+          "tech": 400000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Geothermal Plant"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 1150000,
+          "metal": 1150000,
+          "wood": 1150000,
+          "energy": 1150000,
+          "tech": 500000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Geothermal Plant"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 1400000,
+          "metal": 1400000,
+          "wood": 1400000,
+          "energy": 1400000,
+          "tech": 600000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Geothermal Plant"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 1700000,
+          "metal": 1700000,
+          "wood": 1700000,
+          "energy": 1700000,
+          "tech": 750000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Geothermal Plant"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 2000000,
+          "metal": 2000000,
+          "wood": 2000000,
+          "energy": 2000000,
+          "tech": 1000000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Geothermal Plant"
+        ]
+      }
+    }
+  },
+  "Sector Alpha": {
+    "name": "Sector Alpha",
+    "levels": {}
+  },
+  "Sector Bravo": {
+    "name": "Sector Bravo",
+    "levels": {
+      "2": {
+        "requirements": [
+          "Level 2 Headquarters",
+          "Level 1 Research Lab"
+        ]
+      }
+    }
+  },
+  "Sector Delta": {
+    "name": "Sector Delta",
+    "levels": {
+      "2": {
+        "requirements": [
+          "Level 3 Headquarters",
+          "Level 1 Farm"
+        ]
+      }
+    }
+  },
+  "Sector Gamma": {
+    "name": "Sector Gamma",
+    "levels": {
+      "2": {
+        "requirements": [
+          "Level 9 Headquarters",
+          "Level 6 Factory",
+          "Level 4 Recovery Center",
+          "Level 1 Geothermal Plant"
+        ]
+      }
+    }
+  },
+  "Sector Sigma": {
+    "name": "Sector Sigma",
+    "levels": {
+      "2": {
+        "requirements": [
+          "Level 6 Headquarters",
+          "Level 1 Farm"
+        ]
+      }
+    }
+  },
+  "Sector Tango": {
+    "name": "Sector Tango",
+    "levels": {
+      "2": {
+        "requirements": [
+          "Level 4 Headquarters",
+          "Level 1 Lumberyard"
+        ]
+      }
+    }
+  },
+  "Sector Theta": {
+    "name": "Sector Theta",
+    "levels": {
+      "2": {
+        "requirements": [
+          "Level 10 Headquarters",
+          "Level 8 Monster Biodome",
+          "Level 7 Alliance Hall",
+          "Level 5 Salvage Drop",
+          "Level 1 Lumberyard"
+        ]
+      }
+    }
+  },
+  "Sector Zeta": {
+    "name": "Sector Zeta",
+    "levels": {
+      "2": {
+        "requirements": [
+          "Level 12 Headquarters",
+          "Level 10 Barracks",
+          "Level 8 Garrison",
+          "Level 8 Bunker",
+          "Level 6 Training Camp",
+          "Level 1 Steel Works"
+        ]
+      }
+    }
+  },
+  "Steel Works": {
+    "name": "Steel Works",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 75,
+          "wood": 75,
+          "energy": 75
+        },
+        "requirements": [
+          "Level 1 Headquarters"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 150,
+          "wood": 150,
+          "energy": 150
+        },
+        "requirements": [
+          "Level 2 Headquarters"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 250,
+          "wood": 250,
+          "energy": 250
+        },
+        "requirements": [
+          "Level 3 Headquarters"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 400,
+          "wood": 400,
+          "energy": 400
+        },
+        "requirements": [
+          "Level 4 Headquarters"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 600,
+          "wood": 600,
+          "energy": 600
+        },
+        "requirements": [
+          "Level 5 Headquarters"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 1000,
+          "wood": 1000,
+          "energy": 1000
+        },
+        "requirements": [
+          "Level 6 Headquarters"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 2000,
+          "wood": 2000,
+          "energy": 2000
+        },
+        "requirements": [
+          "Level 7 Headquarters"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 4000,
+          "wood": 4000,
+          "energy": 4000
+        },
+        "requirements": [
+          "Level 8 Headquarters"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 10000,
+          "wood": 10000,
+          "energy": 10000
+        },
+        "requirements": [
+          "Level 9 Headquarters"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 15000,
+          "wood": 15000,
+          "energy": 15000
+        },
+        "requirements": [
+          "Level 10 Headquarters"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 25000,
+          "wood": 25000,
+          "energy": 25000
+        },
+        "requirements": [
+          "Level 11 Headquarters"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 35000,
+          "wood": 35000,
+          "energy": 35000
+        },
+        "requirements": [
+          "Level 12 Headquarters"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 50000,
+          "wood": 50000,
+          "energy": 50000
+        },
+        "requirements": [
+          "Level 13 Headquarters"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 70000,
+          "wood": 70000,
+          "energy": 70000
+        },
+        "requirements": [
+          "Level 14 Headquarters"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 90000,
+          "wood": 90000,
+          "energy": 90000
+        },
+        "requirements": [
+          "Level 15 Headquarters"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 125000,
+          "wood": 125000,
+          "energy": 125000
+        },
+        "requirements": [
+          "Level 16 Headquarters"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 175000,
+          "wood": 175000,
+          "energy": 175000
+        },
+        "requirements": [
+          "Level 17 Headquarters"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 250000,
+          "wood": 250000,
+          "energy": 250000
+        },
+        "requirements": [
+          "Level 18 Headquarters"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 350000,
+          "wood": 350000,
+          "energy": 350000
+        },
+        "requirements": [
+          "Level 19 Headquarters"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 450000,
+          "wood": 450000,
+          "energy": 450000
+        },
+        "requirements": [
+          "Level 20 Headquarters"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 450000,
+          "wood": 450000,
+          "energy": 450000
+        },
+        "requirements": [
+          "Level 21 Headquarters"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 650000,
+          "wood": 650000,
+          "energy": 650000
+        },
+        "requirements": [
+          "Level 22 Headquarters"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 750000,
+          "wood": 750000,
+          "energy": 750000
+        },
+        "requirements": [
+          "Level 23 Headquarters"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 1000000,
+          "wood": 1000000,
+          "energy": 1000000
+        },
+        "requirements": [
+          "Level 24 Headquarters"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 1250000,
+          "wood": 1250000,
+          "energy": 1250000
+        },
+        "requirements": [
+          "Level 25 Headquarters"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 1500000,
+          "wood": 1500000,
+          "energy": 1500000
+        },
+        "requirements": [
+          "Level 26 Headquarters"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 1750000,
+          "wood": 1750000,
+          "energy": 1750000,
+          "tech": 100000
+        },
+        "requirements": [
+          "Level 27 Headquarters"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 2500000,
+          "wood": 2500000,
+          "energy": 2500000,
+          "tech": 250000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Headquarters"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 4250000,
+          "wood": 4250000,
+          "energy": 4250000,
+          "tech": 500000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Headquarters"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 6000000,
+          "wood": 6000000,
+          "energy": 6000000,
+          "tech": 1000000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Headquarters"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 8500000,
+          "wood": 8500000,
+          "energy": 8500000,
+          "tech": 2000000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Headquarters"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 12000000,
+          "wood": 12000000,
+          "energy": 12000000,
+          "tech": 5000000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Headquarters"
+        ]
+      }
+    }
+  },
+  "Training Camp": {
+    "name": "Training Camp",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 240,
+          "metal": 150,
+          "wood": 150,
+          "energy": 150
+        },
+        "requirements": [
+          "Level 1 Barracks"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 360,
+          "metal": 250,
+          "wood": 250,
+          "energy": 250
+        },
+        "requirements": [
+          "Level 2 Barracks"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 600,
+          "metal": 400,
+          "wood": 400,
+          "energy": 400
+        },
+        "requirements": [
+          "Level 3 Barracks"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 1200,
+          "metal": 800,
+          "wood": 800,
+          "energy": 800
+        },
+        "requirements": [
+          "Level 4 Barracks"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 1800,
+          "metal": 1200,
+          "wood": 1200,
+          "energy": 1200
+        },
+        "requirements": [
+          "Level 5 Barracks"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 3600,
+          "metal": 2400,
+          "wood": 2400,
+          "energy": 2400,
+          "tech": 1920
+        },
+        "requirements": [
+          "Level 6 Barracks"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 7500,
+          "metal": 5000,
+          "wood": 5000,
+          "energy": 5000,
+          "tech": 4000
+        },
+        "requirements": [
+          "Level 7 Barracks"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 15000,
+          "metal": 10000,
+          "wood": 10000,
+          "energy": 10000,
+          "tech": 8000
+        },
+        "requirements": [
+          "Level 8 Barracks"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 27500,
+          "metal": 17500,
+          "wood": 17500,
+          "energy": 17500,
+          "tech": 12500
+        },
+        "requirements": [
+          "Level 9 Barracks"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 50000,
+          "metal": 32500,
+          "wood": 32500,
+          "energy": 32500,
+          "tech": 25000
+        },
+        "requirements": [
+          "Level 10 Barracks"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 80000,
+          "metal": 52500,
+          "wood": 52500,
+          "energy": 52500,
+          "tech": 42500
+        },
+        "requirements": [
+          "Level 11 Barracks"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 115500,
+          "metal": 75000,
+          "wood": 75000,
+          "energy": 75000,
+          "tech": 60000
+        },
+        "requirements": [
+          "Level 12 Barracks"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 157500,
+          "metal": 100000,
+          "wood": 100000,
+          "energy": 100000,
+          "tech": 80000
+        },
+        "requirements": [
+          "Level 13 Barracks"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 245000,
+          "metal": 150000,
+          "wood": 150000,
+          "energy": 150000,
+          "tech": 120000
+        },
+        "requirements": [
+          "Level 14 Barracks"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 350000,
+          "metal": 225000,
+          "wood": 225000,
+          "energy": 225000,
+          "tech": 180000,
+          "experimental": 15
+        },
+        "requirements": [
+          "Level 15 Barracks"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 550000,
+          "metal": 350000,
+          "wood": 350000,
+          "energy": 350000,
+          "tech": 280000,
+          "experimental": 20
+        },
+        "requirements": [
+          "Level 16 Barracks"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 800000,
+          "metal": 500000,
+          "wood": 500000,
+          "energy": 500000,
+          "tech": 400000,
+          "experimental": 25
+        },
+        "requirements": [
+          "Level 17 Barracks"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 1200000,
+          "metal": 800000,
+          "wood": 800000,
+          "energy": 800000,
+          "tech": 650000,
+          "experimental": 30
+        },
+        "requirements": [
+          "Level 18 Barracks"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 1800000,
+          "metal": 1200000,
+          "wood": 1200000,
+          "energy": 1200000,
+          "tech": 950000,
+          "experimental": 40
+        },
+        "requirements": [
+          "Level 19 Barracks"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 2400000,
+          "metal": 1600000,
+          "wood": 1600000,
+          "energy": 1600000,
+          "tech": 1275000,
+          "experimental": 50
+        },
+        "requirements": [
+          "Level 20 Barracks"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 3000000,
+          "metal": 2000000,
+          "wood": 2000000,
+          "energy": 2000000,
+          "tech": 1600000,
+          "experimental": 60
+        },
+        "requirements": [
+          "Level 21 Barracks"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 3600000,
+          "metal": 2375000,
+          "wood": 2375000,
+          "energy": 2375000,
+          "tech": 1900000,
+          "experimental": 75
+        },
+        "requirements": [
+          "Level 22 Barracks"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 4400000,
+          "metal": 3000000,
+          "wood": 3000000,
+          "energy": 3000000,
+          "tech": 2400000,
+          "experimental": 90
+        },
+        "requirements": [
+          "Level 23 Barracks"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 5500000,
+          "metal": 3600000,
+          "wood": 3600000,
+          "energy": 3600000,
+          "tech": 2850000,
+          "experimental": 105
+        },
+        "requirements": [
+          "Level 24 Barracks"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 6375000,
+          "metal": 4200000,
+          "wood": 4200000,
+          "energy": 4200000,
+          "tech": 3250000,
+          "experimental": 120
+        },
+        "requirements": [
+          "Level 25 Barracks"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 7250000,
+          "metal": 4800000,
+          "wood": 4800000,
+          "energy": 4800000,
+          "tech": 3750000,
+          "experimental": 150
+        },
+        "requirements": [
+          "Level 26 Barracks"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 8500000,
+          "metal": 5600000,
+          "wood": 5600000,
+          "energy": 5600000,
+          "tech": 4500000,
+          "experimental": 175
+        },
+        "requirements": [
+          "Level 27 Barracks"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 12750000,
+          "metal": 8250000,
+          "wood": 8250000,
+          "energy": 8250000,
+          "tech": 6500000,
+          "experimental": 200,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Barracks"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 17750000,
+          "metal": 11725000,
+          "wood": 11725000,
+          "energy": 11725000,
+          "tech": 9500000,
+          "experimental": 250,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Barracks"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 23500000,
+          "metal": 15500000,
+          "wood": 15500000,
+          "energy": 15500000,
+          "tech": 12500000,
+          "experimental": 325,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Barracks"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 30000000,
+          "metal": 20000000,
+          "wood": 20000000,
+          "energy": 20000000,
+          "tech": 16000000,
+          "experimental": 450,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Barracks"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 40000000,
+          "metal": 27500000,
+          "wood": 27500000,
+          "energy": 27500000,
+          "tech": 22000000,
+          "experimental": 600,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Barracks"
+        ]
+      }
+    }
+  },
+  "Walls": {
+    "name": "Walls",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 75,
+          "metal": 400,
+          "wood": 200,
+          "energy": 400
+        }
+      },
+      "2": {
+        "costs": {
+          "food": 600,
+          "metal": 1200,
+          "wood": 1750,
+          "energy": 1200
+        },
+        "requirements": [
+          "Level 2 Headquarters",
+          "Level 1 Monster Biodome"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 1200,
+          "metal": 2000,
+          "wood": 2750,
+          "energy": 2000
+        },
+        "requirements": [
+          "Level 3 Steel Works"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 2000,
+          "metal": 3750,
+          "wood": 5000,
+          "energy": 3750
+        },
+        "requirements": [
+          "Level 4 Steel Works"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 3000,
+          "metal": 6000,
+          "wood": 10000,
+          "energy": 6000
+        },
+        "requirements": [
+          "Level 5 Steel Works"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 6000,
+          "metal": 12500,
+          "wood": 20000,
+          "energy": 12500,
+          "tech": 5000
+        },
+        "requirements": [
+          "Level 6 Steel Works",
+          "Level 1 Factory"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 12000,
+          "metal": 27500,
+          "wood": 40000,
+          "energy": 27500,
+          "tech": 10000
+        },
+        "requirements": [
+          "Level 7 Steel Works"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 26000,
+          "metal": 60000,
+          "wood": 90000,
+          "energy": 60000,
+          "tech": 20000
+        },
+        "requirements": [
+          "Level 8 Steel Works"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 50000,
+          "metal": 125000,
+          "wood": 150000,
+          "energy": 125000,
+          "tech": 35000
+        },
+        "requirements": [
+          "Level 9 Steel Works"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 80000,
+          "metal": 195000,
+          "wood": 250000,
+          "energy": 195000,
+          "tech": 50000
+        },
+        "requirements": [
+          "Level 10 Steel Works"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 120000,
+          "metal": 275000,
+          "wood": 350000,
+          "energy": 275000,
+          "tech": 75000
+        },
+        "requirements": [
+          "Level 11 Steel Works"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 180000,
+          "metal": 350000,
+          "wood": 450000,
+          "energy": 350000,
+          "tech": 100000
+        },
+        "requirements": [
+          "Level 12 Steel Works"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 275000,
+          "metal": 550000,
+          "wood": 700000,
+          "energy": 550000,
+          "tech": 200000
+        },
+        "requirements": [
+          "Level 13 Steel Works"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 400000,
+          "metal": 800000,
+          "wood": 1000000,
+          "energy": 800000,
+          "tech": 400000
+        },
+        "requirements": [
+          "Level 14 Steel Works"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 600000,
+          "metal": 1200000,
+          "wood": 1500000,
+          "energy": 1200000,
+          "tech": 600000
+        },
+        "requirements": [
+          "Level 15 Steel Works"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 850000,
+          "metal": 1750000,
+          "wood": 2250000,
+          "energy": 1750000,
+          "tech": 800000
+        },
+        "requirements": [
+          "Level 16 Steel Works"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 1250000,
+          "metal": 2250000,
+          "wood": 3000000,
+          "energy": 2250000,
+          "tech": 1000000
+        },
+        "requirements": [
+          "Level 17 Steel Works"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 1750000,
+          "metal": 2750000,
+          "wood": 3750000,
+          "energy": 2750000,
+          "tech": 1500000
+        },
+        "requirements": [
+          "Level 18 Steel Works"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 2750000,
+          "metal": 3500000,
+          "wood": 4500000,
+          "energy": 3500000,
+          "tech": 2000000
+        },
+        "requirements": [
+          "Level 19 Steel Works"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 3750000,
+          "metal": 4250000,
+          "wood": 5250000,
+          "energy": 4250000,
+          "tech": 2500000
+        },
+        "requirements": [
+          "Level 20 Steel Works"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 4500000,
+          "metal": 5000000,
+          "wood": 6000000,
+          "energy": 5000000,
+          "tech": 3000000
+        },
+        "requirements": [
+          "Level 21 Steel Works"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 5250000,
+          "metal": 5750000,
+          "wood": 7000000,
+          "energy": 5750000,
+          "tech": 3500000
+        },
+        "requirements": [
+          "Level 22 Steel Works"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 6000000,
+          "metal": 6500000,
+          "wood": 8000000,
+          "energy": 6500000,
+          "tech": 4000000
+        },
+        "requirements": [
+          "Level 23 Steel Works"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 6750000,
+          "metal": 7250000,
+          "wood": 9000000,
+          "energy": 7250000,
+          "tech": 4500000
+        },
+        "requirements": [
+          "Level 24 Steel Works"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 7500000,
+          "metal": 8000000,
+          "wood": 10000000,
+          "energy": 8000000,
+          "tech": 5000000
+        },
+        "requirements": [
+          "Level 25 Steel Works"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 8250000,
+          "metal": 10000000,
+          "wood": 12500000,
+          "energy": 10000000,
+          "tech": 6000000
+        },
+        "requirements": [
+          "Level 26 Steel Works"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 9000000,
+          "metal": 12500000,
+          "wood": 15000000,
+          "energy": 12500000,
+          "tech": 7500000
+        },
+        "requirements": [
+          "Level 27 Steel Works"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 12500000,
+          "metal": 18500000,
+          "wood": 22000000,
+          "energy": 18500000,
+          "tech": 10000000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Steel Works"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 18000000,
+          "metal": 26250000,
+          "wood": 30000000,
+          "energy": 26250000,
+          "tech": 15000000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Steel Works"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 30000000,
+          "metal": 40000000,
+          "wood": 50000000,
+          "energy": 40000000,
+          "tech": 22500000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Steel Works"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 45000000,
+          "metal": 60000000,
+          "wood": 75000000,
+          "energy": 60000000,
+          "tech": 32500000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Steel Works"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 65000000,
+          "metal": 85000000,
+          "wood": 110000000,
+          "energy": 85000000,
+          "tech": 42500000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Steel Works"
+        ]
+      }
+    }
+  },
+  "Warehouse": {
+    "name": "Warehouse",
+    "levels": {
+      "1": {
+        "costs": {
+          "food": 200,
+          "metal": 250,
+          "wood": 250,
+          "energy": 200
+        },
+        "requirements": [
+          "Level 1 Geothermal Plant"
+        ]
+      },
+      "2": {
+        "costs": {
+          "food": 400,
+          "metal": 500,
+          "wood": 500,
+          "energy": 400
+        },
+        "requirements": [
+          "Level 2 Geothermal Plant"
+        ]
+      },
+      "3": {
+        "costs": {
+          "food": 700,
+          "metal": 1000,
+          "wood": 1000,
+          "energy": 700
+        },
+        "requirements": [
+          "Level 3 Geothermal Plant"
+        ]
+      },
+      "4": {
+        "costs": {
+          "food": 1000,
+          "metal": 1500,
+          "wood": 1500,
+          "energy": 1000
+        },
+        "requirements": [
+          "Level 4 Geothermal Plant"
+        ]
+      },
+      "5": {
+        "costs": {
+          "food": 2000,
+          "metal": 3000,
+          "wood": 3000,
+          "energy": 2000,
+          "tech": 1000
+        },
+        "requirements": [
+          "Level 5 Geothermal Plant"
+        ]
+      },
+      "6": {
+        "costs": {
+          "food": 3500,
+          "metal": 6000,
+          "wood": 6000,
+          "energy": 3500,
+          "tech": 2000
+        },
+        "requirements": [
+          "Level 6 Geothermal Plant"
+        ]
+      },
+      "7": {
+        "costs": {
+          "food": 7000,
+          "metal": 12000,
+          "wood": 12000,
+          "energy": 7000,
+          "tech": 3500
+        },
+        "requirements": [
+          "Level 7 Geothermal Plant"
+        ]
+      },
+      "8": {
+        "costs": {
+          "food": 10000,
+          "metal": 15000,
+          "wood": 15000,
+          "energy": 10000,
+          "tech": 7500
+        },
+        "requirements": [
+          "Level 8 Geothermal Plant"
+        ]
+      },
+      "9": {
+        "costs": {
+          "food": 15000,
+          "metal": 25000,
+          "wood": 25000,
+          "energy": 15000,
+          "tech": 15000
+        },
+        "requirements": [
+          "Level 9 Geothermal Plant"
+        ]
+      },
+      "10": {
+        "costs": {
+          "food": 30000,
+          "metal": 50000,
+          "wood": 50000,
+          "energy": 30000,
+          "tech": 25000
+        },
+        "requirements": [
+          "Level 10 Geothermal Plant"
+        ]
+      },
+      "11": {
+        "costs": {
+          "food": 60000,
+          "metal": 100000,
+          "wood": 100000,
+          "energy": 60000,
+          "tech": 50000
+        },
+        "requirements": [
+          "Level 11 Geothermal Plant"
+        ]
+      },
+      "12": {
+        "costs": {
+          "food": 125000,
+          "metal": 200000,
+          "wood": 200000,
+          "energy": 125000,
+          "tech": 100000
+        },
+        "requirements": [
+          "Level 12 Geothermal Plant"
+        ]
+      },
+      "13": {
+        "costs": {
+          "food": 250000,
+          "metal": 350000,
+          "wood": 350000,
+          "energy": 250000,
+          "tech": 200000
+        },
+        "requirements": [
+          "Level 13 Geothermal Plant"
+        ]
+      },
+      "14": {
+        "costs": {
+          "food": 400000,
+          "metal": 550000,
+          "wood": 550000,
+          "energy": 400000,
+          "tech": 300000
+        },
+        "requirements": [
+          "Level 14 Geothermal Plant"
+        ]
+      },
+      "15": {
+        "costs": {
+          "food": 500000,
+          "metal": 700000,
+          "wood": 700000,
+          "energy": 500000,
+          "tech": 400000
+        },
+        "requirements": [
+          "Level 15 Geothermal Plant"
+        ]
+      },
+      "16": {
+        "costs": {
+          "food": 600000,
+          "metal": 1000000,
+          "wood": 1000000,
+          "energy": 600000,
+          "tech": 500000
+        },
+        "requirements": [
+          "Level 16 Geothermal Plant"
+        ]
+      },
+      "17": {
+        "costs": {
+          "food": 800000,
+          "metal": 1200000,
+          "wood": 1200000,
+          "energy": 800000,
+          "tech": 600000
+        },
+        "requirements": [
+          "Level 17 Geothermal Plant"
+        ]
+      },
+      "18": {
+        "costs": {
+          "food": 1000000,
+          "metal": 1500000,
+          "wood": 1500000,
+          "energy": 1000000,
+          "tech": 800000
+        },
+        "requirements": [
+          "Level 18 Geothermal Plant"
+        ]
+      },
+      "19": {
+        "costs": {
+          "food": 1300000,
+          "metal": 2000000,
+          "wood": 2000000,
+          "energy": 1300000,
+          "tech": 1000000
+        },
+        "requirements": [
+          "Level 19 Geothermal Plant"
+        ]
+      },
+      "20": {
+        "costs": {
+          "food": 1500000,
+          "metal": 2500000,
+          "wood": 2500000,
+          "energy": 1500000,
+          "tech": 1250000
+        },
+        "requirements": [
+          "Level 20 Geothermal Plant"
+        ]
+      },
+      "21": {
+        "costs": {
+          "food": 2000000,
+          "metal": 3250000,
+          "wood": 3250000,
+          "energy": 2000000,
+          "tech": 1500000
+        },
+        "requirements": [
+          "Level 21 Geothermal Plant"
+        ]
+      },
+      "22": {
+        "costs": {
+          "food": 2500000,
+          "metal": 4000000,
+          "wood": 4000000,
+          "energy": 2500000,
+          "tech": 2000000
+        },
+        "requirements": [
+          "Level 22 Geothermal Plant"
+        ]
+      },
+      "23": {
+        "costs": {
+          "food": 3000000,
+          "metal": 4750000,
+          "wood": 4750000,
+          "energy": 3000000,
+          "tech": 2500000
+        },
+        "requirements": [
+          "Level 23 Geothermal Plant"
+        ]
+      },
+      "24": {
+        "costs": {
+          "food": 3500000,
+          "metal": 5500000,
+          "wood": 5500000,
+          "energy": 3500000,
+          "tech": 3000000
+        },
+        "requirements": [
+          "Level 24 Geothermal Plant"
+        ]
+      },
+      "25": {
+        "costs": {
+          "food": 4000000,
+          "metal": 6500000,
+          "wood": 6500000,
+          "energy": 4000000,
+          "tech": 3500000
+        },
+        "requirements": [
+          "Level 25 Geothermal Plant"
+        ]
+      },
+      "26": {
+        "costs": {
+          "food": 4500000,
+          "metal": 7500000,
+          "wood": 7500000,
+          "energy": 4500000,
+          "tech": 4000000
+        },
+        "requirements": [
+          "Level 26 Geothermal Plant"
+        ]
+      },
+      "27": {
+        "costs": {
+          "food": 5000000,
+          "metal": 8500000,
+          "wood": 8500000,
+          "energy": 5000000,
+          "tech": 4500000
+        },
+        "requirements": [
+          "Level 27 Geothermal Plant"
+        ]
+      },
+      "28": {
+        "costs": {
+          "food": 7500000,
+          "metal": 12500000,
+          "wood": 12500000,
+          "energy": 7500000,
+          "tech": 6250000,
+          "pure": 2
+        },
+        "requirements": [
+          "Level 28 Geothermal Plant"
+        ]
+      },
+      "29": {
+        "costs": {
+          "food": 11250000,
+          "metal": 18750000,
+          "wood": 18750000,
+          "energy": 11250000,
+          "tech": 9000000,
+          "pure": 5
+        },
+        "requirements": [
+          "Level 29 Geothermal Plant"
+        ]
+      },
+      "30": {
+        "costs": {
+          "food": 20000000,
+          "metal": 30000000,
+          "wood": 30000000,
+          "energy": 20000000,
+          "tech": 15000000,
+          "pure": 10
+        },
+        "requirements": [
+          "Level 30 Geothermal Plant"
+        ]
+      },
+      "31": {
+        "costs": {
+          "food": 30000000,
+          "metal": 45000000,
+          "wood": 45000000,
+          "energy": 30000000,
+          "tech": 22500000,
+          "pure": 15
+        },
+        "requirements": [
+          "Level 31 Geothermal Plant"
+        ]
+      },
+      "32": {
+        "costs": {
+          "food": 45000000,
+          "metal": 65000000,
+          "wood": 65000000,
+          "energy": 45000000,
+          "tech": 35000000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 32 Geothermal Plant"
+        ]
+      }
+    }
+  }
+}
