@@ -1,37 +1,32 @@
-# Resource Calculator Website
+# GXK Structure Calculator
 
-This folder contains everything needed for the Resource Calculator website.
+A fast, client-side resource calculator for the GHST Alliance. Calculate structure costs and resource requirements instantly in your browser.
+
+## Features
+
+- **Structure Cost Calculator** - Quickly calculate costs for different structure levels
+- **Offline Support** - Works completely offline, no server required
+- **Local Storage** - All your calculations are saved automatically in your browser
+- **Privacy-First** - Data never leaves your device
+- **Responsive Design** - Works on desktop, tablet, and mobile devices
 
 ## Files
 
-- **index.html** - The main calculator web page
-- **structures_database.json** - Game structure data and costs
-- **GITHUB_PAGES_SETUP.md** - Step-by-step guide for publishing to GitHub Pages
+- **index.html** - The main calculator web application
+- **structures_database.json** - Structure data and cost information
+- **README.md** - This file
 
-## Quick Start
+## Getting Started
 
-### Local Testing
-To test locally before publishing:
+Simply open `index.html` in your web browser to start using the calculator. No installation or setup required.
 
-```cmd
-cd website
-python -m http.server 8000
-```
+## Usage
 
-Then open http://localhost:8000 in your browser.
+1. Select the structures you want to calculate
+2. Input quantities or levels
+3. View the total resource costs instantly
+4. Your data is automatically saved locally
 
-### Publishing to GitHub Pages
+## About
 
-Follow the instructions in `GITHUB_PAGES_SETUP.md` to deploy this website for free using GitHub Pages.
-
-### What You Need
-
-- GitHub account (free at github.com)
-- Git installed on your computer (git-scm.com)
-- About 5 minutes
-
-The process is straightforward - create a repository, push these files, and your site is live!
-
-## Support
-
-All your structure levels are saved automatically in your browser. Data never leaves your device.
+Built for the GHST Alliance community. This is a pure HTML/JavaScript/JSON application with zero external dependencies.
