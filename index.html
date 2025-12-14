@@ -434,6 +434,13 @@
                         <input type="number" id="targetLevel" min="1" max="30" placeholder="Level">
                     </div>
                 </div>
+                <div class="target-structure">
+                    <label>Construction Speed Bonus (%)</label>
+                    <div class="target-selection">
+                        <input type="number" id="constructionSpeedBonus" min="0" max="10000" step="0.01" placeholder="0"
+                            value="0">
+                    </div>
+                </div>
                 <div class="button-group">
                     <button class="btn-primary" onclick="calculateResources()">Calculate Resources</button>
                 </div>
@@ -586,7 +593,22 @@
             return null;
         }
 
-        function calculateResourcesRecursive(structure, targetLevel, currentLevel = null, visited = new Set()) {
+        function formatTime(seconds) {
+            const days = Math.floor(seconds / 86400);
+            const hours = Math.floor((seconds % 86400) / 3600);
+            const minutes = Math.floor((seconds % 3600) / 60);
+            const secs = Math.floor(seconds % 60);
+
+            const parts = [];
+            if (days > 0) parts.push(`${days}d`);
+            if (hours > 0) parts.push(`${hours}h`);
+            if (minutes > 0) parts.push(`${minutes}m`);
+            if (secs > 0 && days === 0 && hours === 0) parts.push(`${secs}s`);
+
+            return parts.length > 0 ? parts.join(' ') : '0s';
+        }
+
+        function calculateResourcesRecursive(structure, targetLevel, currentLevel = null, constructionSpeedBonus = 0, visited = new Set()) {
             // Use the actual current level if not specified
             if (currentLevel === null) {
                 currentLevel = currentLevels[structure] || 1;
@@ -596,7 +618,10 @@
                 individualCosts: {},
                 dependencyCosts: {},
                 totalCosts: {},
-                dependencies: []
+                dependencies: [],
+                individualTimes: 0,
+                dependencyTimes: 0,
+                totalTime: 0
             };
 
             // Check if structure exists
@@ -608,6 +633,9 @@
             if (targetLevel <= currentLevel) {
                 return result;
             }
+
+            // Convert construction speed bonus from percentage to decimal (e.g., 133% = 1.33)
+            const speedMultiplier = constructionSpeedBonus / 100;
 
             // Calculate cumulative cost for all levels from (currentLevel + 1) to targetLevel
             for (let lvl = currentLevel + 1; lvl <= targetLevel; lvl++) {
@@ -625,6 +653,13 @@
                     }
                 }
 
+                // Add this level's upgrade time
+                if (levelData.upgrade_time) {
+                    const upgradeTime = levelData.upgrade_time / (1 + speedMultiplier);
+                    result.individualTimes += upgradeTime;
+                    result.totalTime += upgradeTime;
+                }
+
                 // Process requirements recursively for this level
                 if (levelData.requirements) {
                     for (let requirement of levelData.requirements) {
@@ -638,6 +673,7 @@
                                     parsed.structure,
                                     parsed.level,
                                     depCurrentLevel,
+                                    constructionSpeedBonus,
                                     new Set(visited)
                                 );
 
@@ -647,11 +683,16 @@
                                     result.totalCosts[resource] = (result.totalCosts[resource] || 0) + amount;
                                 }
 
+                                // Add dependency times
+                                result.dependencyTimes += depResult.totalTime;
+                                result.totalTime += depResult.totalTime;
+
                                 // Add to dependency list with level info
                                 result.dependencies.push({
                                     name: parsed.structure,
                                     level: parsed.level,
-                                    resources: depResult.totalCosts
+                                    resources: depResult.totalCosts,
+                                    time: depResult.totalTime
                                 });
                             }
                         }
@@ -784,7 +825,8 @@
             }
 
             const currentLevel = currentLevels[targetStructure] || 1;
-            const result = calculateResourcesRecursive(targetStructure, targetLevel, currentLevel);
+            const constructionSpeedBonus = parseFloat(document.getElementById('constructionSpeedBonus').value) || 0;
+            const result = calculateResourcesRecursive(targetStructure, targetLevel, currentLevel, constructionSpeedBonus);
             displayResults(result, targetStructure, targetLevel, currentLevel);
         }
 
@@ -815,7 +857,14 @@
                     </div>
                 `;
             }
-            html += '</div></div>';
+            html += '</div>';
+            // Show upgrade time for individual structure
+            if (result.individualTimes > 0) {
+                html += `<div style="margin-top: 15px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: center;">`;
+                html += `<span style="color: #666; font-weight: 600;">Upgrade Time: ${formatTime(result.individualTimes)}</span>`;
+                html += `</div>`;
+            }
+            html += '</div>';
 
             // Display dependency costs
             if (result.dependencies && result.dependencies.length > 0) {
@@ -832,7 +881,14 @@
                         </div>
                     `;
                 }
-                html += '</div></div>';
+                html += '</div>';
+                // Show total dependency time
+                if (result.dependencyTimes > 0) {
+                    html += `<div style="margin-top: 15px; padding: 10px; background: rgba(255,255,255,0.7); border-radius: 5px; text-align: center;">`;
+                    html += `<span style="color: #666; font-weight: 600;">Dependency Build Time: ${formatTime(result.dependencyTimes)}</span>`;
+                    html += `</div>`;
+                }
+                html += '</div>';
             }
 
             // Display total cost
@@ -849,7 +905,14 @@
                     </div>
                 `;
             }
-            html += '</div></div>';
+            html += '</div>';
+            // Show total time
+            if (result.totalTime > 0) {
+                html += `<div style="margin-top: 15px; padding: 10px; background: rgba(255,255,255,0.7); border-radius: 5px; text-align: center;">`;
+                html += `<span style="color: #333; font-weight: 600;">Total Build Time: ${formatTime(result.totalTime)}</span>`;
+                html += `</div>`;
+            }
+            html += '</div>';
 
             // Display detailed dependencies breakdown with full tree
             if (result.dependencies && result.dependencies.length > 0) {
