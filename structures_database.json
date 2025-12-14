@@ -8,7 +8,8 @@
           "metal": 500,
           "wood": 500,
           "energy": 500
-        }
+        },
+        "upgrade_time": 40
       },
       "2": {
         "costs": {
@@ -19,7 +20,8 @@
         },
         "requirements": [
           "Level 2 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 75
       },
       "3": {
         "costs": {
@@ -30,7 +32,8 @@
         },
         "requirements": [
           "Level 3 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 150
       },
       "4": {
         "costs": {
@@ -41,7 +44,8 @@
         },
         "requirements": [
           "Level 4 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 300
       },
       "5": {
         "costs": {
@@ -53,7 +57,8 @@
         },
         "requirements": [
           "Level 5 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 600
       },
       "6": {
         "costs": {
@@ -65,7 +70,8 @@
         },
         "requirements": [
           "Level 6 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 1000
       },
       "7": {
         "costs": {
@@ -77,7 +83,8 @@
         },
         "requirements": [
           "Level 7 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 1750
       },
       "8": {
         "costs": {
@@ -89,7 +96,8 @@
         },
         "requirements": [
           "Level 8 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 3750
       },
       "9": {
         "costs": {
@@ -101,7 +109,8 @@
         },
         "requirements": [
           "Level 9 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 7000
       },
       "10": {
         "costs": {
@@ -113,7 +122,8 @@
         },
         "requirements": [
           "Level 10 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 13500
       },
       "11": {
         "costs": {
@@ -125,7 +135,8 @@
         },
         "requirements": [
           "Level 11 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 18500
       },
       "12": {
         "costs": {
@@ -137,7 +148,8 @@
         },
         "requirements": [
           "Level 12 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 28500
       },
       "13": {
         "costs": {
@@ -149,7 +161,8 @@
         },
         "requirements": [
           "Level 13 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 42500
       },
       "14": {
         "costs": {
@@ -161,7 +174,8 @@
         },
         "requirements": [
           "Level 14 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 62500
       },
       "15": {
         "costs": {
@@ -173,7 +187,8 @@
         },
         "requirements": [
           "Level 15 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 82500
       },
       "16": {
         "costs": {
@@ -185,7 +200,8 @@
         },
         "requirements": [
           "Level 16 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 112500
       },
       "17": {
         "costs": {
@@ -197,7 +213,8 @@
         },
         "requirements": [
           "Level 17 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 160000
       },
       "18": {
         "costs": {
@@ -209,7 +226,8 @@
         },
         "requirements": [
           "Level 18 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 200000
       },
       "19": {
         "costs": {
@@ -221,7 +239,8 @@
         },
         "requirements": [
           "Level 19 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 300000
       },
       "20": {
         "costs": {
@@ -233,7 +252,8 @@
         },
         "requirements": [
           "Level 20 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 525000
       },
       "21": {
         "costs": {
@@ -245,7 +265,8 @@
         },
         "requirements": [
           "Level 21 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 725000
       },
       "22": {
         "costs": {
@@ -257,7 +278,8 @@
         },
         "requirements": [
           "Level 22 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 1050000
       },
       "23": {
         "costs": {
@@ -269,7 +291,8 @@
         },
         "requirements": [
           "Level 23 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 1650000
       },
       "24": {
         "costs": {
@@ -281,7 +304,8 @@
         },
         "requirements": [
           "Level 24 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 2150000
       },
       "25": {
         "costs": {
@@ -293,7 +317,8 @@
         },
         "requirements": [
           "Level 25 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 2587500
       },
       "26": {
         "costs": {
@@ -305,7 +330,8 @@
         },
         "requirements": [
           "Level 26 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 3150000
       },
       "27": {
         "costs": {
@@ -317,7 +343,8 @@
         },
         "requirements": [
           "Level 27 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 4125000
       },
       "28": {
         "costs": {
@@ -330,7 +357,8 @@
         },
         "requirements": [
           "Level 28 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 5525000
       },
       "29": {
         "costs": {
@@ -343,7 +371,8 @@
         },
         "requirements": [
           "Level 29 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 9750000
       },
       "30": {
         "costs": {
@@ -356,7 +385,8 @@
         },
         "requirements": [
           "Level 30 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 16200000
       },
       "31": {
         "costs": {
@@ -369,7 +399,8 @@
         },
         "requirements": [
           "Level 31 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 23500000
       },
       "32": {
         "costs": {
@@ -382,7 +413,8 @@
         },
         "requirements": [
           "Level 32 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 29500000
       }
     }
   },
@@ -398,7 +430,8 @@
         },
         "requirements": [
           "Level 1 Farm"
-        ]
+        ],
+        "upgrade_time": 50
       },
       "2": {
         "costs": {
@@ -409,7 +442,8 @@
         },
         "requirements": [
           "Level 2 Farm"
-        ]
+        ],
+        "upgrade_time": 125
       },
       "3": {
         "costs": {
@@ -420,7 +454,8 @@
         },
         "requirements": [
           "Level 3 Farm"
-        ]
+        ],
+        "upgrade_time": 240
       },
       "4": {
         "costs": {
@@ -431,7 +466,8 @@
         },
         "requirements": [
           "Level 4 Farm"
-        ]
+        ],
+        "upgrade_time": 450
       },
       "5": {
         "costs": {
@@ -442,7 +478,8 @@
         },
         "requirements": [
           "Level 5 Farm"
-        ]
+        ],
+        "upgrade_time": 960
       },
       "6": {
         "costs": {
@@ -454,7 +491,8 @@
         },
         "requirements": [
           "Level 6 Farm"
-        ]
+        ],
+        "upgrade_time": 1750
       },
       "7": {
         "costs": {
@@ -466,7 +504,8 @@
         },
         "requirements": [
           "Level 7 Farm"
-        ]
+        ],
+        "upgrade_time": 2750
       },
       "8": {
         "costs": {
@@ -478,7 +517,8 @@
         },
         "requirements": [
           "Level 8 Farm"
-        ]
+        ],
+        "upgrade_time": 6000
       },
       "9": {
         "costs": {
@@ -490,7 +530,8 @@
         },
         "requirements": [
           "Level 9 Farm"
-        ]
+        ],
+        "upgrade_time": 10000
       },
       "10": {
         "costs": {
@@ -502,7 +543,8 @@
         },
         "requirements": [
           "Level 10 Farm"
-        ]
+        ],
+        "upgrade_time": 20000
       },
       "11": {
         "costs": {
@@ -514,7 +556,8 @@
         },
         "requirements": [
           "Level 11 Farm"
-        ]
+        ],
+        "upgrade_time": 30000
       },
       "12": {
         "costs": {
@@ -526,7 +569,8 @@
         },
         "requirements": [
           "Level 12 Farm"
-        ]
+        ],
+        "upgrade_time": 40000
       },
       "13": {
         "costs": {
@@ -539,7 +583,8 @@
         },
         "requirements": [
           "Level 13 Farm"
-        ]
+        ],
+        "upgrade_time": 62500
       },
       "14": {
         "costs": {
@@ -551,7 +596,8 @@
         },
         "requirements": [
           "Level 14 Farm"
-        ]
+        ],
+        "upgrade_time": 90000
       },
       "15": {
         "costs": {
@@ -563,7 +609,8 @@
         },
         "requirements": [
           "Level 15 Farm"
-        ]
+        ],
+        "upgrade_time": 120000
       },
       "16": {
         "costs": {
@@ -575,7 +622,8 @@
         },
         "requirements": [
           "Level 16 Farm"
-        ]
+        ],
+        "upgrade_time": 150000
       },
       "17": {
         "costs": {
@@ -587,7 +635,8 @@
         },
         "requirements": [
           "Level 17 Farm"
-        ]
+        ],
+        "upgrade_time": 225000
       },
       "18": {
         "costs": {
@@ -599,7 +648,8 @@
         },
         "requirements": [
           "Level 18 Farm"
-        ]
+        ],
+        "upgrade_time": 300000
       },
       "19": {
         "costs": {
@@ -612,7 +662,8 @@
         },
         "requirements": [
           "Level 19 Farm"
-        ]
+        ],
+        "upgrade_time": 500000
       },
       "20": {
         "costs": {
@@ -624,7 +675,8 @@
         },
         "requirements": [
           "Level 20 Farm"
-        ]
+        ],
+        "upgrade_time": 750000
       },
       "21": {
         "costs": {
@@ -636,7 +688,8 @@
         },
         "requirements": [
           "Level 21 Farm"
-        ]
+        ],
+        "upgrade_time": 1000000
       },
       "22": {
         "costs": {
@@ -648,7 +701,8 @@
         },
         "requirements": [
           "Level 22 Farm"
-        ]
+        ],
+        "upgrade_time": 1400000
       },
       "23": {
         "costs": {
@@ -660,7 +714,8 @@
         },
         "requirements": [
           "Level 23 Farm"
-        ]
+        ],
+        "upgrade_time": 2100000
       },
       "24": {
         "costs": {
@@ -672,7 +727,8 @@
         },
         "requirements": [
           "Level 24 Farm"
-        ]
+        ],
+        "upgrade_time": 2550000
       },
       "25": {
         "costs": {
@@ -685,7 +741,8 @@
         },
         "requirements": [
           "Level 25 Farm"
-        ]
+        ],
+        "upgrade_time": 3000000
       },
       "26": {
         "costs": {
@@ -697,7 +754,8 @@
         },
         "requirements": [
           "Level 26 Farm"
-        ]
+        ],
+        "upgrade_time": 4000000
       },
       "27": {
         "costs": {
@@ -709,7 +767,8 @@
         },
         "requirements": [
           "Level 27 Farm"
-        ]
+        ],
+        "upgrade_time": 5500000
       },
       "28": {
         "costs": {
@@ -722,7 +781,8 @@
         },
         "requirements": [
           "Level 28 Farm"
-        ]
+        ],
+        "upgrade_time": 6650000
       },
       "29": {
         "costs": {
@@ -735,7 +795,8 @@
         },
         "requirements": [
           "Level 29 Farm"
-        ]
+        ],
+        "upgrade_time": 12500000
       },
       "30": {
         "costs": {
@@ -748,7 +809,8 @@
         },
         "requirements": [
           "Level 30 Farm"
-        ]
+        ],
+        "upgrade_time": 21500000
       },
       "31": {
         "costs": {
@@ -761,7 +823,8 @@
         },
         "requirements": [
           "Level 31 Farm"
-        ]
+        ],
+        "upgrade_time": 32500000
       },
       "32": {
         "costs": {
@@ -774,7 +837,8 @@
         },
         "requirements": [
           "Level 32 Farm"
-        ]
+        ],
+        "upgrade_time": 42500000
       }
     }
   },
@@ -791,7 +855,8 @@
         "requirements": [
           "Level 3 Steel Works",
           "Level 5 Headquarters"
-        ]
+        ],
+        "upgrade_time": 30
       },
       "2": {
         "costs": {
@@ -802,7 +867,8 @@
         },
         "requirements": [
           "Level 5 Steel Works"
-        ]
+        ],
+        "upgrade_time": 100
       },
       "3": {
         "costs": {
@@ -813,7 +879,8 @@
         },
         "requirements": [
           "Level 6 Steel Works"
-        ]
+        ],
+        "upgrade_time": 240
       },
       "4": {
         "costs": {
@@ -824,7 +891,8 @@
         },
         "requirements": [
           "Level 7 Steel Works"
-        ]
+        ],
+        "upgrade_time": 500
       },
       "5": {
         "costs": {
@@ -836,7 +904,8 @@
         },
         "requirements": [
           "Level 8 Steel Works"
-        ]
+        ],
+        "upgrade_time": 960
       },
       "6": {
         "costs": {
@@ -848,7 +917,8 @@
         },
         "requirements": [
           "Level 8 Steel Works"
-        ]
+        ],
+        "upgrade_time": 1400
       },
       "7": {
         "costs": {
@@ -860,7 +930,8 @@
         },
         "requirements": [
           "Level 9 Steel Works"
-        ]
+        ],
+        "upgrade_time": 2750
       },
       "8": {
         "costs": {
@@ -872,7 +943,8 @@
         },
         "requirements": [
           "Level 9 Steel Works"
-        ]
+        ],
+        "upgrade_time": 4500
       },
       "9": {
         "costs": {
@@ -884,7 +956,8 @@
         },
         "requirements": [
           "Level 10 Steel Works"
-        ]
+        ],
+        "upgrade_time": 6750
       },
       "10": {
         "costs": {
@@ -896,7 +969,8 @@
         },
         "requirements": [
           "Level 10 Steel Works"
-        ]
+        ],
+        "upgrade_time": 8500
       },
       "11": {
         "costs": {
@@ -908,7 +982,8 @@
         },
         "requirements": [
           "Level 11 Steel Works"
-        ]
+        ],
+        "upgrade_time": 11500
       },
       "12": {
         "costs": {
@@ -920,7 +995,8 @@
         },
         "requirements": [
           "Level 12 Steel Works"
-        ]
+        ],
+        "upgrade_time": 18500
       },
       "13": {
         "costs": {
@@ -932,7 +1008,8 @@
         },
         "requirements": [
           "Level 13 Steel Works"
-        ]
+        ],
+        "upgrade_time": 28500
       },
       "14": {
         "costs": {
@@ -944,7 +1021,8 @@
         },
         "requirements": [
           "Level 14 Steel Works"
-        ]
+        ],
+        "upgrade_time": 42500
       },
       "15": {
         "costs": {
@@ -957,7 +1035,8 @@
         },
         "requirements": [
           "Level 15 Steel Works"
-        ]
+        ],
+        "upgrade_time": 60000
       },
       "16": {
         "costs": {
@@ -970,7 +1049,8 @@
         },
         "requirements": [
           "Level 16 Steel Works"
-        ]
+        ],
+        "upgrade_time": 82500
       },
       "17": {
         "costs": {
@@ -983,7 +1063,8 @@
         },
         "requirements": [
           "Level 17 Steel Works"
-        ]
+        ],
+        "upgrade_time": 105000
       },
       "18": {
         "costs": {
@@ -996,7 +1077,8 @@
         },
         "requirements": [
           "Level 18 Steel Works"
-        ]
+        ],
+        "upgrade_time": 135000
       },
       "19": {
         "costs": {
@@ -1009,7 +1091,8 @@
         },
         "requirements": [
           "Level 19 Steel Works"
-        ]
+        ],
+        "upgrade_time": 195000
       },
       "20": {
         "costs": {
@@ -1022,7 +1105,8 @@
         },
         "requirements": [
           "Level 20 Steel Works"
-        ]
+        ],
+        "upgrade_time": 295000
       },
       "21": {
         "costs": {
@@ -1035,7 +1119,8 @@
         },
         "requirements": [
           "Level 21 Steel Works"
-        ]
+        ],
+        "upgrade_time": 445000
       },
       "22": {
         "costs": {
@@ -1048,7 +1133,8 @@
         },
         "requirements": [
           "Level 22 Steel Works"
-        ]
+        ],
+        "upgrade_time": 745000
       },
       "23": {
         "costs": {
@@ -1061,7 +1147,8 @@
         },
         "requirements": [
           "Level 23 Steel Works"
-        ]
+        ],
+        "upgrade_time": 1150000
       },
       "24": {
         "costs": {
@@ -1074,7 +1161,8 @@
         },
         "requirements": [
           "Level 24 Steel Works"
-        ]
+        ],
+        "upgrade_time": 1550000
       },
       "25": {
         "costs": {
@@ -1087,7 +1175,8 @@
         },
         "requirements": [
           "Level 25 Steel Works"
-        ]
+        ],
+        "upgrade_time": 2050000
       },
       "26": {
         "costs": {
@@ -1100,7 +1189,8 @@
         },
         "requirements": [
           "Level 26 Steel Works"
-        ]
+        ],
+        "upgrade_time": 2550000
       },
       "27": {
         "costs": {
@@ -1113,7 +1203,8 @@
         },
         "requirements": [
           "Level 27 Steel Works"
-        ]
+        ],
+        "upgrade_time": 3050000
       },
       "28": {
         "costs": {
@@ -1127,7 +1218,8 @@
         },
         "requirements": [
           "Level 28 Steel Works"
-        ]
+        ],
+        "upgrade_time": 4050000
       },
       "29": {
         "costs": {
@@ -1141,7 +1233,8 @@
         },
         "requirements": [
           "Level 29 Steel Works"
-        ]
+        ],
+        "upgrade_time": 5550000
       },
       "30": {
         "costs": {
@@ -1155,7 +1248,8 @@
         },
         "requirements": [
           "Level 30 Steel Works"
-        ]
+        ],
+        "upgrade_time": 7350000
       },
       "31": {
         "costs": {
@@ -1169,7 +1263,8 @@
         },
         "requirements": [
           "Level 31 Steel Works"
-        ]
+        ],
+        "upgrade_time": 15000000
       },
       "32": {
         "costs": {
@@ -1183,7 +1278,8 @@
         },
         "requirements": [
           "Level 32 Steel Works"
-        ]
+        ],
+        "upgrade_time": 25000000
       }
     }
   },
@@ -1196,7 +1292,8 @@
           "metal": 800,
           "wood": 400,
           "energy": 400
-        }
+        },
+        "upgrade_time": 45
       },
       "2": {
         "costs": {
@@ -1207,7 +1304,8 @@
         },
         "requirements": [
           "Level 2 Headquarters"
-        ]
+        ],
+        "upgrade_time": 75
       },
       "3": {
         "costs": {
@@ -1218,7 +1316,8 @@
         },
         "requirements": [
           "Level 3 Headquarters"
-        ]
+        ],
+        "upgrade_time": 150
       },
       "4": {
         "costs": {
@@ -1229,7 +1328,8 @@
         },
         "requirements": [
           "Level 4 Headquarters"
-        ]
+        ],
+        "upgrade_time": 300
       },
       "5": {
         "costs": {
@@ -1242,7 +1342,8 @@
         "requirements": [
           "Level 5 Headquarters",
           "Level 3 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 600
       },
       "6": {
         "costs": {
@@ -1254,7 +1355,8 @@
         },
         "requirements": [
           "Level 6 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 1000
       },
       "7": {
         "costs": {
@@ -1266,7 +1368,8 @@
         },
         "requirements": [
           "Level 7 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 2000
       },
       "8": {
         "costs": {
@@ -1278,7 +1381,8 @@
         },
         "requirements": [
           "Level 8 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 5500
       },
       "9": {
         "costs": {
@@ -1290,7 +1394,8 @@
         },
         "requirements": [
           "Level 9 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 9500
       },
       "10": {
         "costs": {
@@ -1302,7 +1407,8 @@
         },
         "requirements": [
           "Level 10 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 18500
       },
       "11": {
         "costs": {
@@ -1314,7 +1420,8 @@
         },
         "requirements": [
           "Level 11 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 27500
       },
       "12": {
         "costs": {
@@ -1326,7 +1433,8 @@
         },
         "requirements": [
           "Level 12 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 37500
       },
       "13": {
         "costs": {
@@ -1338,7 +1446,8 @@
         },
         "requirements": [
           "Level 13 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 70000
       },
       "14": {
         "costs": {
@@ -1350,7 +1459,8 @@
         },
         "requirements": [
           "Level 14 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 115000
       },
       "15": {
         "costs": {
@@ -1363,7 +1473,8 @@
         },
         "requirements": [
           "Level 15 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 140000
       },
       "16": {
         "costs": {
@@ -1376,7 +1487,8 @@
         },
         "requirements": [
           "Level 16 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 195000
       },
       "17": {
         "costs": {
@@ -1389,7 +1501,8 @@
         },
         "requirements": [
           "Level 17 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 325000
       },
       "18": {
         "costs": {
@@ -1402,7 +1515,8 @@
         },
         "requirements": [
           "Level 18 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 450000
       },
       "19": {
         "costs": {
@@ -1415,7 +1529,8 @@
         },
         "requirements": [
           "Level 19 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 600000
       },
       "20": {
         "costs": {
@@ -1428,7 +1543,8 @@
         },
         "requirements": [
           "Level 20 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 1100000
       },
       "21": {
         "costs": {
@@ -1441,7 +1557,8 @@
         },
         "requirements": [
           "Level 21 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 1500000
       },
       "22": {
         "costs": {
@@ -1454,7 +1571,8 @@
         },
         "requirements": [
           "Level 22 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 2100000
       },
       "23": {
         "costs": {
@@ -1467,7 +1585,8 @@
         },
         "requirements": [
           "Level 23 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 2750000
       },
       "24": {
         "costs": {
@@ -1480,7 +1599,8 @@
         },
         "requirements": [
           "Level 24 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 3500000
       },
       "25": {
         "costs": {
@@ -1493,7 +1613,8 @@
         },
         "requirements": [
           "Level 25 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 4325000
       },
       "26": {
         "costs": {
@@ -1506,7 +1627,8 @@
         },
         "requirements": [
           "Level 26 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 5400000
       },
       "27": {
         "costs": {
@@ -1519,7 +1641,8 @@
         },
         "requirements": [
           "Level 27 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 7000000
       },
       "28": {
         "costs": {
@@ -1533,7 +1656,8 @@
         },
         "requirements": [
           "Level 28 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 9000000
       },
       "29": {
         "costs": {
@@ -1547,7 +1671,8 @@
         },
         "requirements": [
           "Level 29 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 15000000
       },
       "30": {
         "costs": {
@@ -1561,7 +1686,8 @@
         },
         "requirements": [
           "Level 30 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 25000000
       },
       "31": {
         "costs": {
@@ -1575,7 +1701,8 @@
         },
         "requirements": [
           "Level 31 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 35000000
       },
       "32": {
         "costs": {
@@ -1589,13 +1716,18 @@
         },
         "requirements": [
           "Level 32 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 47500000
       }
     }
   },
   "Debris": {
     "name": "Debris",
-    "levels": {}
+    "levels": {
+      "2": {
+        "upgrade_time": 2
+      }
+    }
   },
   "Factory": {
     "name": "Factory",
@@ -1609,7 +1741,8 @@
         },
         "requirements": [
           "Level 1 Headquarters"
-        ]
+        ],
+        "upgrade_time": 30
       },
       "2": {
         "costs": {
@@ -1621,7 +1754,8 @@
         },
         "requirements": [
           "Level 2 Headquarters"
-        ]
+        ],
+        "upgrade_time": 125
       },
       "3": {
         "costs": {
@@ -1633,7 +1767,8 @@
         },
         "requirements": [
           "Level 3 Headquarters"
-        ]
+        ],
+        "upgrade_time": 192
       },
       "4": {
         "costs": {
@@ -1645,7 +1780,8 @@
         },
         "requirements": [
           "Level 4 Headquarters"
-        ]
+        ],
+        "upgrade_time": 325
       },
       "5": {
         "costs": {
@@ -1657,7 +1793,8 @@
         },
         "requirements": [
           "Level 5 Headquarters"
-        ]
+        ],
+        "upgrade_time": 575
       },
       "6": {
         "costs": {
@@ -1669,7 +1806,8 @@
         },
         "requirements": [
           "Level 6 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1200
       },
       "7": {
         "costs": {
@@ -1681,7 +1819,8 @@
         },
         "requirements": [
           "Level 7 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3000
       },
       "8": {
         "costs": {
@@ -1693,7 +1832,8 @@
         },
         "requirements": [
           "Level 8 Headquarters"
-        ]
+        ],
+        "upgrade_time": 6000
       },
       "9": {
         "costs": {
@@ -1705,7 +1845,8 @@
         },
         "requirements": [
           "Level 9 Headquarters"
-        ]
+        ],
+        "upgrade_time": 9000
       },
       "10": {
         "costs": {
@@ -1717,7 +1858,8 @@
         },
         "requirements": [
           "Level 10 Headquarters"
-        ]
+        ],
+        "upgrade_time": 16500
       },
       "11": {
         "costs": {
@@ -1729,7 +1871,8 @@
         },
         "requirements": [
           "Level 11 Headquarters"
-        ]
+        ],
+        "upgrade_time": 18000
       },
       "12": {
         "costs": {
@@ -1741,7 +1884,8 @@
         },
         "requirements": [
           "Level 12 Headquarters"
-        ]
+        ],
+        "upgrade_time": 23500
       },
       "13": {
         "costs": {
@@ -1753,7 +1897,8 @@
         },
         "requirements": [
           "Level 13 Headquarters"
-        ]
+        ],
+        "upgrade_time": 33500
       },
       "14": {
         "costs": {
@@ -1765,7 +1910,8 @@
         },
         "requirements": [
           "Level 14 Headquarters"
-        ]
+        ],
+        "upgrade_time": 53500
       },
       "15": {
         "costs": {
@@ -1777,7 +1923,8 @@
         },
         "requirements": [
           "Level 15 Headquarters"
-        ]
+        ],
+        "upgrade_time": 67500
       },
       "16": {
         "costs": {
@@ -1789,7 +1936,8 @@
         },
         "requirements": [
           "Level 16 Headquarters"
-        ]
+        ],
+        "upgrade_time": 87500
       },
       "17": {
         "costs": {
@@ -1801,7 +1949,8 @@
         },
         "requirements": [
           "Level 17 Headquarters"
-        ]
+        ],
+        "upgrade_time": 200000
       },
       "18": {
         "costs": {
@@ -1813,7 +1962,8 @@
         },
         "requirements": [
           "Level 18 Headquarters"
-        ]
+        ],
+        "upgrade_time": 287500
       },
       "19": {
         "costs": {
@@ -1825,7 +1975,8 @@
         },
         "requirements": [
           "Level 19 Headquarters"
-        ]
+        ],
+        "upgrade_time": 468750
       },
       "20": {
         "costs": {
@@ -1837,7 +1988,8 @@
         },
         "requirements": [
           "Level 20 Headquarters"
-        ]
+        ],
+        "upgrade_time": 865000
       },
       "21": {
         "costs": {
@@ -1849,7 +2001,8 @@
         },
         "requirements": [
           "Level 21 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1080000
       },
       "22": {
         "costs": {
@@ -1861,7 +2014,8 @@
         },
         "requirements": [
           "Level 22 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1470000
       },
       "23": {
         "costs": {
@@ -1873,7 +2027,8 @@
         },
         "requirements": [
           "Level 23 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2000000
       },
       "24": {
         "costs": {
@@ -1885,7 +2040,8 @@
         },
         "requirements": [
           "Level 24 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2310000
       },
       "25": {
         "costs": {
@@ -1897,7 +2053,8 @@
         },
         "requirements": [
           "Level 25 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2587500
       },
       "26": {
         "costs": {
@@ -1909,7 +2066,8 @@
         },
         "requirements": [
           "Level 26 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3150000
       },
       "27": {
         "costs": {
@@ -1921,7 +2079,8 @@
         },
         "requirements": [
           "Level 27 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3650000
       },
       "28": {
         "costs": {
@@ -1934,7 +2093,8 @@
         },
         "requirements": [
           "Level 28 Headquarters"
-        ]
+        ],
+        "upgrade_time": 5000000
       },
       "29": {
         "costs": {
@@ -1947,7 +2107,8 @@
         },
         "requirements": [
           "Level 29 Headquarters"
-        ]
+        ],
+        "upgrade_time": 10400000
       },
       "30": {
         "costs": {
@@ -1960,7 +2121,8 @@
         },
         "requirements": [
           "Level 30 Headquarters"
-        ]
+        ],
+        "upgrade_time": 18000000
       },
       "31": {
         "costs": {
@@ -1973,7 +2135,8 @@
         },
         "requirements": [
           "Level 31 Headquarters"
-        ]
+        ],
+        "upgrade_time": 24000000
       },
       "32": {
         "costs": {
@@ -1986,7 +2149,8 @@
         },
         "requirements": [
           "Level 32 Headquarters"
-        ]
+        ],
+        "upgrade_time": 30000000
       }
     }
   },
@@ -2001,7 +2165,8 @@
         },
         "requirements": [
           "Level 1 Headquarters"
-        ]
+        ],
+        "upgrade_time": 30
       },
       "2": {
         "costs": {
@@ -2011,7 +2176,8 @@
         },
         "requirements": [
           "Level 2 Headquarters"
-        ]
+        ],
+        "upgrade_time": 125
       },
       "3": {
         "costs": {
@@ -2021,7 +2187,8 @@
         },
         "requirements": [
           "Level 3 Headquarters"
-        ]
+        ],
+        "upgrade_time": 192
       },
       "4": {
         "costs": {
@@ -2031,7 +2198,8 @@
         },
         "requirements": [
           "Level 4 Headquarters"
-        ]
+        ],
+        "upgrade_time": 325
       },
       "5": {
         "costs": {
@@ -2041,7 +2209,8 @@
         },
         "requirements": [
           "Level 5 Headquarters"
-        ]
+        ],
+        "upgrade_time": 575
       },
       "6": {
         "costs": {
@@ -2051,7 +2220,8 @@
         },
         "requirements": [
           "Level 6 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1200
       },
       "7": {
         "costs": {
@@ -2061,7 +2231,8 @@
         },
         "requirements": [
           "Level 7 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3000
       },
       "8": {
         "costs": {
@@ -2071,7 +2242,8 @@
         },
         "requirements": [
           "Level 8 Headquarters"
-        ]
+        ],
+        "upgrade_time": 6000
       },
       "9": {
         "costs": {
@@ -2081,7 +2253,8 @@
         },
         "requirements": [
           "Level 9 Headquarters"
-        ]
+        ],
+        "upgrade_time": 9000
       },
       "10": {
         "costs": {
@@ -2091,7 +2264,8 @@
         },
         "requirements": [
           "Level 10 Headquarters"
-        ]
+        ],
+        "upgrade_time": 16000
       },
       "11": {
         "costs": {
@@ -2101,7 +2275,8 @@
         },
         "requirements": [
           "Level 11 Headquarters"
-        ]
+        ],
+        "upgrade_time": 21000
       },
       "12": {
         "costs": {
@@ -2111,7 +2286,8 @@
         },
         "requirements": [
           "Level 12 Headquarters"
-        ]
+        ],
+        "upgrade_time": 23500
       },
       "13": {
         "costs": {
@@ -2121,7 +2297,8 @@
         },
         "requirements": [
           "Level 13 Headquarters"
-        ]
+        ],
+        "upgrade_time": 33500
       },
       "14": {
         "costs": {
@@ -2131,7 +2308,8 @@
         },
         "requirements": [
           "Level 14 Headquarters"
-        ]
+        ],
+        "upgrade_time": 53500
       },
       "15": {
         "costs": {
@@ -2141,7 +2319,8 @@
         },
         "requirements": [
           "Level 15 Headquarters"
-        ]
+        ],
+        "upgrade_time": 67500
       },
       "16": {
         "costs": {
@@ -2151,7 +2330,8 @@
         },
         "requirements": [
           "Level 16 Headquarters"
-        ]
+        ],
+        "upgrade_time": 87500
       },
       "17": {
         "costs": {
@@ -2161,7 +2341,8 @@
         },
         "requirements": [
           "Level 17 Headquarters"
-        ]
+        ],
+        "upgrade_time": 200000
       },
       "18": {
         "costs": {
@@ -2171,7 +2352,8 @@
         },
         "requirements": [
           "Level 18 Headquarters"
-        ]
+        ],
+        "upgrade_time": 287500
       },
       "19": {
         "costs": {
@@ -2181,7 +2363,8 @@
         },
         "requirements": [
           "Level 19 Headquarters"
-        ]
+        ],
+        "upgrade_time": 468750
       },
       "20": {
         "costs": {
@@ -2191,7 +2374,8 @@
         },
         "requirements": [
           "Level 20 Headquarters"
-        ]
+        ],
+        "upgrade_time": 865000
       },
       "21": {
         "costs": {
@@ -2201,7 +2385,8 @@
         },
         "requirements": [
           "Level 21 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1080000
       },
       "22": {
         "costs": {
@@ -2211,7 +2396,8 @@
         },
         "requirements": [
           "Level 22 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1470000
       },
       "23": {
         "costs": {
@@ -2221,7 +2407,8 @@
         },
         "requirements": [
           "Level 23 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2000000
       },
       "24": {
         "costs": {
@@ -2231,7 +2418,8 @@
         },
         "requirements": [
           "Level 24 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2310000
       },
       "25": {
         "costs": {
@@ -2241,7 +2429,8 @@
         },
         "requirements": [
           "Level 25 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2587500
       },
       "26": {
         "costs": {
@@ -2251,7 +2440,8 @@
         },
         "requirements": [
           "Level 26 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3150000
       },
       "27": {
         "costs": {
@@ -2262,7 +2452,8 @@
         },
         "requirements": [
           "Level 27 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3650000
       },
       "28": {
         "costs": {
@@ -2274,7 +2465,8 @@
         },
         "requirements": [
           "Level 28 Headquarters"
-        ]
+        ],
+        "upgrade_time": 5000000
       },
       "29": {
         "costs": {
@@ -2286,7 +2478,8 @@
         },
         "requirements": [
           "Level 29 Headquarters"
-        ]
+        ],
+        "upgrade_time": 10400000
       },
       "30": {
         "costs": {
@@ -2298,7 +2491,8 @@
         },
         "requirements": [
           "Level 30 Headquarters"
-        ]
+        ],
+        "upgrade_time": 18000000
       },
       "31": {
         "costs": {
@@ -2310,7 +2504,8 @@
         },
         "requirements": [
           "Level 31 Headquarters"
-        ]
+        ],
+        "upgrade_time": 24000000
       },
       "32": {
         "costs": {
@@ -2322,7 +2517,8 @@
         },
         "requirements": [
           "Level 32 Headquarters"
-        ]
+        ],
+        "upgrade_time": 30000000
       }
     }
   },
@@ -2338,7 +2534,8 @@
         },
         "requirements": [
           "Level 1 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 45
       },
       "2": {
         "costs": {
@@ -2349,7 +2546,8 @@
         },
         "requirements": [
           "Level 2 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 75
       },
       "3": {
         "costs": {
@@ -2360,7 +2558,8 @@
         },
         "requirements": [
           "Level 3 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 150
       },
       "4": {
         "costs": {
@@ -2371,7 +2570,8 @@
         },
         "requirements": [
           "Level 4 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 300
       },
       "5": {
         "costs": {
@@ -2383,7 +2583,8 @@
         },
         "requirements": [
           "Level 5 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 600
       },
       "6": {
         "costs": {
@@ -2395,7 +2596,8 @@
         },
         "requirements": [
           "Level 6 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 1200
       },
       "7": {
         "costs": {
@@ -2407,7 +2609,8 @@
         },
         "requirements": [
           "Level 7 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 2500
       },
       "8": {
         "costs": {
@@ -2419,7 +2622,8 @@
         },
         "requirements": [
           "Level 8 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 5000
       },
       "9": {
         "costs": {
@@ -2431,7 +2635,8 @@
         },
         "requirements": [
           "Level 9 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 8500
       },
       "10": {
         "costs": {
@@ -2443,7 +2648,8 @@
         },
         "requirements": [
           "Level 10 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 16500
       },
       "11": {
         "costs": {
@@ -2455,7 +2661,8 @@
         },
         "requirements": [
           "Level 11 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 20000
       },
       "12": {
         "costs": {
@@ -2467,7 +2674,8 @@
         },
         "requirements": [
           "Level 12 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 30000
       },
       "13": {
         "costs": {
@@ -2479,7 +2687,8 @@
         },
         "requirements": [
           "Level 13 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 42500
       },
       "14": {
         "costs": {
@@ -2491,7 +2700,8 @@
         },
         "requirements": [
           "Level 14 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 57500
       },
       "15": {
         "costs": {
@@ -2504,7 +2714,8 @@
         },
         "requirements": [
           "Level 15 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 85000
       },
       "16": {
         "costs": {
@@ -2517,7 +2728,8 @@
         },
         "requirements": [
           "Level 16 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 125000
       },
       "17": {
         "costs": {
@@ -2530,7 +2742,8 @@
         },
         "requirements": [
           "Level 17 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 175000
       },
       "18": {
         "costs": {
@@ -2543,7 +2756,8 @@
         },
         "requirements": [
           "Level 18 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 215000
       },
       "19": {
         "costs": {
@@ -2556,7 +2770,8 @@
         },
         "requirements": [
           "Level 19 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 355000
       },
       "20": {
         "costs": {
@@ -2569,7 +2784,8 @@
         },
         "requirements": [
           "Level 20 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 585000
       },
       "21": {
         "costs": {
@@ -2582,7 +2798,8 @@
         },
         "requirements": [
           "Level 21 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 825000
       },
       "22": {
         "costs": {
@@ -2595,7 +2812,8 @@
         },
         "requirements": [
           "Level 22 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 1260000
       },
       "23": {
         "costs": {
@@ -2608,7 +2826,8 @@
         },
         "requirements": [
           "Level 23 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 1750000
       },
       "24": {
         "costs": {
@@ -2621,7 +2840,8 @@
         },
         "requirements": [
           "Level 24 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 2750000
       },
       "25": {
         "costs": {
@@ -2634,7 +2854,8 @@
         },
         "requirements": [
           "Level 25 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 2887500
       },
       "26": {
         "costs": {
@@ -2647,7 +2868,8 @@
         },
         "requirements": [
           "Level 26 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 3150000
       },
       "27": {
         "costs": {
@@ -2660,7 +2882,8 @@
         },
         "requirements": [
           "Level 27 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 3750000
       },
       "28": {
         "costs": {
@@ -2674,7 +2897,8 @@
         },
         "requirements": [
           "Level 28 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 5450000
       },
       "29": {
         "costs": {
@@ -2688,7 +2912,8 @@
         },
         "requirements": [
           "Level 29 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 8750000
       },
       "30": {
         "costs": {
@@ -2702,7 +2927,8 @@
         },
         "requirements": [
           "Level 30 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 18000000
       },
       "31": {
         "costs": {
@@ -2716,7 +2942,8 @@
         },
         "requirements": [
           "Level 31 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 27000000
       },
       "32": {
         "costs": {
@@ -2730,7 +2957,8 @@
         },
         "requirements": [
           "Level 32 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 34000000
       }
     }
   },
@@ -2745,7 +2973,8 @@
         },
         "requirements": [
           "Level 1 Headquarters"
-        ]
+        ],
+        "upgrade_time": 30
       },
       "2": {
         "costs": {
@@ -2755,7 +2984,8 @@
         },
         "requirements": [
           "Level 2 Headquarters"
-        ]
+        ],
+        "upgrade_time": 125
       },
       "3": {
         "costs": {
@@ -2765,7 +2995,8 @@
         },
         "requirements": [
           "Level 3 Headquarters"
-        ]
+        ],
+        "upgrade_time": 192
       },
       "4": {
         "costs": {
@@ -2775,7 +3006,8 @@
         },
         "requirements": [
           "Level 4 Headquarters"
-        ]
+        ],
+        "upgrade_time": 325
       },
       "5": {
         "costs": {
@@ -2785,7 +3017,8 @@
         },
         "requirements": [
           "Level 5 Headquarters"
-        ]
+        ],
+        "upgrade_time": 575
       },
       "6": {
         "costs": {
@@ -2795,7 +3028,8 @@
         },
         "requirements": [
           "Level 6 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1200
       },
       "7": {
         "costs": {
@@ -2805,7 +3039,8 @@
         },
         "requirements": [
           "Level 7 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3000
       },
       "8": {
         "costs": {
@@ -2815,7 +3050,8 @@
         },
         "requirements": [
           "Level 8 Headquarters"
-        ]
+        ],
+        "upgrade_time": 6000
       },
       "9": {
         "costs": {
@@ -2825,7 +3061,8 @@
         },
         "requirements": [
           "Level 9 Headquarters"
-        ]
+        ],
+        "upgrade_time": 9000
       },
       "10": {
         "costs": {
@@ -2835,7 +3072,8 @@
         },
         "requirements": [
           "Level 10 Headquarters"
-        ]
+        ],
+        "upgrade_time": 16000
       },
       "11": {
         "costs": {
@@ -2845,7 +3083,8 @@
         },
         "requirements": [
           "Level 11 Headquarters"
-        ]
+        ],
+        "upgrade_time": 21000
       },
       "12": {
         "costs": {
@@ -2855,7 +3094,8 @@
         },
         "requirements": [
           "Level 12 Headquarters"
-        ]
+        ],
+        "upgrade_time": 23500
       },
       "13": {
         "costs": {
@@ -2865,7 +3105,8 @@
         },
         "requirements": [
           "Level 13 Headquarters"
-        ]
+        ],
+        "upgrade_time": 33500
       },
       "14": {
         "costs": {
@@ -2875,7 +3116,8 @@
         },
         "requirements": [
           "Level 14 Headquarters"
-        ]
+        ],
+        "upgrade_time": 53500
       },
       "15": {
         "costs": {
@@ -2885,7 +3127,8 @@
         },
         "requirements": [
           "Level 15 Headquarters"
-        ]
+        ],
+        "upgrade_time": 67500
       },
       "16": {
         "costs": {
@@ -2895,7 +3138,8 @@
         },
         "requirements": [
           "Level 16 Headquarters"
-        ]
+        ],
+        "upgrade_time": 87500
       },
       "17": {
         "costs": {
@@ -2905,7 +3149,8 @@
         },
         "requirements": [
           "Level 17 Headquarters"
-        ]
+        ],
+        "upgrade_time": 200000
       },
       "18": {
         "costs": {
@@ -2915,7 +3160,8 @@
         },
         "requirements": [
           "Level 18 Headquarters"
-        ]
+        ],
+        "upgrade_time": 287500
       },
       "19": {
         "costs": {
@@ -2925,7 +3171,8 @@
         },
         "requirements": [
           "Level 19 Headquarters"
-        ]
+        ],
+        "upgrade_time": 468750
       },
       "20": {
         "costs": {
@@ -2935,7 +3182,8 @@
         },
         "requirements": [
           "Level 20 Headquarters"
-        ]
+        ],
+        "upgrade_time": 865000
       },
       "21": {
         "costs": {
@@ -2945,7 +3193,8 @@
         },
         "requirements": [
           "Level 21 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1080000
       },
       "22": {
         "costs": {
@@ -2955,7 +3204,8 @@
         },
         "requirements": [
           "Level 22 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1470000
       },
       "23": {
         "costs": {
@@ -2965,7 +3215,8 @@
         },
         "requirements": [
           "Level 23 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2000000
       },
       "24": {
         "costs": {
@@ -2975,7 +3226,8 @@
         },
         "requirements": [
           "Level 24 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2310000
       },
       "25": {
         "costs": {
@@ -2985,7 +3237,8 @@
         },
         "requirements": [
           "Level 25 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2587500
       },
       "26": {
         "costs": {
@@ -2995,7 +3248,8 @@
         },
         "requirements": [
           "Level 26 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3150000
       },
       "27": {
         "costs": {
@@ -3006,7 +3260,8 @@
         },
         "requirements": [
           "Level 27 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3650000
       },
       "28": {
         "costs": {
@@ -3018,7 +3273,8 @@
         },
         "requirements": [
           "Level 28 Headquarters"
-        ]
+        ],
+        "upgrade_time": 5000000
       },
       "29": {
         "costs": {
@@ -3030,7 +3286,8 @@
         },
         "requirements": [
           "Level 29 Headquarters"
-        ]
+        ],
+        "upgrade_time": 10400000
       },
       "30": {
         "costs": {
@@ -3042,7 +3299,8 @@
         },
         "requirements": [
           "Level 30 Headquarters"
-        ]
+        ],
+        "upgrade_time": 18000000
       },
       "31": {
         "costs": {
@@ -3054,7 +3312,8 @@
         },
         "requirements": [
           "Level 31 Headquarters"
-        ]
+        ],
+        "upgrade_time": 24000000
       },
       "32": {
         "costs": {
@@ -3066,7 +3325,8 @@
         },
         "requirements": [
           "Level 32 Headquarters"
-        ]
+        ],
+        "upgrade_time": 30000000
       }
     }
   },
@@ -3083,7 +3343,8 @@
         "requirements": [
           "Level 6 Headquarters",
           "Level 1 Factory"
-        ]
+        ],
+        "upgrade_time": 45
       },
       "2": {
         "costs": {
@@ -3094,7 +3355,8 @@
         },
         "requirements": [
           "Level 2 Factory"
-        ]
+        ],
+        "upgrade_time": 100
       },
       "3": {
         "costs": {
@@ -3105,7 +3367,8 @@
         },
         "requirements": [
           "Level 3 Factory"
-        ]
+        ],
+        "upgrade_time": 215
       },
       "4": {
         "costs": {
@@ -3116,7 +3379,8 @@
         },
         "requirements": [
           "Level 4 Factory"
-        ]
+        ],
+        "upgrade_time": 450
       },
       "5": {
         "costs": {
@@ -3128,7 +3392,8 @@
         },
         "requirements": [
           "Level 5 Factory"
-        ]
+        ],
+        "upgrade_time": 750
       },
       "6": {
         "costs": {
@@ -3140,7 +3405,8 @@
         },
         "requirements": [
           "Level 6 Factory"
-        ]
+        ],
+        "upgrade_time": 1350
       },
       "7": {
         "costs": {
@@ -3152,7 +3418,8 @@
         },
         "requirements": [
           "Level 7 Factory"
-        ]
+        ],
+        "upgrade_time": 2400
       },
       "8": {
         "costs": {
@@ -3164,7 +3431,8 @@
         },
         "requirements": [
           "Level 8 Factory"
-        ]
+        ],
+        "upgrade_time": 5250
       },
       "9": {
         "costs": {
@@ -3176,7 +3444,8 @@
         },
         "requirements": [
           "Level 9 Factory"
-        ]
+        ],
+        "upgrade_time": 9000
       },
       "10": {
         "costs": {
@@ -3188,7 +3457,8 @@
         },
         "requirements": [
           "Level 10 Factory"
-        ]
+        ],
+        "upgrade_time": 15600
       },
       "11": {
         "costs": {
@@ -3200,7 +3470,8 @@
         },
         "requirements": [
           "Level 11 Factory"
-        ]
+        ],
+        "upgrade_time": 17500
       },
       "12": {
         "costs": {
@@ -3212,7 +3483,8 @@
         },
         "requirements": [
           "Level 12 Factory"
-        ]
+        ],
+        "upgrade_time": 30000
       },
       "13": {
         "costs": {
@@ -3224,7 +3496,8 @@
         },
         "requirements": [
           "Level 13 Factory"
-        ]
+        ],
+        "upgrade_time": 56250
       },
       "14": {
         "costs": {
@@ -3236,7 +3509,8 @@
         },
         "requirements": [
           "Level 14 Factory"
-        ]
+        ],
+        "upgrade_time": 72500
       },
       "15": {
         "costs": {
@@ -3249,7 +3523,8 @@
         },
         "requirements": [
           "Level 15 Factory"
-        ]
+        ],
+        "upgrade_time": 105000
       },
       "16": {
         "costs": {
@@ -3262,7 +3537,8 @@
         },
         "requirements": [
           "Level 16 Factory"
-        ]
+        ],
+        "upgrade_time": 145000
       },
       "17": {
         "costs": {
@@ -3275,7 +3551,8 @@
         },
         "requirements": [
           "Level 17 Factory"
-        ]
+        ],
+        "upgrade_time": 185000
       },
       "18": {
         "costs": {
@@ -3288,7 +3565,8 @@
         },
         "requirements": [
           "Level 18 Factory"
-        ]
+        ],
+        "upgrade_time": 245000
       },
       "19": {
         "costs": {
@@ -3301,7 +3579,8 @@
         },
         "requirements": [
           "Level 19 Factory"
-        ]
+        ],
+        "upgrade_time": 345000
       },
       "20": {
         "costs": {
@@ -3314,7 +3593,8 @@
         },
         "requirements": [
           "Level 20 Factory"
-        ]
+        ],
+        "upgrade_time": 485000
       },
       "21": {
         "costs": {
@@ -3327,7 +3607,8 @@
         },
         "requirements": [
           "Level 21 Factory"
-        ]
+        ],
+        "upgrade_time": 730000
       },
       "22": {
         "costs": {
@@ -3340,7 +3621,8 @@
         },
         "requirements": [
           "Level 22 Factory"
-        ]
+        ],
+        "upgrade_time": 1050000
       },
       "23": {
         "costs": {
@@ -3353,7 +3635,8 @@
         },
         "requirements": [
           "Level 23 Factory"
-        ]
+        ],
+        "upgrade_time": 1650000
       },
       "24": {
         "costs": {
@@ -3366,7 +3649,8 @@
         },
         "requirements": [
           "Level 24 Factory"
-        ]
+        ],
+        "upgrade_time": 2250000
       },
       "25": {
         "costs": {
@@ -3379,7 +3663,8 @@
         },
         "requirements": [
           "Level 25 Factory"
-        ]
+        ],
+        "upgrade_time": 2850000
       },
       "26": {
         "costs": {
@@ -3392,7 +3677,8 @@
         },
         "requirements": [
           "Level 26 Factory"
-        ]
+        ],
+        "upgrade_time": 3510000
       },
       "27": {
         "costs": {
@@ -3405,7 +3691,8 @@
         },
         "requirements": [
           "Level 27 Factory"
-        ]
+        ],
+        "upgrade_time": 4600000
       },
       "28": {
         "costs": {
@@ -3419,7 +3706,8 @@
         },
         "requirements": [
           "Level 28 Factory"
-        ]
+        ],
+        "upgrade_time": 4600000
       },
       "29": {
         "costs": {
@@ -3433,7 +3721,8 @@
         },
         "requirements": [
           "Level 29 Factory"
-        ]
+        ],
+        "upgrade_time": 7300000
       },
       "30": {
         "costs": {
@@ -3447,7 +3736,8 @@
         },
         "requirements": [
           "Level 30 Factory"
-        ]
+        ],
+        "upgrade_time": 12150000
       },
       "31": {
         "costs": {
@@ -3461,7 +3751,8 @@
         },
         "requirements": [
           "Level 31 Factory"
-        ]
+        ],
+        "upgrade_time": 21150000
       },
       "32": {
         "costs": {
@@ -3475,7 +3766,8 @@
         },
         "requirements": [
           "Level 32 Factory"
-        ]
+        ],
+        "upgrade_time": 32150000
       }
     }
   },
@@ -3488,7 +3780,8 @@
           "metal": 100,
           "wood": 100,
           "energy": 200
-        }
+        },
+        "upgrade_time": 30
       },
       "2": {
         "costs": {
@@ -3499,7 +3792,8 @@
         },
         "requirements": [
           "Level 1 Walls"
-        ]
+        ],
+        "upgrade_time": 150
       },
       "3": {
         "costs": {
@@ -3512,7 +3806,8 @@
           "Level 2 Walls",
           "Level 1 Lumberyard",
           "Level 1 Steel Works"
-        ]
+        ],
+        "upgrade_time": 240
       },
       "4": {
         "costs": {
@@ -3524,7 +3819,8 @@
         "requirements": [
           "Level 3 Walls",
           "Level 1 Barracks"
-        ]
+        ],
+        "upgrade_time": 350
       },
       "5": {
         "costs": {
@@ -3535,7 +3831,8 @@
         },
         "requirements": [
           "Level 4 Walls"
-        ]
+        ],
+        "upgrade_time": 600
       },
       "6": {
         "costs": {
@@ -3547,7 +3844,8 @@
         "requirements": [
           "Level 5 Walls",
           "Level 1 Warehouse"
-        ]
+        ],
+        "upgrade_time": 1800
       },
       "7": {
         "costs": {
@@ -3559,7 +3857,8 @@
         "requirements": [
           "Level 6 Walls",
           "Level 6 Research Lab"
-        ]
+        ],
+        "upgrade_time": 7500
       },
       "8": {
         "costs": {
@@ -3571,7 +3870,8 @@
         "requirements": [
           "Level 7 Walls",
           "Level 7 Radar Tower"
-        ]
+        ],
+        "upgrade_time": 15000
       },
       "9": {
         "costs": {
@@ -3583,7 +3883,8 @@
         "requirements": [
           "Level 8 Walls",
           "Level 8 Barracks"
-        ]
+        ],
+        "upgrade_time": 30000
       },
       "10": {
         "costs": {
@@ -3596,7 +3897,8 @@
         "requirements": [
           "Level 9 Walls",
           "Level 9 Chasers Quarters"
-        ]
+        ],
+        "upgrade_time": 65000
       },
       "11": {
         "costs": {
@@ -3609,7 +3911,8 @@
         "requirements": [
           "Level 10 Walls",
           "Level 10 Training Camp"
-        ]
+        ],
+        "upgrade_time": 100000
       },
       "12": {
         "costs": {
@@ -3622,7 +3925,8 @@
         "requirements": [
           "Level 11 Walls",
           "Level 11 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 150000
       },
       "13": {
         "costs": {
@@ -3635,7 +3939,8 @@
         "requirements": [
           "Level 12 Walls",
           "Level 12 Monster Biodome"
-        ]
+        ],
+        "upgrade_time": 225000
       },
       "14": {
         "costs": {
@@ -3648,7 +3953,8 @@
         "requirements": [
           "Level 13 Walls",
           "Level 13 Bunker"
-        ]
+        ],
+        "upgrade_time": 350000
       },
       "15": {
         "costs": {
@@ -3661,7 +3967,8 @@
         "requirements": [
           "Level 14 Walls",
           "Level 14 Factory"
-        ]
+        ],
+        "upgrade_time": 500000
       },
       "16": {
         "costs": {
@@ -3674,7 +3981,8 @@
         "requirements": [
           "Level 15 Walls",
           "Level 15 Warehouse"
-        ]
+        ],
+        "upgrade_time": 750000
       },
       "17": {
         "costs": {
@@ -3687,7 +3995,8 @@
         "requirements": [
           "Level 16 Walls",
           "Level 16 Garrison"
-        ]
+        ],
+        "upgrade_time": 1250000
       },
       "18": {
         "costs": {
@@ -3700,7 +4009,8 @@
         "requirements": [
           "Level 17 Walls",
           "Level 17 Guard Post"
-        ]
+        ],
+        "upgrade_time": 2250000
       },
       "19": {
         "costs": {
@@ -3713,7 +4023,8 @@
         "requirements": [
           "Level 18 Walls",
           "Level 18 Recovery Bay"
-        ]
+        ],
+        "upgrade_time": 3750000
       },
       "20": {
         "costs": {
@@ -3726,7 +4037,8 @@
         "requirements": [
           "Level 19 Walls",
           "Level 19 Monster Biodome"
-        ]
+        ],
+        "upgrade_time": 4750000
       },
       "21": {
         "costs": {
@@ -3739,7 +4051,8 @@
         "requirements": [
           "Level 20 Walls",
           "Level 20 Training Camp"
-        ]
+        ],
+        "upgrade_time": 6000000
       },
       "22": {
         "costs": {
@@ -3752,7 +4065,8 @@
         "requirements": [
           "Level 21 Walls",
           "Level 21 Radar Tower"
-        ]
+        ],
+        "upgrade_time": 8750000
       },
       "23": {
         "costs": {
@@ -3765,7 +4079,8 @@
         "requirements": [
           "Level 22 Walls",
           "Level 22 Chasers Quarters"
-        ]
+        ],
+        "upgrade_time": 12500000
       },
       "24": {
         "costs": {
@@ -3778,7 +4093,8 @@
         "requirements": [
           "Level 23 Walls",
           "Level 23 Factory"
-        ]
+        ],
+        "upgrade_time": 15000000
       },
       "25": {
         "costs": {
@@ -3791,7 +4107,8 @@
         "requirements": [
           "Level 24 Walls",
           "Level 24 Garrison"
-        ]
+        ],
+        "upgrade_time": 17250000
       },
       "26": {
         "costs": {
@@ -3804,7 +4121,8 @@
         "requirements": [
           "Level 25 Walls",
           "Level 25 Alliance Hall"
-        ]
+        ],
+        "upgrade_time": 22500000
       },
       "27": {
         "costs": {
@@ -3817,7 +4135,8 @@
         "requirements": [
           "Level 26 Walls",
           "Level 26 Bunker"
-        ]
+        ],
+        "upgrade_time": 27500000
       },
       "28": {
         "costs": {
@@ -3831,7 +4150,8 @@
         "requirements": [
           "Level 27 Walls",
           "Level 27 Barracks"
-        ]
+        ],
+        "upgrade_time": 40000000
       },
       "29": {
         "costs": {
@@ -3845,7 +4165,8 @@
         "requirements": [
           "Level 28 Walls",
           "Level 28 Monster Biodome"
-        ]
+        ],
+        "upgrade_time": 65000000
       },
       "30": {
         "costs": {
@@ -3859,7 +4180,8 @@
         "requirements": [
           "Level 29 Walls",
           "Level 29 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 3600000
       },
       "31": {
         "costs": {
@@ -3873,7 +4195,8 @@
         "requirements": [
           "Level 30 Walls",
           "Level 30 Chasers Quarters"
-        ]
+        ],
+        "upgrade_time": 33600000
       },
       "32": {
         "costs": {
@@ -3887,7 +4210,8 @@
         "requirements": [
           "Level 31 Walls",
           "Level 31 Radar Tower"
-        ]
+        ],
+        "upgrade_time": 63600000
       }
     }
   },
@@ -3902,7 +4226,8 @@
         },
         "requirements": [
           "Level 1 Headquarters"
-        ]
+        ],
+        "upgrade_time": 30
       },
       "2": {
         "costs": {
@@ -3912,7 +4237,8 @@
         },
         "requirements": [
           "Level 2 Headquarters"
-        ]
+        ],
+        "upgrade_time": 125
       },
       "3": {
         "costs": {
@@ -3922,7 +4248,8 @@
         },
         "requirements": [
           "Level 3 Headquarters"
-        ]
+        ],
+        "upgrade_time": 192
       },
       "4": {
         "costs": {
@@ -3932,7 +4259,8 @@
         },
         "requirements": [
           "Level 4 Headquarters"
-        ]
+        ],
+        "upgrade_time": 325
       },
       "5": {
         "costs": {
@@ -3942,7 +4270,8 @@
         },
         "requirements": [
           "Level 5 Headquarters"
-        ]
+        ],
+        "upgrade_time": 575
       },
       "6": {
         "costs": {
@@ -3952,7 +4281,8 @@
         },
         "requirements": [
           "Level 6 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1200
       },
       "7": {
         "costs": {
@@ -3962,7 +4292,8 @@
         },
         "requirements": [
           "Level 7 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3000
       },
       "8": {
         "costs": {
@@ -3972,7 +4303,8 @@
         },
         "requirements": [
           "Level 8 Headquarters"
-        ]
+        ],
+        "upgrade_time": 6000
       },
       "9": {
         "costs": {
@@ -3982,7 +4314,8 @@
         },
         "requirements": [
           "Level 9 Headquarters"
-        ]
+        ],
+        "upgrade_time": 9000
       },
       "10": {
         "costs": {
@@ -3992,7 +4325,8 @@
         },
         "requirements": [
           "Level 10 Headquarters"
-        ]
+        ],
+        "upgrade_time": 16000
       },
       "11": {
         "costs": {
@@ -4002,7 +4336,8 @@
         },
         "requirements": [
           "Level 11 Headquarters"
-        ]
+        ],
+        "upgrade_time": 21000
       },
       "12": {
         "costs": {
@@ -4012,7 +4347,8 @@
         },
         "requirements": [
           "Level 12 Headquarters"
-        ]
+        ],
+        "upgrade_time": 23500
       },
       "13": {
         "costs": {
@@ -4022,7 +4358,8 @@
         },
         "requirements": [
           "Level 13 Headquarters"
-        ]
+        ],
+        "upgrade_time": 33500
       },
       "14": {
         "costs": {
@@ -4032,7 +4369,8 @@
         },
         "requirements": [
           "Level 14 Headquarters"
-        ]
+        ],
+        "upgrade_time": 53500
       },
       "15": {
         "costs": {
@@ -4042,7 +4380,8 @@
         },
         "requirements": [
           "Level 15 Headquarters"
-        ]
+        ],
+        "upgrade_time": 67500
       },
       "16": {
         "costs": {
@@ -4052,7 +4391,8 @@
         },
         "requirements": [
           "Level 16 Headquarters"
-        ]
+        ],
+        "upgrade_time": 87500
       },
       "17": {
         "costs": {
@@ -4062,7 +4402,8 @@
         },
         "requirements": [
           "Level 17 Headquarters"
-        ]
+        ],
+        "upgrade_time": 200000
       },
       "18": {
         "costs": {
@@ -4072,7 +4413,8 @@
         },
         "requirements": [
           "Level 18 Headquarters"
-        ]
+        ],
+        "upgrade_time": 287500
       },
       "19": {
         "costs": {
@@ -4082,7 +4424,8 @@
         },
         "requirements": [
           "Level 19 Headquarters"
-        ]
+        ],
+        "upgrade_time": 468750
       },
       "20": {
         "costs": {
@@ -4092,7 +4435,8 @@
         },
         "requirements": [
           "Level 20 Headquarters"
-        ]
+        ],
+        "upgrade_time": 865000
       },
       "21": {
         "costs": {
@@ -4102,7 +4446,8 @@
         },
         "requirements": [
           "Level 21 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1080000
       },
       "22": {
         "costs": {
@@ -4112,7 +4457,8 @@
         },
         "requirements": [
           "Level 22 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1470000
       },
       "23": {
         "costs": {
@@ -4122,7 +4468,8 @@
         },
         "requirements": [
           "Level 23 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2000000
       },
       "24": {
         "costs": {
@@ -4132,7 +4479,8 @@
         },
         "requirements": [
           "Level 24 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2310000
       },
       "25": {
         "costs": {
@@ -4142,7 +4490,8 @@
         },
         "requirements": [
           "Level 25 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2587500
       },
       "26": {
         "costs": {
@@ -4152,7 +4501,8 @@
         },
         "requirements": [
           "Level 26 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3150000
       },
       "27": {
         "costs": {
@@ -4163,7 +4513,8 @@
         },
         "requirements": [
           "Level 27 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3650000
       },
       "28": {
         "costs": {
@@ -4175,7 +4526,8 @@
         },
         "requirements": [
           "Level 28 Headquarters"
-        ]
+        ],
+        "upgrade_time": 5000000
       },
       "29": {
         "costs": {
@@ -4187,7 +4539,8 @@
         },
         "requirements": [
           "Level 29 Headquarters"
-        ]
+        ],
+        "upgrade_time": 10400000
       },
       "30": {
         "costs": {
@@ -4199,7 +4552,8 @@
         },
         "requirements": [
           "Level 30 Headquarters"
-        ]
+        ],
+        "upgrade_time": 18000000
       },
       "31": {
         "costs": {
@@ -4211,7 +4565,8 @@
         },
         "requirements": [
           "Level 31 Headquarters"
-        ]
+        ],
+        "upgrade_time": 24000000
       },
       "32": {
         "costs": {
@@ -4223,7 +4578,8 @@
         },
         "requirements": [
           "Level 32 Headquarters"
-        ]
+        ],
+        "upgrade_time": 30000000
       }
     }
   },
@@ -4236,7 +4592,8 @@
           "metal": 150,
           "wood": 250,
           "energy": 150
-        }
+        },
+        "upgrade_time": 90
       },
       "2": {
         "costs": {
@@ -4247,7 +4604,8 @@
         },
         "requirements": [
           "Level 2 Barracks"
-        ]
+        ],
+        "upgrade_time": 200
       },
       "3": {
         "costs": {
@@ -4258,7 +4616,8 @@
         },
         "requirements": [
           "Level 3 Barracks"
-        ]
+        ],
+        "upgrade_time": 300
       },
       "4": {
         "costs": {
@@ -4269,7 +4628,8 @@
         },
         "requirements": [
           "Level 4 Barracks"
-        ]
+        ],
+        "upgrade_time": 600
       },
       "5": {
         "costs": {
@@ -4280,7 +4640,8 @@
         },
         "requirements": [
           "Level 5 Barracks"
-        ]
+        ],
+        "upgrade_time": 1200
       },
       "6": {
         "costs": {
@@ -4292,7 +4653,8 @@
         },
         "requirements": [
           "Level 6 Barracks"
-        ]
+        ],
+        "upgrade_time": 1920
       },
       "7": {
         "costs": {
@@ -4304,7 +4666,8 @@
         },
         "requirements": [
           "Level 7 Barracks"
-        ]
+        ],
+        "upgrade_time": 4000
       },
       "8": {
         "costs": {
@@ -4316,7 +4679,8 @@
         },
         "requirements": [
           "Level 8 Barracks"
-        ]
+        ],
+        "upgrade_time": 9000
       },
       "9": {
         "costs": {
@@ -4328,7 +4692,8 @@
         },
         "requirements": [
           "Level 9 Barracks"
-        ]
+        ],
+        "upgrade_time": 15000
       },
       "10": {
         "costs": {
@@ -4340,7 +4705,8 @@
         },
         "requirements": [
           "Level 10 Barracks"
-        ]
+        ],
+        "upgrade_time": 25000
       },
       "11": {
         "costs": {
@@ -4352,7 +4718,8 @@
         },
         "requirements": [
           "Level 11 Barracks"
-        ]
+        ],
+        "upgrade_time": 32500
       },
       "12": {
         "costs": {
@@ -4364,7 +4731,8 @@
         },
         "requirements": [
           "Level 12 Barracks"
-        ]
+        ],
+        "upgrade_time": 45000
       },
       "13": {
         "costs": {
@@ -4376,7 +4744,8 @@
         },
         "requirements": [
           "Level 13 Barracks"
-        ]
+        ],
+        "upgrade_time": 75000
       },
       "14": {
         "costs": {
@@ -4388,7 +4757,8 @@
         },
         "requirements": [
           "Level 14 Barracks"
-        ]
+        ],
+        "upgrade_time": 112500
       },
       "15": {
         "costs": {
@@ -4400,7 +4770,8 @@
         },
         "requirements": [
           "Level 15 Barracks"
-        ]
+        ],
+        "upgrade_time": 145000
       },
       "16": {
         "costs": {
@@ -4412,7 +4783,8 @@
         },
         "requirements": [
           "Level 16 Barracks"
-        ]
+        ],
+        "upgrade_time": 180000
       },
       "17": {
         "costs": {
@@ -4424,7 +4796,8 @@
         },
         "requirements": [
           "Level 17 Barracks"
-        ]
+        ],
+        "upgrade_time": 250000
       },
       "18": {
         "costs": {
@@ -4436,7 +4809,8 @@
         },
         "requirements": [
           "Level 18 Barracks"
-        ]
+        ],
+        "upgrade_time": 400000
       },
       "19": {
         "costs": {
@@ -4448,7 +4822,8 @@
         },
         "requirements": [
           "Level 19 Barracks"
-        ]
+        ],
+        "upgrade_time": 650000
       },
       "20": {
         "costs": {
@@ -4460,7 +4835,8 @@
         },
         "requirements": [
           "Level 20 Barracks"
-        ]
+        ],
+        "upgrade_time": 950000
       },
       "21": {
         "costs": {
@@ -4472,7 +4848,8 @@
         },
         "requirements": [
           "Level 21 Barracks"
-        ]
+        ],
+        "upgrade_time": 1200000
       },
       "22": {
         "costs": {
@@ -4484,7 +4861,8 @@
         },
         "requirements": [
           "Level 22 Barracks"
-        ]
+        ],
+        "upgrade_time": 1680000
       },
       "23": {
         "costs": {
@@ -4496,7 +4874,8 @@
         },
         "requirements": [
           "Level 23 Barracks"
-        ]
+        ],
+        "upgrade_time": 2250000
       },
       "24": {
         "costs": {
@@ -4508,7 +4887,8 @@
         },
         "requirements": [
           "Level 24 Barracks"
-        ]
+        ],
+        "upgrade_time": 2750000
       },
       "25": {
         "costs": {
@@ -4520,7 +4900,8 @@
         },
         "requirements": [
           "Level 25 Barracks"
-        ]
+        ],
+        "upgrade_time": 3250000
       },
       "26": {
         "costs": {
@@ -4532,7 +4913,8 @@
         },
         "requirements": [
           "Level 26 Barracks"
-        ]
+        ],
+        "upgrade_time": 3600000
       },
       "27": {
         "costs": {
@@ -4544,7 +4926,8 @@
         },
         "requirements": [
           "Level 27 Barracks"
-        ]
+        ],
+        "upgrade_time": 5000000
       },
       "28": {
         "costs": {
@@ -4557,7 +4940,8 @@
         },
         "requirements": [
           "Level 28 Barracks"
-        ]
+        ],
+        "upgrade_time": 7250000
       },
       "29": {
         "costs": {
@@ -4570,7 +4954,8 @@
         },
         "requirements": [
           "Level 29 Barracks"
-        ]
+        ],
+        "upgrade_time": 12500000
       },
       "30": {
         "costs": {
@@ -4583,7 +4968,8 @@
         },
         "requirements": [
           "Level 30 Barracks"
-        ]
+        ],
+        "upgrade_time": 22500000
       },
       "31": {
         "costs": {
@@ -4596,7 +4982,8 @@
         },
         "requirements": [
           "Level 31 Barracks"
-        ]
+        ],
+        "upgrade_time": 33500000
       },
       "32": {
         "costs": {
@@ -4609,7 +4996,8 @@
         },
         "requirements": [
           "Level 32 Barracks"
-        ]
+        ],
+        "upgrade_time": 44500000
       }
     }
   },
@@ -4625,7 +5013,8 @@
         },
         "requirements": [
           "Level 1 Walls"
-        ]
+        ],
+        "upgrade_time": 30
       },
       "2": {
         "costs": {
@@ -4636,7 +5025,8 @@
         },
         "requirements": [
           "Level 2 Walls"
-        ]
+        ],
+        "upgrade_time": 75
       },
       "3": {
         "costs": {
@@ -4647,7 +5037,8 @@
         },
         "requirements": [
           "Level 3 Walls"
-        ]
+        ],
+        "upgrade_time": 150
       },
       "4": {
         "costs": {
@@ -4658,7 +5049,8 @@
         },
         "requirements": [
           "Level 4 Walls"
-        ]
+        ],
+        "upgrade_time": 300
       },
       "5": {
         "costs": {
@@ -4670,7 +5062,8 @@
         },
         "requirements": [
           "Level 5 Walls"
-        ]
+        ],
+        "upgrade_time": 600
       },
       "6": {
         "costs": {
@@ -4682,7 +5075,8 @@
         },
         "requirements": [
           "Level 6 Walls"
-        ]
+        ],
+        "upgrade_time": 950
       },
       "7": {
         "costs": {
@@ -4694,7 +5088,8 @@
         },
         "requirements": [
           "Level 7 Walls"
-        ]
+        ],
+        "upgrade_time": 1750
       },
       "8": {
         "costs": {
@@ -4706,7 +5101,8 @@
         },
         "requirements": [
           "Level 8 Walls"
-        ]
+        ],
+        "upgrade_time": 4250
       },
       "9": {
         "costs": {
@@ -4718,7 +5114,8 @@
         },
         "requirements": [
           "Level 9 Walls"
-        ]
+        ],
+        "upgrade_time": 7500
       },
       "10": {
         "costs": {
@@ -4730,7 +5127,8 @@
         },
         "requirements": [
           "Level 10 Walls"
-        ]
+        ],
+        "upgrade_time": 12500
       },
       "11": {
         "costs": {
@@ -4742,7 +5140,8 @@
         },
         "requirements": [
           "Level 11 Walls"
-        ]
+        ],
+        "upgrade_time": 20000
       },
       "12": {
         "costs": {
@@ -4754,7 +5153,8 @@
         },
         "requirements": [
           "Level 12 Walls"
-        ]
+        ],
+        "upgrade_time": 30000
       },
       "13": {
         "costs": {
@@ -4766,7 +5166,8 @@
         },
         "requirements": [
           "Level 13 Walls"
-        ]
+        ],
+        "upgrade_time": 45000
       },
       "14": {
         "costs": {
@@ -4778,7 +5179,8 @@
         },
         "requirements": [
           "Level 14 Walls"
-        ]
+        ],
+        "upgrade_time": 65000
       },
       "15": {
         "costs": {
@@ -4790,7 +5192,8 @@
         },
         "requirements": [
           "Level 15 Walls"
-        ]
+        ],
+        "upgrade_time": 85000
       },
       "16": {
         "costs": {
@@ -4802,7 +5205,8 @@
         },
         "requirements": [
           "Level 16 Walls"
-        ]
+        ],
+        "upgrade_time": 125000
       },
       "17": {
         "costs": {
@@ -4814,7 +5218,8 @@
         },
         "requirements": [
           "Level 17 Walls"
-        ]
+        ],
+        "upgrade_time": 165000
       },
       "18": {
         "costs": {
@@ -4826,7 +5231,8 @@
         },
         "requirements": [
           "Level 18 Walls"
-        ]
+        ],
+        "upgrade_time": 195000
       },
       "19": {
         "costs": {
@@ -4838,7 +5244,8 @@
         },
         "requirements": [
           "Level 19 Walls"
-        ]
+        ],
+        "upgrade_time": 285000
       },
       "20": {
         "costs": {
@@ -4850,7 +5257,8 @@
         },
         "requirements": [
           "Level 20 Walls"
-        ]
+        ],
+        "upgrade_time": 485000
       },
       "21": {
         "costs": {
@@ -4862,7 +5270,8 @@
         },
         "requirements": [
           "Level 21 Walls"
-        ]
+        ],
+        "upgrade_time": 785000
       },
       "22": {
         "costs": {
@@ -4874,7 +5283,8 @@
         },
         "requirements": [
           "Level 22 Walls"
-        ]
+        ],
+        "upgrade_time": 1250000
       },
       "23": {
         "costs": {
@@ -4886,7 +5296,8 @@
         },
         "requirements": [
           "Level 23 Walls"
-        ]
+        ],
+        "upgrade_time": 1700000
       },
       "24": {
         "costs": {
@@ -4898,7 +5309,8 @@
         },
         "requirements": [
           "Level 24 Walls"
-        ]
+        ],
+        "upgrade_time": 2050000
       },
       "25": {
         "costs": {
@@ -4910,7 +5322,8 @@
         },
         "requirements": [
           "Level 25 Walls"
-        ]
+        ],
+        "upgrade_time": 2250000
       },
       "26": {
         "costs": {
@@ -4922,7 +5335,8 @@
         },
         "requirements": [
           "Level 26 Walls"
-        ]
+        ],
+        "upgrade_time": 2500000
       },
       "27": {
         "costs": {
@@ -4934,7 +5348,8 @@
         },
         "requirements": [
           "Level 27 Walls"
-        ]
+        ],
+        "upgrade_time": 2750000
       },
       "28": {
         "costs": {
@@ -4947,7 +5362,8 @@
         },
         "requirements": [
           "Level 28 Walls"
-        ]
+        ],
+        "upgrade_time": 3100000
       },
       "29": {
         "costs": {
@@ -4960,7 +5376,8 @@
         },
         "requirements": [
           "Level 29 Walls"
-        ]
+        ],
+        "upgrade_time": 5550000
       },
       "30": {
         "costs": {
@@ -4973,7 +5390,8 @@
         },
         "requirements": [
           "Level 30 Walls"
-        ]
+        ],
+        "upgrade_time": 9900000
       },
       "31": {
         "costs": {
@@ -4986,7 +5404,8 @@
         },
         "requirements": [
           "Level 31 Walls"
-        ]
+        ],
+        "upgrade_time": 14500000
       },
       "32": {
         "costs": {
@@ -4999,7 +5418,8 @@
         },
         "requirements": [
           "Level 32 Walls"
-        ]
+        ],
+        "upgrade_time": 18500000
       }
     }
   },
@@ -5015,7 +5435,8 @@
         },
         "requirements": [
           "Level 1 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 30
       },
       "2": {
         "costs": {
@@ -5026,7 +5447,8 @@
         },
         "requirements": [
           "Level 2 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 75
       },
       "3": {
         "costs": {
@@ -5037,7 +5459,8 @@
         },
         "requirements": [
           "Level 3 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 125
       },
       "4": {
         "costs": {
@@ -5048,7 +5471,8 @@
         },
         "requirements": [
           "Level 4 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 300
       },
       "5": {
         "costs": {
@@ -5059,7 +5483,8 @@
         },
         "requirements": [
           "Level 5 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 600
       },
       "6": {
         "costs": {
@@ -5071,7 +5496,8 @@
         },
         "requirements": [
           "Level 6 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 1200
       },
       "7": {
         "costs": {
@@ -5083,7 +5509,8 @@
         },
         "requirements": [
           "Level 7 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 1800
       },
       "8": {
         "costs": {
@@ -5095,7 +5522,8 @@
         },
         "requirements": [
           "Level 8 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 4000
       },
       "9": {
         "costs": {
@@ -5107,7 +5535,8 @@
         },
         "requirements": [
           "Level 9 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 6750
       },
       "10": {
         "costs": {
@@ -5119,7 +5548,8 @@
         },
         "requirements": [
           "Level 10 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 13250
       },
       "11": {
         "costs": {
@@ -5131,7 +5561,8 @@
         },
         "requirements": [
           "Level 11 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 20000
       },
       "12": {
         "costs": {
@@ -5143,7 +5574,8 @@
         },
         "requirements": [
           "Level 12 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 27500
       },
       "13": {
         "costs": {
@@ -5155,7 +5587,8 @@
         },
         "requirements": [
           "Level 13 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 41250
       },
       "14": {
         "costs": {
@@ -5167,7 +5600,8 @@
         },
         "requirements": [
           "Level 14 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 60000
       },
       "15": {
         "costs": {
@@ -5179,7 +5613,8 @@
         },
         "requirements": [
           "Level 15 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 80000
       },
       "16": {
         "costs": {
@@ -5191,7 +5626,8 @@
         },
         "requirements": [
           "Level 16 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 100000
       },
       "17": {
         "costs": {
@@ -5203,7 +5639,8 @@
         },
         "requirements": [
           "Level 17 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 150000
       },
       "18": {
         "costs": {
@@ -5215,7 +5652,8 @@
         },
         "requirements": [
           "Level 18 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 200000
       },
       "19": {
         "costs": {
@@ -5227,7 +5665,8 @@
         },
         "requirements": [
           "Level 19 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 325000
       },
       "20": {
         "costs": {
@@ -5239,7 +5678,8 @@
         },
         "requirements": [
           "Level 20 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 500000
       },
       "21": {
         "costs": {
@@ -5251,7 +5691,8 @@
         },
         "requirements": [
           "Level 21 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 675000
       },
       "22": {
         "costs": {
@@ -5263,7 +5704,8 @@
         },
         "requirements": [
           "Level 22 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 925000
       },
       "23": {
         "costs": {
@@ -5275,7 +5717,8 @@
         },
         "requirements": [
           "Level 23 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 1400000
       },
       "24": {
         "costs": {
@@ -5287,7 +5730,8 @@
         },
         "requirements": [
           "Level 24 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 1700000
       },
       "25": {
         "costs": {
@@ -5299,7 +5743,8 @@
         },
         "requirements": [
           "Level 25 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 2000000
       },
       "26": {
         "costs": {
@@ -5311,7 +5756,8 @@
         },
         "requirements": [
           "Level 26 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 2600000
       },
       "27": {
         "costs": {
@@ -5323,7 +5769,8 @@
         },
         "requirements": [
           "Level 27 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 3600000
       },
       "28": {
         "costs": {
@@ -5335,7 +5782,8 @@
         },
         "requirements": [
           "Level 28 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 4400000
       },
       "29": {
         "costs": {
@@ -5347,7 +5795,8 @@
         },
         "requirements": [
           "Level 29 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 8250000
       },
       "30": {
         "costs": {
@@ -5359,7 +5808,8 @@
         },
         "requirements": [
           "Level 30 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 14500000
       },
       "31": {
         "costs": {
@@ -5371,7 +5821,8 @@
         },
         "requirements": [
           "Level 31 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 21500000
       },
       "32": {
         "costs": {
@@ -5383,7 +5834,8 @@
         },
         "requirements": [
           "Level 32 Recovery Center"
-        ]
+        ],
+        "upgrade_time": 28000000
       }
     }
   },
@@ -5399,7 +5851,8 @@
         },
         "requirements": [
           "Level 1 Steel Works"
-        ]
+        ],
+        "upgrade_time": 120
       },
       "2": {
         "costs": {
@@ -5410,7 +5863,8 @@
         },
         "requirements": [
           "Level 2 Steel Works"
-        ]
+        ],
+        "upgrade_time": 300
       },
       "3": {
         "costs": {
@@ -5421,7 +5875,8 @@
         },
         "requirements": [
           "Level 3 Steel Works"
-        ]
+        ],
+        "upgrade_time": 600
       },
       "4": {
         "costs": {
@@ -5432,7 +5887,8 @@
         },
         "requirements": [
           "Level 4 Steel Works"
-        ]
+        ],
+        "upgrade_time": 1200
       },
       "5": {
         "costs": {
@@ -5444,7 +5900,8 @@
         },
         "requirements": [
           "Level 5 Steel Works"
-        ]
+        ],
+        "upgrade_time": 2700
       },
       "6": {
         "costs": {
@@ -5456,7 +5913,8 @@
         },
         "requirements": [
           "Level 6 Steel Works"
-        ]
+        ],
+        "upgrade_time": 4200
       },
       "7": {
         "costs": {
@@ -5468,7 +5926,8 @@
         },
         "requirements": [
           "Level 7 Steel Works"
-        ]
+        ],
+        "upgrade_time": 7500
       },
       "8": {
         "costs": {
@@ -5480,7 +5939,8 @@
         },
         "requirements": [
           "Level 8 Steel Works"
-        ]
+        ],
+        "upgrade_time": 12000
       },
       "9": {
         "costs": {
@@ -5492,7 +5952,8 @@
         },
         "requirements": [
           "Level 9 Steel Works"
-        ]
+        ],
+        "upgrade_time": 21000
       },
       "10": {
         "costs": {
@@ -5504,7 +5965,8 @@
         },
         "requirements": [
           "Level 10 Steel Works"
-        ]
+        ],
+        "upgrade_time": 33000
       },
       "11": {
         "costs": {
@@ -5516,7 +5978,8 @@
         },
         "requirements": [
           "Level 11 Steel Works"
-        ]
+        ],
+        "upgrade_time": 52000
       },
       "12": {
         "costs": {
@@ -5528,7 +5991,8 @@
         },
         "requirements": [
           "Level 12 Steel Works"
-        ]
+        ],
+        "upgrade_time": 80000
       },
       "13": {
         "costs": {
@@ -5540,7 +6004,8 @@
         },
         "requirements": [
           "Level 13 Steel Works"
-        ]
+        ],
+        "upgrade_time": 125000
       },
       "14": {
         "costs": {
@@ -5552,7 +6017,8 @@
         },
         "requirements": [
           "Level 14 Steel Works"
-        ]
+        ],
+        "upgrade_time": 165000
       },
       "15": {
         "costs": {
@@ -5564,7 +6030,8 @@
         },
         "requirements": [
           "Level 15 Steel Works"
-        ]
+        ],
+        "upgrade_time": 210000
       },
       "16": {
         "costs": {
@@ -5576,7 +6043,8 @@
         },
         "requirements": [
           "Level 16 Steel Works"
-        ]
+        ],
+        "upgrade_time": 285000
       },
       "17": {
         "costs": {
@@ -5588,7 +6056,8 @@
         },
         "requirements": [
           "Level 17 Steel Works"
-        ]
+        ],
+        "upgrade_time": 395000
       },
       "18": {
         "costs": {
@@ -5600,7 +6069,8 @@
         },
         "requirements": [
           "Level 18 Steel Works"
-        ]
+        ],
+        "upgrade_time": 600000
       },
       "19": {
         "costs": {
@@ -5612,7 +6082,8 @@
         },
         "requirements": [
           "Level 19 Steel Works"
-        ]
+        ],
+        "upgrade_time": 900000
       },
       "20": {
         "costs": {
@@ -5624,7 +6095,8 @@
         },
         "requirements": [
           "Level 20 Steel Works"
-        ]
+        ],
+        "upgrade_time": 1450000
       },
       "21": {
         "costs": {
@@ -5636,7 +6108,8 @@
         },
         "requirements": [
           "Level 21 Steel Works"
-        ]
+        ],
+        "upgrade_time": 2250000
       },
       "22": {
         "costs": {
@@ -5648,7 +6121,8 @@
         },
         "requirements": [
           "Level 22 Steel Works"
-        ]
+        ],
+        "upgrade_time": 3250000
       },
       "23": {
         "costs": {
@@ -5660,7 +6134,8 @@
         },
         "requirements": [
           "Level 23 Steel Works"
-        ]
+        ],
+        "upgrade_time": 4500000
       },
       "24": {
         "costs": {
@@ -5672,7 +6147,8 @@
         },
         "requirements": [
           "Level 24 Steel Works"
-        ]
+        ],
+        "upgrade_time": 5750000
       },
       "25": {
         "costs": {
@@ -5684,7 +6160,8 @@
         },
         "requirements": [
           "Level 25 Steel Works"
-        ]
+        ],
+        "upgrade_time": 7250000
       },
       "26": {
         "costs": {
@@ -5696,7 +6173,8 @@
         },
         "requirements": [
           "Level 26 Steel Works"
-        ]
+        ],
+        "upgrade_time": 9250000
       },
       "27": {
         "costs": {
@@ -5708,7 +6186,8 @@
         },
         "requirements": [
           "Level 27 Steel Works"
-        ]
+        ],
+        "upgrade_time": 11250000
       },
       "28": {
         "costs": {
@@ -5721,7 +6200,8 @@
         },
         "requirements": [
           "Level 28 Steel Works"
-        ]
+        ],
+        "upgrade_time": 12960000
       },
       "29": {
         "costs": {
@@ -5734,7 +6214,8 @@
         },
         "requirements": [
           "Level 29 Steel Works"
-        ]
+        ],
+        "upgrade_time": 16000000
       },
       "30": {
         "costs": {
@@ -5747,7 +6228,8 @@
         },
         "requirements": [
           "Level 30 Steel Works"
-        ]
+        ],
+        "upgrade_time": 20000000
       },
       "31": {
         "costs": {
@@ -5760,7 +6242,8 @@
         },
         "requirements": [
           "Level 31 Steel Works"
-        ]
+        ],
+        "upgrade_time": 25000000
       },
       "32": {
         "costs": {
@@ -5773,7 +6256,8 @@
         },
         "requirements": [
           "Level 32 Steel Works"
-        ]
+        ],
+        "upgrade_time": 32500000
       }
     }
   },
@@ -5797,7 +6281,8 @@
         },
         "requirements": [
           "Level 2 Steel Works"
-        ]
+        ],
+        "upgrade_time": 150
       },
       "3": {
         "costs": {
@@ -5808,7 +6293,8 @@
         },
         "requirements": [
           "Level 3 Steel Works"
-        ]
+        ],
+        "upgrade_time": 288
       },
       "4": {
         "costs": {
@@ -5819,7 +6305,8 @@
         },
         "requirements": [
           "Level 4 Steel Works"
-        ]
+        ],
+        "upgrade_time": 500
       },
       "5": {
         "costs": {
@@ -5831,7 +6318,8 @@
         },
         "requirements": [
           "Level 5 Steel Works"
-        ]
+        ],
+        "upgrade_time": 960
       },
       "6": {
         "costs": {
@@ -5843,7 +6331,8 @@
         },
         "requirements": [
           "Level 6 Steel Works"
-        ]
+        ],
+        "upgrade_time": 1600
       },
       "7": {
         "costs": {
@@ -5855,7 +6344,8 @@
         },
         "requirements": [
           "Level 7 Steel Works"
-        ]
+        ],
+        "upgrade_time": 3000
       },
       "8": {
         "costs": {
@@ -5867,7 +6357,8 @@
         },
         "requirements": [
           "Level 8 Steel Works"
-        ]
+        ],
+        "upgrade_time": 7500
       },
       "9": {
         "costs": {
@@ -5879,7 +6370,8 @@
         },
         "requirements": [
           "Level 9 Steel Works"
-        ]
+        ],
+        "upgrade_time": 12000
       },
       "10": {
         "costs": {
@@ -5891,7 +6383,8 @@
         },
         "requirements": [
           "Level 10 Steel Works"
-        ]
+        ],
+        "upgrade_time": 26000
       },
       "11": {
         "costs": {
@@ -5903,7 +6396,8 @@
         },
         "requirements": [
           "Level 11 Steel Works"
-        ]
+        ],
+        "upgrade_time": 30000
       },
       "12": {
         "costs": {
@@ -5915,7 +6409,8 @@
         },
         "requirements": [
           "Level 12 Steel Works"
-        ]
+        ],
+        "upgrade_time": 40000
       },
       "13": {
         "costs": {
@@ -5927,7 +6422,8 @@
         },
         "requirements": [
           "Level 13 Steel Works"
-        ]
+        ],
+        "upgrade_time": 62500
       },
       "14": {
         "costs": {
@@ -5939,7 +6435,8 @@
         },
         "requirements": [
           "Level 14 Steel Works"
-        ]
+        ],
+        "upgrade_time": 90000
       },
       "15": {
         "costs": {
@@ -5951,7 +6448,8 @@
         },
         "requirements": [
           "Level 15 Steel Works"
-        ]
+        ],
+        "upgrade_time": 120000
       },
       "16": {
         "costs": {
@@ -5963,7 +6461,8 @@
         },
         "requirements": [
           "Level 16 Steel Works"
-        ]
+        ],
+        "upgrade_time": 155000
       },
       "17": {
         "costs": {
@@ -5975,7 +6474,8 @@
         },
         "requirements": [
           "Level 17 Steel Works"
-        ]
+        ],
+        "upgrade_time": 215000
       },
       "18": {
         "costs": {
@@ -5987,7 +6487,8 @@
         },
         "requirements": [
           "Level 18 Steel Works"
-        ]
+        ],
+        "upgrade_time": 310000
       },
       "19": {
         "costs": {
@@ -5999,7 +6500,8 @@
         },
         "requirements": [
           "Level 19 Steel Works"
-        ]
+        ],
+        "upgrade_time": 475000
       },
       "20": {
         "costs": {
@@ -6011,7 +6513,8 @@
         },
         "requirements": [
           "Level 20 Steel Works"
-        ]
+        ],
+        "upgrade_time": 712500
       },
       "21": {
         "costs": {
@@ -6023,7 +6526,8 @@
         },
         "requirements": [
           "Level 21 Steel Works"
-        ]
+        ],
+        "upgrade_time": 960000
       },
       "22": {
         "costs": {
@@ -6035,7 +6539,8 @@
         },
         "requirements": [
           "Level 22 Steel Works"
-        ]
+        ],
+        "upgrade_time": 1400000
       },
       "23": {
         "costs": {
@@ -6047,7 +6552,8 @@
         },
         "requirements": [
           "Level 23 Steel Works"
-        ]
+        ],
+        "upgrade_time": 2100000
       },
       "24": {
         "costs": {
@@ -6059,7 +6565,8 @@
         },
         "requirements": [
           "Level 24 Steel Works"
-        ]
+        ],
+        "upgrade_time": 2500000
       },
       "25": {
         "costs": {
@@ -6071,7 +6578,8 @@
         },
         "requirements": [
           "Level 25 Steel Works"
-        ]
+        ],
+        "upgrade_time": 3450000
       },
       "26": {
         "costs": {
@@ -6083,7 +6591,8 @@
         },
         "requirements": [
           "Level 26 Steel Works"
-        ]
+        ],
+        "upgrade_time": 4500000
       },
       "27": {
         "costs": {
@@ -6095,7 +6604,8 @@
         },
         "requirements": [
           "Level 27 Steel Works"
-        ]
+        ],
+        "upgrade_time": 5500000
       },
       "28": {
         "costs": {
@@ -6108,7 +6618,8 @@
         },
         "requirements": [
           "Level 28 Steel Works"
-        ]
+        ],
+        "upgrade_time": 7250000
       },
       "29": {
         "costs": {
@@ -6121,7 +6632,8 @@
         },
         "requirements": [
           "Level 29 Steel Works"
-        ]
+        ],
+        "upgrade_time": 11500000
       },
       "30": {
         "costs": {
@@ -6134,7 +6646,8 @@
         },
         "requirements": [
           "Level 30 Steel Works"
-        ]
+        ],
+        "upgrade_time": 22500000
       },
       "31": {
         "costs": {
@@ -6147,7 +6660,8 @@
         },
         "requirements": [
           "Level 31 Steel Works"
-        ]
+        ],
+        "upgrade_time": 35000000
       },
       "32": {
         "costs": {
@@ -6160,7 +6674,8 @@
         },
         "requirements": [
           "Level 32 Steel Works"
-        ]
+        ],
+        "upgrade_time": 46500000
       }
     }
   },
@@ -6173,7 +6688,8 @@
           "metal": 30,
           "wood": 30,
           "energy": 30
-        }
+        },
+        "upgrade_time": 40
       },
       "2": {
         "costs": {
@@ -6184,7 +6700,8 @@
         },
         "requirements": [
           "Level 2 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 44
       },
       "3": {
         "costs": {
@@ -6195,7 +6712,8 @@
         },
         "requirements": [
           "Level 3 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 48
       },
       "4": {
         "costs": {
@@ -6206,7 +6724,8 @@
         },
         "requirements": [
           "Level 4 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 80
       },
       "5": {
         "costs": {
@@ -6218,7 +6737,8 @@
         },
         "requirements": [
           "Level 5 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 144
       },
       "6": {
         "costs": {
@@ -6230,7 +6750,8 @@
         },
         "requirements": [
           "Level 6 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 300
       },
       "7": {
         "costs": {
@@ -6242,7 +6763,8 @@
         },
         "requirements": [
           "Level 7 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 750
       },
       "8": {
         "costs": {
@@ -6254,7 +6776,8 @@
         },
         "requirements": [
           "Level 8 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 1500
       },
       "9": {
         "costs": {
@@ -6266,7 +6789,8 @@
         },
         "requirements": [
           "Level 9 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 2250
       },
       "10": {
         "costs": {
@@ -6278,7 +6802,8 @@
         },
         "requirements": [
           "Level 10 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 3250
       },
       "11": {
         "costs": {
@@ -6290,7 +6815,8 @@
         },
         "requirements": [
           "Level 11 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 4500
       },
       "12": {
         "costs": {
@@ -6302,7 +6828,8 @@
         },
         "requirements": [
           "Level 12 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 5875
       },
       "13": {
         "costs": {
@@ -6314,7 +6841,8 @@
         },
         "requirements": [
           "Level 13 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 8375
       },
       "14": {
         "costs": {
@@ -6326,7 +6854,8 @@
         },
         "requirements": [
           "Level 14 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 13375
       },
       "15": {
         "costs": {
@@ -6338,7 +6867,8 @@
         },
         "requirements": [
           "Level 15 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 16875
       },
       "16": {
         "costs": {
@@ -6350,7 +6880,8 @@
         },
         "requirements": [
           "Level 16 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 21875
       },
       "17": {
         "costs": {
@@ -6362,7 +6893,8 @@
         },
         "requirements": [
           "Level 17 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 50000
       },
       "18": {
         "costs": {
@@ -6374,7 +6906,8 @@
         },
         "requirements": [
           "Level 18 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 71875
       },
       "19": {
         "costs": {
@@ -6386,7 +6919,8 @@
         },
         "requirements": [
           "Level 19 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 117185
       },
       "20": {
         "costs": {
@@ -6398,7 +6932,8 @@
         },
         "requirements": [
           "Level 20 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 216250
       },
       "21": {
         "costs": {
@@ -6410,7 +6945,8 @@
         },
         "requirements": [
           "Level 21 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 270000
       },
       "22": {
         "costs": {
@@ -6422,7 +6958,8 @@
         },
         "requirements": [
           "Level 22 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 367500
       },
       "23": {
         "costs": {
@@ -6434,7 +6971,8 @@
         },
         "requirements": [
           "Level 23 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 500000
       },
       "24": {
         "costs": {
@@ -6446,7 +6984,8 @@
         },
         "requirements": [
           "Level 24 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 577500
       },
       "25": {
         "costs": {
@@ -6458,7 +6997,8 @@
         },
         "requirements": [
           "Level 25 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 646875
       },
       "26": {
         "costs": {
@@ -6470,7 +7010,8 @@
         },
         "requirements": [
           "Level 26 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 787500
       },
       "27": {
         "costs": {
@@ -6482,7 +7023,8 @@
         },
         "requirements": [
           "Level 27 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 912500
       },
       "28": {
         "costs": {
@@ -6495,7 +7037,8 @@
         },
         "requirements": [
           "Level 28 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 1150000
       },
       "29": {
         "costs": {
@@ -6508,7 +7051,8 @@
         },
         "requirements": [
           "Level 29 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 1600000
       },
       "30": {
         "costs": {
@@ -6521,7 +7065,8 @@
         },
         "requirements": [
           "Level 30 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 2250000
       },
       "31": {
         "costs": {
@@ -6534,7 +7079,8 @@
         },
         "requirements": [
           "Level 31 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 3250000
       },
       "32": {
         "costs": {
@@ -6547,13 +7093,18 @@
         },
         "requirements": [
           "Level 32 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 5500000
       }
     }
   },
   "Sector Alpha": {
     "name": "Sector Alpha",
-    "levels": {}
+    "levels": {
+      "2": {
+        "upgrade_time": 2
+      }
+    }
   },
   "Sector Bravo": {
     "name": "Sector Bravo",
@@ -6562,7 +7113,8 @@
         "requirements": [
           "Level 2 Headquarters",
           "Level 1 Research Lab"
-        ]
+        ],
+        "upgrade_time": 2
       }
     }
   },
@@ -6573,7 +7125,8 @@
         "requirements": [
           "Level 3 Headquarters",
           "Level 1 Farm"
-        ]
+        ],
+        "upgrade_time": 2
       }
     }
   },
@@ -6586,7 +7139,8 @@
           "Level 6 Factory",
           "Level 4 Recovery Center",
           "Level 1 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 2
       }
     }
   },
@@ -6597,7 +7151,8 @@
         "requirements": [
           "Level 6 Headquarters",
           "Level 1 Farm"
-        ]
+        ],
+        "upgrade_time": 2
       }
     }
   },
@@ -6608,7 +7163,8 @@
         "requirements": [
           "Level 4 Headquarters",
           "Level 1 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 2
       }
     }
   },
@@ -6622,7 +7178,8 @@
           "Level 7 Alliance Hall",
           "Level 5 Salvage Drop",
           "Level 1 Lumberyard"
-        ]
+        ],
+        "upgrade_time": 2
       }
     }
   },
@@ -6637,7 +7194,8 @@
           "Level 8 Bunker",
           "Level 6 Training Camp",
           "Level 1 Steel Works"
-        ]
+        ],
+        "upgrade_time": 2
       }
     }
   },
@@ -6652,7 +7210,8 @@
         },
         "requirements": [
           "Level 1 Headquarters"
-        ]
+        ],
+        "upgrade_time": 30
       },
       "2": {
         "costs": {
@@ -6662,7 +7221,8 @@
         },
         "requirements": [
           "Level 2 Headquarters"
-        ]
+        ],
+        "upgrade_time": 125
       },
       "3": {
         "costs": {
@@ -6672,7 +7232,8 @@
         },
         "requirements": [
           "Level 3 Headquarters"
-        ]
+        ],
+        "upgrade_time": 192
       },
       "4": {
         "costs": {
@@ -6682,7 +7243,8 @@
         },
         "requirements": [
           "Level 4 Headquarters"
-        ]
+        ],
+        "upgrade_time": 325
       },
       "5": {
         "costs": {
@@ -6692,7 +7254,8 @@
         },
         "requirements": [
           "Level 5 Headquarters"
-        ]
+        ],
+        "upgrade_time": 575
       },
       "6": {
         "costs": {
@@ -6702,7 +7265,8 @@
         },
         "requirements": [
           "Level 6 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1200
       },
       "7": {
         "costs": {
@@ -6712,7 +7276,8 @@
         },
         "requirements": [
           "Level 7 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3000
       },
       "8": {
         "costs": {
@@ -6722,7 +7287,8 @@
         },
         "requirements": [
           "Level 8 Headquarters"
-        ]
+        ],
+        "upgrade_time": 6000
       },
       "9": {
         "costs": {
@@ -6732,7 +7298,8 @@
         },
         "requirements": [
           "Level 9 Headquarters"
-        ]
+        ],
+        "upgrade_time": 9000
       },
       "10": {
         "costs": {
@@ -6742,7 +7309,8 @@
         },
         "requirements": [
           "Level 10 Headquarters"
-        ]
+        ],
+        "upgrade_time": 16000
       },
       "11": {
         "costs": {
@@ -6752,7 +7320,8 @@
         },
         "requirements": [
           "Level 11 Headquarters"
-        ]
+        ],
+        "upgrade_time": 21000
       },
       "12": {
         "costs": {
@@ -6762,7 +7331,8 @@
         },
         "requirements": [
           "Level 12 Headquarters"
-        ]
+        ],
+        "upgrade_time": 23500
       },
       "13": {
         "costs": {
@@ -6772,7 +7342,8 @@
         },
         "requirements": [
           "Level 13 Headquarters"
-        ]
+        ],
+        "upgrade_time": 33500
       },
       "14": {
         "costs": {
@@ -6782,7 +7353,8 @@
         },
         "requirements": [
           "Level 14 Headquarters"
-        ]
+        ],
+        "upgrade_time": 53500
       },
       "15": {
         "costs": {
@@ -6792,7 +7364,8 @@
         },
         "requirements": [
           "Level 15 Headquarters"
-        ]
+        ],
+        "upgrade_time": 67500
       },
       "16": {
         "costs": {
@@ -6802,7 +7375,8 @@
         },
         "requirements": [
           "Level 16 Headquarters"
-        ]
+        ],
+        "upgrade_time": 87500
       },
       "17": {
         "costs": {
@@ -6812,7 +7386,8 @@
         },
         "requirements": [
           "Level 17 Headquarters"
-        ]
+        ],
+        "upgrade_time": 200000
       },
       "18": {
         "costs": {
@@ -6822,7 +7397,8 @@
         },
         "requirements": [
           "Level 18 Headquarters"
-        ]
+        ],
+        "upgrade_time": 287500
       },
       "19": {
         "costs": {
@@ -6832,7 +7408,8 @@
         },
         "requirements": [
           "Level 19 Headquarters"
-        ]
+        ],
+        "upgrade_time": 468750
       },
       "20": {
         "costs": {
@@ -6842,7 +7419,8 @@
         },
         "requirements": [
           "Level 20 Headquarters"
-        ]
+        ],
+        "upgrade_time": 865000
       },
       "21": {
         "costs": {
@@ -6852,7 +7430,8 @@
         },
         "requirements": [
           "Level 21 Headquarters"
-        ]
+        ],
+        "upgrade_time": 865000
       },
       "22": {
         "costs": {
@@ -6862,7 +7441,8 @@
         },
         "requirements": [
           "Level 22 Headquarters"
-        ]
+        ],
+        "upgrade_time": 1470000
       },
       "23": {
         "costs": {
@@ -6872,7 +7452,8 @@
         },
         "requirements": [
           "Level 23 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2000000
       },
       "24": {
         "costs": {
@@ -6882,7 +7463,8 @@
         },
         "requirements": [
           "Level 24 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2310000
       },
       "25": {
         "costs": {
@@ -6892,7 +7474,8 @@
         },
         "requirements": [
           "Level 25 Headquarters"
-        ]
+        ],
+        "upgrade_time": 2587500
       },
       "26": {
         "costs": {
@@ -6902,7 +7485,8 @@
         },
         "requirements": [
           "Level 26 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3150000
       },
       "27": {
         "costs": {
@@ -6913,7 +7497,8 @@
         },
         "requirements": [
           "Level 27 Headquarters"
-        ]
+        ],
+        "upgrade_time": 3650000
       },
       "28": {
         "costs": {
@@ -6925,7 +7510,8 @@
         },
         "requirements": [
           "Level 28 Headquarters"
-        ]
+        ],
+        "upgrade_time": 5000000
       },
       "29": {
         "costs": {
@@ -6937,7 +7523,8 @@
         },
         "requirements": [
           "Level 29 Headquarters"
-        ]
+        ],
+        "upgrade_time": 10400000
       },
       "30": {
         "costs": {
@@ -6949,7 +7536,8 @@
         },
         "requirements": [
           "Level 30 Headquarters"
-        ]
+        ],
+        "upgrade_time": 18000000
       },
       "31": {
         "costs": {
@@ -6961,7 +7549,8 @@
         },
         "requirements": [
           "Level 31 Headquarters"
-        ]
+        ],
+        "upgrade_time": 24000000
       },
       "32": {
         "costs": {
@@ -6973,7 +7562,8 @@
         },
         "requirements": [
           "Level 32 Headquarters"
-        ]
+        ],
+        "upgrade_time": 30000000
       }
     }
   },
@@ -6989,7 +7579,8 @@
         },
         "requirements": [
           "Level 1 Barracks"
-        ]
+        ],
+        "upgrade_time": 30
       },
       "2": {
         "costs": {
@@ -7000,7 +7591,8 @@
         },
         "requirements": [
           "Level 2 Barracks"
-        ]
+        ],
+        "upgrade_time": 75
       },
       "3": {
         "costs": {
@@ -7011,7 +7603,8 @@
         },
         "requirements": [
           "Level 3 Barracks"
-        ]
+        ],
+        "upgrade_time": 125
       },
       "4": {
         "costs": {
@@ -7022,7 +7615,8 @@
         },
         "requirements": [
           "Level 4 Barracks"
-        ]
+        ],
+        "upgrade_time": 300
       },
       "5": {
         "costs": {
@@ -7033,7 +7627,8 @@
         },
         "requirements": [
           "Level 5 Barracks"
-        ]
+        ],
+        "upgrade_time": 600
       },
       "6": {
         "costs": {
@@ -7045,7 +7640,8 @@
         },
         "requirements": [
           "Level 6 Barracks"
-        ]
+        ],
+        "upgrade_time": 1200
       },
       "7": {
         "costs": {
@@ -7057,7 +7653,8 @@
         },
         "requirements": [
           "Level 7 Barracks"
-        ]
+        ],
+        "upgrade_time": 1800
       },
       "8": {
         "costs": {
@@ -7069,7 +7666,8 @@
         },
         "requirements": [
           "Level 8 Barracks"
-        ]
+        ],
+        "upgrade_time": 4000
       },
       "9": {
         "costs": {
@@ -7081,7 +7679,8 @@
         },
         "requirements": [
           "Level 9 Barracks"
-        ]
+        ],
+        "upgrade_time": 6750
       },
       "10": {
         "costs": {
@@ -7093,7 +7692,8 @@
         },
         "requirements": [
           "Level 10 Barracks"
-        ]
+        ],
+        "upgrade_time": 13250
       },
       "11": {
         "costs": {
@@ -7105,7 +7705,8 @@
         },
         "requirements": [
           "Level 11 Barracks"
-        ]
+        ],
+        "upgrade_time": 20000
       },
       "12": {
         "costs": {
@@ -7117,7 +7718,8 @@
         },
         "requirements": [
           "Level 12 Barracks"
-        ]
+        ],
+        "upgrade_time": 27500
       },
       "13": {
         "costs": {
@@ -7129,7 +7731,8 @@
         },
         "requirements": [
           "Level 13 Barracks"
-        ]
+        ],
+        "upgrade_time": 41250
       },
       "14": {
         "costs": {
@@ -7141,7 +7744,8 @@
         },
         "requirements": [
           "Level 14 Barracks"
-        ]
+        ],
+        "upgrade_time": 60000
       },
       "15": {
         "costs": {
@@ -7154,7 +7758,8 @@
         },
         "requirements": [
           "Level 15 Barracks"
-        ]
+        ],
+        "upgrade_time": 80000
       },
       "16": {
         "costs": {
@@ -7167,7 +7772,8 @@
         },
         "requirements": [
           "Level 16 Barracks"
-        ]
+        ],
+        "upgrade_time": 100000
       },
       "17": {
         "costs": {
@@ -7180,7 +7786,8 @@
         },
         "requirements": [
           "Level 17 Barracks"
-        ]
+        ],
+        "upgrade_time": 150000
       },
       "18": {
         "costs": {
@@ -7193,7 +7800,8 @@
         },
         "requirements": [
           "Level 18 Barracks"
-        ]
+        ],
+        "upgrade_time": 200000
       },
       "19": {
         "costs": {
@@ -7206,7 +7814,8 @@
         },
         "requirements": [
           "Level 19 Barracks"
-        ]
+        ],
+        "upgrade_time": 325000
       },
       "20": {
         "costs": {
@@ -7219,7 +7828,8 @@
         },
         "requirements": [
           "Level 20 Barracks"
-        ]
+        ],
+        "upgrade_time": 500000
       },
       "21": {
         "costs": {
@@ -7232,7 +7842,8 @@
         },
         "requirements": [
           "Level 21 Barracks"
-        ]
+        ],
+        "upgrade_time": 675000
       },
       "22": {
         "costs": {
@@ -7245,7 +7856,8 @@
         },
         "requirements": [
           "Level 22 Barracks"
-        ]
+        ],
+        "upgrade_time": 925000
       },
       "23": {
         "costs": {
@@ -7258,7 +7870,8 @@
         },
         "requirements": [
           "Level 23 Barracks"
-        ]
+        ],
+        "upgrade_time": 1400000
       },
       "24": {
         "costs": {
@@ -7271,7 +7884,8 @@
         },
         "requirements": [
           "Level 24 Barracks"
-        ]
+        ],
+        "upgrade_time": 1700000
       },
       "25": {
         "costs": {
@@ -7284,7 +7898,8 @@
         },
         "requirements": [
           "Level 25 Barracks"
-        ]
+        ],
+        "upgrade_time": 2000000
       },
       "26": {
         "costs": {
@@ -7297,7 +7912,8 @@
         },
         "requirements": [
           "Level 26 Barracks"
-        ]
+        ],
+        "upgrade_time": 2600000
       },
       "27": {
         "costs": {
@@ -7310,7 +7926,8 @@
         },
         "requirements": [
           "Level 27 Barracks"
-        ]
+        ],
+        "upgrade_time": 3600000
       },
       "28": {
         "costs": {
@@ -7324,7 +7941,8 @@
         },
         "requirements": [
           "Level 28 Barracks"
-        ]
+        ],
+        "upgrade_time": 4400000
       },
       "29": {
         "costs": {
@@ -7338,7 +7956,8 @@
         },
         "requirements": [
           "Level 29 Barracks"
-        ]
+        ],
+        "upgrade_time": 8250000
       },
       "30": {
         "costs": {
@@ -7352,7 +7971,8 @@
         },
         "requirements": [
           "Level 30 Barracks"
-        ]
+        ],
+        "upgrade_time": 14500000
       },
       "31": {
         "costs": {
@@ -7366,7 +7986,8 @@
         },
         "requirements": [
           "Level 31 Barracks"
-        ]
+        ],
+        "upgrade_time": 21500000
       },
       "32": {
         "costs": {
@@ -7380,7 +8001,8 @@
         },
         "requirements": [
           "Level 32 Barracks"
-        ]
+        ],
+        "upgrade_time": 28000000
       }
     }
   },
@@ -7393,7 +8015,8 @@
           "metal": 400,
           "wood": 200,
           "energy": 400
-        }
+        },
+        "upgrade_time": 20
       },
       "2": {
         "costs": {
@@ -7405,7 +8028,8 @@
         "requirements": [
           "Level 2 Headquarters",
           "Level 1 Monster Biodome"
-        ]
+        ],
+        "upgrade_time": 96
       },
       "3": {
         "costs": {
@@ -7416,7 +8040,8 @@
         },
         "requirements": [
           "Level 3 Steel Works"
-        ]
+        ],
+        "upgrade_time": 240
       },
       "4": {
         "costs": {
@@ -7427,7 +8052,8 @@
         },
         "requirements": [
           "Level 4 Steel Works"
-        ]
+        ],
+        "upgrade_time": 360
       },
       "5": {
         "costs": {
@@ -7438,7 +8064,8 @@
         },
         "requirements": [
           "Level 5 Steel Works"
-        ]
+        ],
+        "upgrade_time": 780
       },
       "6": {
         "costs": {
@@ -7451,7 +8078,8 @@
         "requirements": [
           "Level 6 Steel Works",
           "Level 1 Factory"
-        ]
+        ],
+        "upgrade_time": 1620
       },
       "7": {
         "costs": {
@@ -7463,7 +8091,8 @@
         },
         "requirements": [
           "Level 7 Steel Works"
-        ]
+        ],
+        "upgrade_time": 3840
       },
       "8": {
         "costs": {
@@ -7475,7 +8104,8 @@
         },
         "requirements": [
           "Level 8 Steel Works"
-        ]
+        ],
+        "upgrade_time": 8640
       },
       "9": {
         "costs": {
@@ -7487,7 +8117,8 @@
         },
         "requirements": [
           "Level 9 Steel Works"
-        ]
+        ],
+        "upgrade_time": 19200
       },
       "10": {
         "costs": {
@@ -7499,7 +8130,8 @@
         },
         "requirements": [
           "Level 10 Steel Works"
-        ]
+        ],
+        "upgrade_time": 33600
       },
       "11": {
         "costs": {
@@ -7511,7 +8143,8 @@
         },
         "requirements": [
           "Level 11 Steel Works"
-        ]
+        ],
+        "upgrade_time": 43350
       },
       "12": {
         "costs": {
@@ -7523,7 +8156,8 @@
         },
         "requirements": [
           "Level 12 Steel Works"
-        ]
+        ],
+        "upgrade_time": 61200
       },
       "13": {
         "costs": {
@@ -7535,7 +8169,8 @@
         },
         "requirements": [
           "Level 13 Steel Works"
-        ]
+        ],
+        "upgrade_time": 81600
       },
       "14": {
         "costs": {
@@ -7547,7 +8182,8 @@
         },
         "requirements": [
           "Level 14 Steel Works"
-        ]
+        ],
+        "upgrade_time": 91800
       },
       "15": {
         "costs": {
@@ -7559,7 +8195,8 @@
         },
         "requirements": [
           "Level 15 Steel Works"
-        ]
+        ],
+        "upgrade_time": 102000
       },
       "16": {
         "costs": {
@@ -7571,7 +8208,8 @@
         },
         "requirements": [
           "Level 16 Steel Works"
-        ]
+        ],
+        "upgrade_time": 127500
       },
       "17": {
         "costs": {
@@ -7583,7 +8221,8 @@
         },
         "requirements": [
           "Level 17 Steel Works"
-        ]
+        ],
+        "upgrade_time": 204000
       },
       "18": {
         "costs": {
@@ -7595,7 +8234,8 @@
         },
         "requirements": [
           "Level 18 Steel Works"
-        ]
+        ],
+        "upgrade_time": 357000
       },
       "19": {
         "costs": {
@@ -7607,7 +8247,8 @@
         },
         "requirements": [
           "Level 19 Steel Works"
-        ]
+        ],
+        "upgrade_time": 663000
       },
       "20": {
         "costs": {
@@ -7619,7 +8260,8 @@
         },
         "requirements": [
           "Level 20 Steel Works"
-        ]
+        ],
+        "upgrade_time": 1020000
       },
       "21": {
         "costs": {
@@ -7631,7 +8273,8 @@
         },
         "requirements": [
           "Level 21 Steel Works"
-        ]
+        ],
+        "upgrade_time": 1555200
       },
       "22": {
         "costs": {
@@ -7643,7 +8286,8 @@
         },
         "requirements": [
           "Level 22 Steel Works"
-        ]
+        ],
+        "upgrade_time": 1944000
       },
       "23": {
         "costs": {
@@ -7655,7 +8299,8 @@
         },
         "requirements": [
           "Level 23 Steel Works"
-        ]
+        ],
+        "upgrade_time": 2332800
       },
       "24": {
         "costs": {
@@ -7667,7 +8312,8 @@
         },
         "requirements": [
           "Level 24 Steel Works"
-        ]
+        ],
+        "upgrade_time": 3024000
       },
       "25": {
         "costs": {
@@ -7679,7 +8325,8 @@
         },
         "requirements": [
           "Level 25 Steel Works"
-        ]
+        ],
+        "upgrade_time": 3456000
       },
       "26": {
         "costs": {
@@ -7691,7 +8338,8 @@
         },
         "requirements": [
           "Level 26 Steel Works"
-        ]
+        ],
+        "upgrade_time": 4320000
       },
       "27": {
         "costs": {
@@ -7703,7 +8351,8 @@
         },
         "requirements": [
           "Level 27 Steel Works"
-        ]
+        ],
+        "upgrade_time": 5184000
       },
       "28": {
         "costs": {
@@ -7716,7 +8365,8 @@
         },
         "requirements": [
           "Level 28 Steel Works"
-        ]
+        ],
+        "upgrade_time": 7603200
       },
       "29": {
         "costs": {
@@ -7729,7 +8379,8 @@
         },
         "requirements": [
           "Level 29 Steel Works"
-        ]
+        ],
+        "upgrade_time": 14256000
       },
       "30": {
         "costs": {
@@ -7742,7 +8393,8 @@
         },
         "requirements": [
           "Level 30 Steel Works"
-        ]
+        ],
+        "upgrade_time": 22809600
       },
       "31": {
         "costs": {
@@ -7755,7 +8407,8 @@
         },
         "requirements": [
           "Level 31 Steel Works"
-        ]
+        ],
+        "upgrade_time": 32348160
       },
       "32": {
         "costs": {
@@ -7768,7 +8421,8 @@
         },
         "requirements": [
           "Level 32 Steel Works"
-        ]
+        ],
+        "upgrade_time": 42052608
       }
     }
   },
@@ -7784,7 +8438,8 @@
         },
         "requirements": [
           "Level 1 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 30
       },
       "2": {
         "costs": {
@@ -7795,7 +8450,8 @@
         },
         "requirements": [
           "Level 2 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 75
       },
       "3": {
         "costs": {
@@ -7806,7 +8462,8 @@
         },
         "requirements": [
           "Level 3 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 150
       },
       "4": {
         "costs": {
@@ -7817,7 +8474,8 @@
         },
         "requirements": [
           "Level 4 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 300
       },
       "5": {
         "costs": {
@@ -7829,7 +8487,8 @@
         },
         "requirements": [
           "Level 5 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 420
       },
       "6": {
         "costs": {
@@ -7841,7 +8500,8 @@
         },
         "requirements": [
           "Level 6 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 900
       },
       "7": {
         "costs": {
@@ -7853,7 +8513,8 @@
         },
         "requirements": [
           "Level 7 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 1800
       },
       "8": {
         "costs": {
@@ -7865,7 +8526,8 @@
         },
         "requirements": [
           "Level 8 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 3500
       },
       "9": {
         "costs": {
@@ -7877,7 +8539,8 @@
         },
         "requirements": [
           "Level 9 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 6000
       },
       "10": {
         "costs": {
@@ -7889,7 +8552,8 @@
         },
         "requirements": [
           "Level 10 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 12000
       },
       "11": {
         "costs": {
@@ -7901,7 +8565,8 @@
         },
         "requirements": [
           "Level 11 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 18000
       },
       "12": {
         "costs": {
@@ -7913,7 +8578,8 @@
         },
         "requirements": [
           "Level 12 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 30000
       },
       "13": {
         "costs": {
@@ -7925,7 +8591,8 @@
         },
         "requirements": [
           "Level 13 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 42500
       },
       "14": {
         "costs": {
@@ -7937,7 +8604,8 @@
         },
         "requirements": [
           "Level 14 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 67500
       },
       "15": {
         "costs": {
@@ -7949,7 +8617,8 @@
         },
         "requirements": [
           "Level 15 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 95000
       },
       "16": {
         "costs": {
@@ -7961,7 +8630,8 @@
         },
         "requirements": [
           "Level 16 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 127500
       },
       "17": {
         "costs": {
@@ -7973,7 +8643,8 @@
         },
         "requirements": [
           "Level 17 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 175000
       },
       "18": {
         "costs": {
@@ -7985,7 +8656,8 @@
         },
         "requirements": [
           "Level 18 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 240000
       },
       "19": {
         "costs": {
@@ -7997,7 +8669,8 @@
         },
         "requirements": [
           "Level 19 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 295000
       },
       "20": {
         "costs": {
@@ -8009,7 +8682,8 @@
         },
         "requirements": [
           "Level 20 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 375000
       },
       "21": {
         "costs": {
@@ -8021,7 +8695,8 @@
         },
         "requirements": [
           "Level 21 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 475000
       },
       "22": {
         "costs": {
@@ -8033,7 +8708,8 @@
         },
         "requirements": [
           "Level 22 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 700000
       },
       "23": {
         "costs": {
@@ -8045,7 +8721,8 @@
         },
         "requirements": [
           "Level 23 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 1250000
       },
       "24": {
         "costs": {
@@ -8057,7 +8734,8 @@
         },
         "requirements": [
           "Level 24 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 1750000
       },
       "25": {
         "costs": {
@@ -8069,7 +8747,8 @@
         },
         "requirements": [
           "Level 25 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 2250000
       },
       "26": {
         "costs": {
@@ -8081,7 +8760,8 @@
         },
         "requirements": [
           "Level 26 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 2750000
       },
       "27": {
         "costs": {
@@ -8093,7 +8773,8 @@
         },
         "requirements": [
           "Level 27 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 3350000
       },
       "28": {
         "costs": {
@@ -8106,7 +8787,8 @@
         },
         "requirements": [
           "Level 28 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 4750000
       },
       "29": {
         "costs": {
@@ -8119,7 +8801,8 @@
         },
         "requirements": [
           "Level 29 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 8750000
       },
       "30": {
         "costs": {
@@ -8132,7 +8815,8 @@
         },
         "requirements": [
           "Level 30 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 13750000
       },
       "31": {
         "costs": {
@@ -8145,7 +8829,8 @@
         },
         "requirements": [
           "Level 31 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 19750000
       },
       "32": {
         "costs": {
@@ -8158,7 +8843,8 @@
         },
         "requirements": [
           "Level 32 Geothermal Plant"
-        ]
+        ],
+        "upgrade_time": 23750000
       }
     }
   }
