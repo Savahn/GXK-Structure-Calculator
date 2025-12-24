@@ -713,6 +713,7 @@
                 currentLevel: currentLevel,
                 targetLevel: targetLevel,
                 costs: {},
+                time: 0,
                 children: []
             };
 
@@ -721,7 +722,7 @@
                 return tree;
             }
 
-            // Calculate costs for this structure's upgrade
+            // Calculate costs and time for this structure's upgrade
             for (let lvl = currentLevel + 1; lvl <= targetLevel; lvl++) {
                 if (structuresData[structure] && structuresData[structure].levels[lvl]) {
                     const levelData = structuresData[structure].levels[lvl];
@@ -729,6 +730,9 @@
                         for (let [resource, amount] of Object.entries(levelData.costs)) {
                             tree.costs[resource] = (tree.costs[resource] || 0) + amount;
                         }
+                    }
+                    if (levelData.upgrade_time) {
+                        tree.time += levelData.upgrade_time;
                     }
 
                     // Process dependencies for this level
@@ -791,6 +795,13 @@
                 html += '<div class="dependency-resource" style="color: #999;">No additional costs</div>';
             }
             html += '</div>';
+
+            // Show upgrade time for this dependency
+            if (tree.time > 0) {
+                html += `<div style="padding: 8px; background: rgba(255,255,255,0.6); border-radius: 3px; text-align: center; margin-bottom: 10px;">`;
+                html += `<span style="color: #333; font-weight: 600; font-size: 13px;">Build Time: ${formatTime(tree.time)}</span>`;
+                html += `</div>`;
+            }
 
             // Show nested dependencies
             if (tree.children && tree.children.length > 0) {
@@ -939,7 +950,14 @@
                 if (!hasMainCosts) {
                     html += '<div class="dependency-resource" style="color: #999;">No costs</div>';
                 }
-                html += '</div></div>';
+                html += '</div>';
+                // Show main structure upgrade time
+                if (result.individualTimes > 0) {
+                    html += `<div style="margin-top: 10px; padding: 8px; background: rgba(255,255,255,0.6); border-radius: 3px; text-align: center;">`;
+                    html += `<span style="color: #333; font-weight: 600; font-size: 13px;">Build Time: ${formatTime(result.individualTimes)}</span>`;
+                    html += `</div>`;
+                }
+                html += '</div>';
 
                 // Show dependency tree
                 if (tree.children && tree.children.length > 0) {

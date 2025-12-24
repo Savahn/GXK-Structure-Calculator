@@ -4181,7 +4181,7 @@
           "Level 29 Walls",
           "Level 29 Recovery Center"
         ],
-        "upgrade_time": 3600000
+        "upgrade_time": 90000000
       },
       "31": {
         "costs": {
@@ -4196,7 +4196,7 @@
           "Level 30 Walls",
           "Level 30 Chasers Quarters"
         ],
-        "upgrade_time": 33600000
+        "upgrade_time": 120000000
       },
       "32": {
         "costs": {
@@ -4211,7 +4211,7 @@
           "Level 31 Walls",
           "Level 31 Radar Tower"
         ],
-        "upgrade_time": 63600000
+        "upgrade_time": 150000000
       }
     }
   },
