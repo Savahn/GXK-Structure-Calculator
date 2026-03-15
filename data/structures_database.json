@@ -415,6 +415,48 @@
           "Level 32 Lumberyard"
         ],
         "upgrade_time": 29500000
+      },
+      "33": {
+        "costs": {
+          "food": 31250000,
+          "metal": 31250000,
+          "wood": 31250000,
+          "energy": 31250000,
+          "tech": 27500000,
+          "pure": 35
+        },
+        "requirements": [
+          "Level 33 Lumberyard"
+        ],
+        "upgrade_time": 35500000
+      },
+      "34": {
+        "costs": {
+          "food": 37500000,
+          "metal": 37500000,
+          "wood": 37500000,
+          "energy": 37500000,
+          "tech": 37500000,
+          "pure": 50
+        },
+        "requirements": [
+          "Level 34 Lumberyard"
+        ],
+        "upgrade_time": 41500000
+      },
+      "35": {
+        "costs": {
+          "food": 43750000,
+          "metal": 43750000,
+          "wood": 43750000,
+          "energy": 43750000,
+          "tech": 50000000,
+          "pure": 70
+        },
+        "requirements": [
+          "Level 35 Lumberyard"
+        ],
+        "upgrade_time": 47500000
       }
     }
   },
@@ -2151,6 +2193,48 @@
           "Level 32 Headquarters"
         ],
         "upgrade_time": 30000000
+      },
+      "33": {
+        "costs": {
+          "food": 37500000,
+          "metal": 37500000,
+          "wood": 37500000,
+          "energy": 37500000,
+          "tech": 16500000,
+          "pure": 25
+        },
+        "requirements": [
+          "Level 33 Headquarters"
+        ],
+        "upgrade_time": 36000000
+      },
+      "34": {
+        "costs": {
+          "food": 45000000,
+          "metal": 45000000,
+          "wood": 45000000,
+          "energy": 45000000,
+          "tech": 21500000,
+          "pure": 30
+        },
+        "requirements": [
+          "Level 34 Headquarters"
+        ],
+        "upgrade_time": 42000000
+      },
+      "35": {
+        "costs": {
+          "food": 52500000,
+          "metal": 52500000,
+          "wood": 52500000,
+          "energy": 52500000,
+          "tech": 28000000,
+          "pure": 40
+        },
+        "requirements": [
+          "Level 35 Headquarters"
+        ],
+        "upgrade_time": 48000000
       }
     }
   },
@@ -2519,6 +2603,45 @@
           "Level 32 Headquarters"
         ],
         "upgrade_time": 30000000
+      },
+      "33": {
+        "costs": {
+          "metal": 17000000,
+          "wood": 17000000,
+          "energy": 17000000,
+          "tech": 10000000,
+          "pure": 40
+        },
+        "requirements": [
+          "Level 33 Headquarters"
+        ],
+        "upgrade_time": 36000000
+      },
+      "34": {
+        "costs": {
+          "metal": 23500000,
+          "wood": 23500000,
+          "energy": 23500000,
+          "tech": 20000000,
+          "pure": 65
+        },
+        "requirements": [
+          "Level 34 Headquarters"
+        ],
+        "upgrade_time": 42000000
+      },
+      "35": {
+        "costs": {
+          "metal": 31500000,
+          "wood": 31500000,
+          "energy": 31500000,
+          "tech": 40000000,
+          "pure": 100
+        },
+        "requirements": [
+          "Level 35 Headquarters"
+        ],
+        "upgrade_time": 48000000
       }
     }
   },
@@ -3327,6 +3450,45 @@
           "Level 32 Headquarters"
         ],
         "upgrade_time": 30000000
+      },
+      "33": {
+        "costs": {
+          "food": 15500000,
+          "metal": 15500000,
+          "wood": 15500000,
+          "tech": 10000000,
+          "pure": 40
+        },
+        "requirements": [
+          "Level 33 Headquarters"
+        ],
+        "upgrade_time": 36000000
+      },
+      "34": {
+        "costs": {
+          "food": 20500000,
+          "metal": 20500000,
+          "wood": 20500000,
+          "tech": 20000000,
+          "pure": 60
+        },
+        "requirements": [
+          "Level 34 Headquarters"
+        ],
+        "upgrade_time": 42000000
+      },
+      "35": {
+        "costs": {
+          "food": 25500000,
+          "metal": 25500000,
+          "wood": 25500000,
+          "tech": 40000000,
+          "pure": 85
+        },
+        "requirements": [
+          "Level 35 Headquarters"
+        ],
+        "upgrade_time": 48000000
       }
     }
   },
@@ -4212,6 +4374,57 @@
           "Level 31 Radar Tower"
         ],
         "upgrade_time": 150000000
+      },
+      "33": {
+        "costs": {
+          "food": 80000000,
+          "metal": 130000000,
+          "wood": 130000000,
+          "energy": 80000000,
+          "tech": 70000000,
+          "pure": 35
+        },
+        "requirements": [
+          "Level 32 Walls",
+          "Level 32 Research Lab",
+          "Level 32 Monster Biodome"
+        ],
+        "upgrade_time": 180000000
+      },
+      "34": {
+        "costs": {
+          "food": 105000000,
+          "metal": 165000000,
+          "wood": 165000000,
+          "energy": 105000000,
+          "tech": 95000000,
+          "pure": 50
+        },
+        "requirements": [
+          "Level 33 Walls",
+          "Level 33 Warehouse",
+          "Level 32 Radar Tower",
+          "Level 32 Guard Post"
+        ],
+        "upgrade_time": 210000000
+      },
+      "35": {
+        "costs": {
+          "food": 135000000,
+          "metal": 205000000,
+          "wood": 205000000,
+          "energy": 135000000,
+          "tech": 125000000,
+          "pure": 70
+        },
+        "requirements": [
+          "Level 34 Walls",
+          "Level 34 Alliance Hall",
+          "Level 32 Bunker",
+          "Level 32 Recovery Bay",
+          "Level 32 Chasers Quarters"
+        ],
+        "upgrade_time": 240000000
       }
     }
   },
@@ -4580,6 +4793,45 @@
           "Level 32 Headquarters"
         ],
         "upgrade_time": 30000000
+      },
+      "33": {
+        "costs": {
+          "food": 17000000,
+          "metal": 17000000,
+          "energy": 17000000,
+          "tech": 10000000,
+          "pure": 35
+        },
+        "requirements": [
+          "Level 33 Headquarters"
+        ],
+        "upgrade_time": 36000000
+      },
+      "34": {
+        "costs": {
+          "food": 24000000,
+          "metal": 24000000,
+          "energy": 24000000,
+          "tech": 20000000,
+          "pure": 50
+        },
+        "requirements": [
+          "Level 34 Headquarters"
+        ],
+        "upgrade_time": 42000000
+      },
+      "35": {
+        "costs": {
+          "food": 34000000,
+          "metal": 34000000,
+          "energy": 34000000,
+          "tech": 40000000,
+          "pure": 65
+        },
+        "requirements": [
+          "Level 35 Headquarters"
+        ],
+        "upgrade_time": 48000000
       }
     }
   },
@@ -7564,6 +7816,45 @@
           "Level 32 Headquarters"
         ],
         "upgrade_time": 30000000
+      },
+      "33": {
+        "costs": {
+          "food": 16500000,
+          "wood": 16500000,
+          "energy": 16500000,
+          "tech": 10000000,
+          "pure": 35
+        },
+        "requirements": [
+          "Level 33 Headquarters"
+        ],
+        "upgrade_time": 36000000
+      },
+      "34": {
+        "costs": {
+          "food": 22000000,
+          "wood": 22000000,
+          "energy": 22000000,
+          "tech": 20000000,
+          "pure": 50
+        },
+        "requirements": [
+          "Level 34 Headquarters"
+        ],
+        "upgrade_time": 42000000
+      },
+      "35": {
+        "costs": {
+          "food": 28500000,
+          "wood": 28500000,
+          "energy": 28500000,
+          "tech": 40000000,
+          "pure": 70
+        },
+        "requirements": [
+          "Level 35 Headquarters"
+        ],
+        "upgrade_time": 48000000
       }
     }
   },
@@ -8423,6 +8714,51 @@
           "Level 32 Steel Works"
         ],
         "upgrade_time": 42052608
+      },
+      "33": {
+        "costs": {
+          "food": 90000000,
+          "metal": 115000000,
+          "wood": 155000000,
+          "energy": 115000000,
+          "tech": 57500000,
+          "pure": 35
+        },
+        "requirements": [
+          "Level 33 Steel Works",
+          "Level 32 Salvage Drop"
+        ],
+        "upgrade_time": 54684672
+      },
+      "34": {
+        "costs": {
+          "food": 122500000,
+          "metal": 152500000,
+          "wood": 210000000,
+          "energy": 152500000,
+          "tech": 75000000,
+          "pure": 50
+        },
+        "requirements": [
+          "Level 34 Steel Works",
+          "Level 32 Training Camp"
+        ],
+        "upgrade_time": 71090073
+      },
+      "35": {
+        "costs": {
+          "food": 162500000,
+          "metal": 197500000,
+          "wood": 275000000,
+          "energy": 197500000,
+          "tech": 95000000,
+          "pure": 70
+        },
+        "requirements": [
+          "Level 35 Steel Works",
+          "Level 32 Garrison"
+        ],
+        "upgrade_time": 92417095
       }
     }
   },
@@ -8845,6 +9181,48 @@
           "Level 32 Geothermal Plant"
         ],
         "upgrade_time": 23750000
+      },
+      "33": {
+        "costs": {
+          "food": 62500000,
+          "metal": 87500000,
+          "wood": 87500000,
+          "energy": 62500000,
+          "tech": 50000000,
+          "pure": 35
+        },
+        "requirements": [
+          "Level 33 Geothermal Plant"
+        ],
+        "upgrade_time": 28750000
+      },
+      "34": {
+        "costs": {
+          "food": 82500000,
+          "metal": 112500000,
+          "wood": 112500000,
+          "energy": 82500000,
+          "tech": 67500000,
+          "pure": 50
+        },
+        "requirements": [
+          "Level 34 Geothermal Plant"
+        ],
+        "upgrade_time": 33750000
+      },
+      "35": {
+        "costs": {
+          "food": 105000000,
+          "metal": 140000000,
+          "wood": 140000000,
+          "energy": 105000000,
+          "tech": 87500000,
+          "pure": 70
+        },
+        "requirements": [
+          "Level 35 Geothermal Plant"
+        ],
+        "upgrade_time": 38750000
       }
     }
   }
